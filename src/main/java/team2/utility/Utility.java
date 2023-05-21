@@ -22,21 +22,22 @@ public class Utility {
         return properties;
     }
 
-    public static String decode(String key) {
-        byte[] decodedBytes = Base64.getDecoder().decode(key);
-        return new String(decodedBytes);
-    }
 
-    public static void main(String[] args) {
-//        String originalInput = "secret_sauce";
-//        String encodedString = Base64.getEncoder().encodeToString(originalInput.getBytes());
-//        System.out.println(encodedString);
+//    public static String decode(String key) {
+//        byte[] decodedBytes = Base64.getDecoder().decode(key);
+//        return new String(decodedBytes);
+//    }
 
-        byte[] decodedBytes = Base64.getDecoder().decode("c3RhbmRhcmRfdXNlcg==");
-        String decodedString = new String(decodedBytes);
-        System.out.println(decodedString);
-    }
-
+//    public static void main(String[] args) {
+//////        String originalInput = "secret_sauce";
+//////        String encodedString = Base64.getEncoder().encodeToString(originalInput.getBytes());
+//////        System.out.println(encodedString);
+//
+//            byte[] decodedBytes = Base64.getDecoder().decode("c3RhbmRhcmRfdXNlcg==");
+//        String decodedString = new String(decodedBytes);
+//        System.out.println(decodedString);
+//    }
+//
 }
 
 
