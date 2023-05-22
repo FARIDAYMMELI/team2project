@@ -46,6 +46,7 @@ public class CommonAPI {
     String windowMaximize = prop.getProperty("browser.maximize","true");
     String takeScreenshots = prop.getProperty("take.screenshots","false");
 
+
     //WebDriver driver;
 
     //report setup
