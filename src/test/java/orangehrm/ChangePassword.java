@@ -33,7 +33,7 @@ public class ChangePassword extends CommonAPI {
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
         waitFor(3);
 
-        homePage.clickDropdownArrow();
+        homePage.clickDropdownArrow(); //
         Thread.sleep(1000);
         homePage.clickOnChangePasswordOption();
         String expectedPageHeader = "Update Password";
