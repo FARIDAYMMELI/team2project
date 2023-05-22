@@ -9,19 +9,17 @@
 
     <parameter name="browserName" value="chrome"></parameter>
     <parameter name="url" value="https://magento.softwaretestingboard.com/"></parameter>
-<!--    <test name="Feature1 test">-->
+
+<!--    <test name="search test">-->
 <!--        <classes>-->
-<!--            <class name="magento.Feature1"></class>-->
+<!--            <class name="magento.LoginTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-<!--    <test name="Feature2 test">-->
-<!--        <classes>-->
-<!--            <class name="magento.Feature2"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Feature3 test">-->
-<!--        <classes>-->
-<!--            <class name="magento.Feature3"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+
+    <test name="new account test">
+        <classes>
+            <class name="magento.NewAccountTest"></class>
+        </classes>
+    </test>
+
 </suite>

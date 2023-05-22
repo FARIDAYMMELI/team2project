@@ -37,7 +37,7 @@ public class CommonAPI {
     String windowMaximize = prop.getProperty("browser.maximize","true");
     String takeScreenshots = prop.getProperty("take.screenshots","false");
 
-    WebDriver driver;
+    public WebDriver driver;
 
     public void getCloudDriver(String envName, String os, String osVersion, String browserName, String browserVersion, String username, String password) throws MalformedURLException {
         DesiredCapabilities cap = new DesiredCapabilities();
