@@ -9,11 +9,11 @@
 
     <parameter name="browserName" value="chrome"></parameter>
     <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
-<!--    <test name="Feature1 test">-->
-<!--        <classes>-->
-<!--            <class name="orange.Feature1"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Feature1 test">
+        <classes>
+            <class name="orangehrm.LoginTest"></class>
+        </classes>
+    </test>
 <!--    <test name="Feature2 test">-->
 <!--        <classes>-->
 <!--            <class name="orange.Feature2"></class>-->
