@@ -14,7 +14,6 @@ public class SearchPage extends CommonAPI {
     public SearchPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-
     @FindBy(xpath = "//img[@alt='Voyage Yoga Bag']")
     WebElement VoyageYogaBag;
     @FindBy(xpath = "//img[@alt='Typhon Performance Fleece-lined Jacket']")

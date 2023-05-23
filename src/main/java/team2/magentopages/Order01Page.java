@@ -8,11 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Order000017128Page extends CommonAPI {
+public class Order01Page extends CommonAPI {
 
-    Logger LOG = LogManager.getLogger(Order000017128Page.class.getName());
+    Logger LOG = LogManager.getLogger(Order01Page.class.getName());
 
-    public Order000017128Page(WebDriver driver) {
+    public Order01Page(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 

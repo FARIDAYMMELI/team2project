@@ -38,9 +38,29 @@
 <!--            <class name="magento.SearchItemTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-        <test name="reorder test">
-            <classes>
-                <class name="magento.ReorderTest"></class>
-            </classes>
-        </test>
+<!--        <test name="reorder test">-->
+<!--            <classes>-->
+<!--                <class name="magento.ReorderTest"></class>-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--    <test name="compare test">-->
+<!--        <classes>-->
+<!--            <class name="magento.CompareListTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="ratings test">&ndash;&gt;-->
+<!--            <classes>-->
+<!--                <class name="magento.RatingsTest"></class>-->
+<!--            </classes>-->
+<!--        </test>-->
+    <test name="cart test">-->
+        <classes>
+            <class name="magento.ShoppingCartTest"></class>
+        </classes>
+    </test>
+<!--    <test name="signout test">&ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="magento.SignOutTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

@@ -5,9 +5,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import team2.magentopages.HomePage;
+
 
 import team2.magentopages.CreateAccountPage;
-import team2.magentopages.HomePage;
 
 public class CreateAccountTest extends CommonAPI {
 
