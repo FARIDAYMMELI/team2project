@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="nopcommerce test">
+<suite name="freecrm test">
     <parameter name="useCloudEnv" value="false"></parameter>
     <parameter name="envName" value="browserstack"></parameter>
     <parameter name="os" value="windows"></parameter>
@@ -8,20 +8,16 @@
     <parameter name="browserVersion" value="110"></parameter>
 
     <parameter name="browserName" value="chrome"></parameter>
-    <parameter name="url" value="https://demo.nopcommerce.com"></parameter>
-<!--    <test name="Feature1 test">-->
+    <parameter name="url" value="https://www.freecrm.com/"></parameter>
+
+
+<!--    <test name="login test">-->
 <!--        <classes>-->
-<!--            <class name="gumtree.Feature1"></class>-->
+<!--            <class name="freecrm.LoginTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-<!--    <test name="Feature2 test">-->
-<!--        <classes>-->
-<!--            <class name="gumtree.Feature2"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-    <test name="Login test">
-        <classes>
-            <class name="nopcommerce.LoginTest"></class>
-        </classes>
-    </test>
+
 </suite>
+
+
+

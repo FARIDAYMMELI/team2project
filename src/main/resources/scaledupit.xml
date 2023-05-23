@@ -15,16 +15,21 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!--       <test name="login test">-->
-    <!--        <classes>-->
-    <!--            <class name="scaledupit.LoginTest"></class>-->
-    <!--        </classes>-->
-    <!--       </test>-->
-    <!--    <test name="logout test">-->
-    <!--        <classes>-->
-    <!--            <class name="scaledupit.LogoutTest"></class>-->
-    <!--        </classes>-->
-    <!--    </test>-->
+           <test name="login test">
+            <classes>
+                <class name="scaledupit.LoginTest"></class>
+            </classes>
+           </test>
+<!--        <test name="logout test">-->
+<!--            <classes>-->
+<!--                <class name="scaledupit.LogoutTest"></class>-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--    <test name="Shopping cart management test">-->
+<!--        <classes>-->
+<!--            <class name="scaledupit.ShoppingCartManagement"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
 
 
