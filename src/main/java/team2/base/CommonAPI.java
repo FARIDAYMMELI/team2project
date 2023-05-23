@@ -243,8 +243,6 @@ public class CommonAPI {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-
-
     public void clickWithActions(WebDriver driver, WebElement element){
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().build().perform();
