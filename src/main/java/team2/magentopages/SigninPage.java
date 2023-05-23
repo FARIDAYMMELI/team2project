@@ -8,9 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SigninPageMagento extends CommonAPI {
-    Logger LOG = LogManager.getLogger(SigninPageMagento.class.getName());
-    public SigninPageMagento(WebDriver driver){
+public class SigninPage extends CommonAPI {
+    Logger LOG = LogManager.getLogger(SigninPage.class.getName());
+    public SigninPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
     //objects

@@ -8,11 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import static org.openqa.selenium.remote.http.DumpHttpExchangeFilter.LOG;
-
-public class CreatenewAccountPageMagento extends CommonAPI {
-    Logger LOG = LogManager.getLogger(CreatenewAccountPageMagento.class.getName());
-    public CreatenewAccountPageMagento(WebDriver driver){
+public class CreateAccountPage extends CommonAPI {
+    Logger LOG = LogManager.getLogger(CreateAccountPage.class.getName());
+    public CreateAccountPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
     //objects
@@ -32,7 +30,7 @@ public class CreatenewAccountPageMagento extends CommonAPI {
     WebElement createAccountButton2;
     @FindBy(id = "email_address-error")
     WebElement errorMessage2;
-    @FindBy(xpath = "//[contains(text(), 'There is already an account with this email'")
+    @FindBy(xpath = "//div[@class='message-error error message']")
     WebElement errorMessage3;
     @FindBy(xpath = "//div[@class='message-success success message']")
     WebElement confirmation;

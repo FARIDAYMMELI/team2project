@@ -1,23 +1,20 @@
 package magento;
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import team2.base.CommonAPI;
 import team2.magentopages.HomePage;
-import team2.magentopages.SigninPageMagento;
+import team2.magentopages.SigninPage;
 
 import java.time.Duration;
 
 import static org.openqa.selenium.remote.http.DumpHttpExchangeFilter.LOG;
 
 
-public class LoginTest extends CommonAPI {
-    Logger log = LogManager.getLogger(LoginTest.class.getName());
+public class SignInTest extends CommonAPI {
+    Logger log = LogManager.getLogger(SignInTest.class.getName());
 
     @Test
     public void validTitle() throws InterruptedException {
@@ -57,7 +54,7 @@ public class LoginTest extends CommonAPI {
         String email ="thonmoy.b@gmail.com";
         String password = "t123";
         HomePage homePage = new HomePage(getDriver());
-        SigninPageMagento signinPageMagento = new SigninPageMagento(getDriver());
+        SigninPage signinPageMagento = new SigninPage(getDriver());
         homePage.clickOnSigninButton();
         String title = getCurrentTitle();
         Assert.assertEquals(title, "Customer Login");
@@ -71,7 +68,6 @@ public class LoginTest extends CommonAPI {
         String title1 = getCurrentURL();
         Assert.assertEquals(title1, "https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/");
         LOG.info("Signin success");
-        driver.quit();
         System.out.println("close success");
 
     }
@@ -79,7 +75,7 @@ public class LoginTest extends CommonAPI {
     @Test
     public void invalidEmailAddress() throws InterruptedException {
         HomePage homePage = new HomePage(getDriver());
-        SigninPageMagento signinPageMagento = new SigninPageMagento(getDriver());
+        SigninPage signinPageMagento = new SigninPage(getDriver());
         homePage.clickOnSigninButton();
         String title = getCurrentTitle();
         Assert.assertEquals(title, "Customer Login");
@@ -95,7 +91,7 @@ public class LoginTest extends CommonAPI {
     @Test
     public void invalidPassword() throws InterruptedException {
         HomePage homePage = new HomePage(getDriver());
-        SigninPageMagento signinPageMagento = new SigninPageMagento(getDriver());
+        SigninPage signinPageMagento = new SigninPage(getDriver());
         homePage.clickOnSigninButton();
         String title = getCurrentTitle();
         Assert.assertEquals(title, "Customer Login");

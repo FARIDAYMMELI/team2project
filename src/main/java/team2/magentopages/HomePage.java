@@ -23,7 +23,7 @@ public class HomePage extends CommonAPI {
         @FindBy (css = "div[class='panel header'] li[data-label='or'] a")
         WebElement signinButton;
 
-        @FindBy(xpath = "(//span[text()='Welcome, thonmoy bhattacharjee!'])[1]")
+        @FindBy(xpath = "//span[text()='Welcome, thonmoy bhattacharjee!']")
         WebElement headerText;
         @FindBy(css= "body > div.page-wrapper > header > div.panel.wrapper > div > ul > li:nth-child(3) > a")
         WebElement createAccountButton1;
@@ -145,7 +145,7 @@ public class HomePage extends CommonAPI {
             LOG.info("click Sign out Button success");
         }
 
-        public void clickOnWommenProducts(){
+        public void clickOnWomenProducts(){
             clickOn(womenProducts);
             LOG.info("click on women products success");
         }
@@ -154,7 +154,7 @@ public class HomePage extends CommonAPI {
             clickOn(shopNewYoga);
             LOG.info("Click on shop new yoga products success");
         }
-        public void clickOnOrderAndRuters(){
+        public void clickOnOrderAndReturns(){
             clickOn(OrderAndReturnsButton);
             LOG.info("Click on shop new yoga products success");
         }
