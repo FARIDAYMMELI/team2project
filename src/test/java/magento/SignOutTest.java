@@ -16,6 +16,9 @@ import static org.openqa.selenium.remote.http.DumpHttpExchangeFilter.LOG;
 public class SignOutTest extends CommonAPI {
     Logger log = LogManager.getLogger(SignOutTest.class.getName());
 
+    //ReadFromExcel read = new ReadFromExcel("", "Magento");
+
+
     @Test
     public void signOutFromHomepage() throws InterruptedException {
         HomePage homePage = new HomePage(getDriver());

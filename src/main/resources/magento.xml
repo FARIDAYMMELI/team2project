@@ -10,57 +10,21 @@
     <parameter name="browserName" value="chrome"></parameter>
     <parameter name="url" value="https://magento.softwaretestingboard.com/"></parameter>
 
-<!--    <test name="sign in test">-->
-<!--        <classes>-->
-<!--            <class name="magento.SignInTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="new account test">-->
-<!--        <classes>-->
-<!--            <class name="magento.CreateAccountTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="product test">-->
-<!--        <classes>-->
-<!--            <class name="magento.ProductsPageTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="downloads test">-->
-<!--        <classes>-->
-<!--            <class name="magento.DownloadsTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="search test">-->
-<!--        <classes>-->
-<!--            <class name="magento.SearchItemTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--        <test name="reorder test">-->
-<!--            <classes>-->
-<!--                <class name="magento.ReorderTest"></class>-->
-<!--            </classes>-->
-<!--        </test>-->
-<!--    <test name="compare test">-->
-<!--        <classes>-->
-<!--            <class name="magento.CompareListTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="ratings test">&ndash;&gt;-->
-<!--            <classes>-->
-<!--                <class name="magento.RatingsTest"></class>-->
-<!--            </classes>-->
-<!--        </test>-->
-    <test name="cart test">-->
+    <test name="magento test">
         <classes>
-            <class name="magento.ShoppingCartTest"></class>
+            <class name="magento.CompareListTest"></class>
+<!--            <class name="magento.CreateAccountTest"></class>-->
+<!--            <class name="magento.DownloadsTest"></class>-->
+<!--            <class name="magento.ProductsPageTest"></class>-->
+<!--            <class name="magento.RatingsTest"></class>-->
+<!--            <class name="magento.ReorderTest"></class>-->
+<!--            <class name="magento.SearchItemTest"></class>-->
+<!--            <class name="magento.ShoppingCartTest"></class>-->
+<!--            <class name="magento.SignOutTest"></class>-->
+<!--            <class name="magento.SignInTest"></class>-->
+<!--            <class name="magento.dbTest"></class>-->
+
+
         </classes>
     </test>
-<!--    <test name="signout test">&ndash;&gt;-->
-<!--        <classes>-->
-<!--            <class name="magento.SignOutTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
 </suite>

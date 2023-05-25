@@ -6,27 +6,31 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import team2.base.CommonAPI;
 import team2.magentopages.*;
+import team2.utility.ExcelReader;
+import org.apache.poi.xssf.*;
 
 public class SearchItemTest extends CommonAPI {
 
     Logger LOG = LogManager.getLogger(SearchItemTest.class.getName());
-
-    //ExcelReader read = new ExcelReader("D:\\BootCamp Selenium\\web-automation-framework-team4\\data\\titles.xlsx", "Magento");
+    //String path = currentDir + File.separator +
+    //String path= "./data/magento/magento.xlsx";
+    ExcelReader read = new ExcelReader("C:\\Users\thonm\\ideaProjects\team2project\\data\\magento\\magento.xlsx");
 
     @Test
     public void searchAnItemAndAddToCart() throws InterruptedException {
         HomePage homePage = new HomePage(getDriver());
 
-        //String expectedTitle = read.getCellValueForGivenHeaderAndKey("key","home page title");
-        String expectedTitle="Home Page";
+        String expectedTitle = read.getDataFromCell("magento",0,0);
+        //System.out.println(expectedTitle);
+        //String expectedTitle="Home Page";
         String actualTitle = getCurrentTitle();
-        Assert.assertEquals(expectedTitle, actualTitle);
+        Assert.assertEquals(expectedTitle,actualTitle);
         LOG.info("Sign in title page validation success");
         String item = "Bag";
         homePage.typeItemToSearch(item);
         homePage.clickOnSearchButton();
 
-        //String expectedTitle1 = read.getCellValueForGivenHeaderAndKey("key","Bag search title");
+        //String expectedTitle1 = read.getCel("key","Bag search title");
         String expectedTitle1="Search results for: 'Bag'";
         String actualTitle1 = getCurrentTitle();
         System.out.println(actualTitle1);
@@ -39,6 +43,7 @@ public class SearchItemTest extends CommonAPI {
         voyageyoga.clickOnAddToCartButton();
 
     }
+@Test
     public void searchAnItemAndAddToWishList() throws InterruptedException {
         HomePage homePage = new HomePage(getDriver());
         SigninPage signinPageMagento = new SigninPage(getDriver());
