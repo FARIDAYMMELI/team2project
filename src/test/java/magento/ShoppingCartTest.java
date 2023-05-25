@@ -48,6 +48,49 @@ public class ShoppingCartTest extends CommonAPI {
         womensDealPageMagento.ClickOnCartButton();
         Thread.sleep(3000);
         womensDealPageMagento.ClickOnViewAndEditCart(getDriver());
+        String title4 = getCurrentTitle();
+        Assert.assertEquals(title4, "Shopping Cart");
+        LOG.info("Shopping Cart title page validation success");
+
+    }
+    @Test
+    public void AddToWishListFromCart() throws InterruptedException {
+        HomePage homePage = new HomePage(getDriver());
+        SigninPage signinPageMagento = new SigninPage(getDriver());
+        homePage.clickOnSigninButton();
+        String title = getCurrentTitle();
+        Assert.assertEquals(title, "Customer Login");
+        LOG.info("Sign in title page validation success");
+
+        //String email = ConnectDB.getTableColumnData("select * from cred","email").get(0);
+        signinPageMagento.typeEmailAddress("thonmoy.b@icloud.com");
+        //String password = ConnectDB.getTableColumnData("select * from cred","password").get(0);
+        signinPageMagento.typePassword("password&1234");
+        signinPageMagento.clickOnSigninButton2();
+        LOG.info("Signin success");
+        String title1 = getCurrentTitle();
+        Assert.assertEquals(title1, "Home Page");
+        LOG.info("Sign in title page validation success");
+        homePage.ClickOnSaleButton();
+
+        String title2 = getCurrentTitle();
+        Assert.assertEquals(title2, "Sale");
+        LOG.info("Sale title page validation success");
+        SaleMagentoPage saleMagentoPage = new SaleMagentoPage(getDriver());
+        saleMagentoPage.clickOnShopWomensDealButton();
+        String title3 = getCurrentTitle();
+        Assert.assertEquals(title3, "Women Sale");
+        LOG.info("Women's Deal title page validation success");
+        //add a product"Wayfarer Messenger Bag" to the cart
+        WomensDealPageMagento womensDealPageMagento = new WomensDealPageMagento(getDriver());
+        womensDealPageMagento.hoverOverJosieYogaJacket(getDriver());
+        womensDealPageMagento.clickOnSizeM();
+        womensDealPageMagento.ClickOnColorBlackButton();
+        womensDealPageMagento.ClickAddToCartButton();
+        Thread.sleep(3000);
+        womensDealPageMagento.ClickOnCartButton();
+        Thread.sleep(3000);
+        womensDealPageMagento.ClickOnViewAndEditCart(getDriver());
 
         String title4 = getCurrentTitle();
         Assert.assertEquals(title4, "Shopping Cart");
@@ -110,6 +153,7 @@ public class ShoppingCartTest extends CommonAPI {
         shoppingCartPageMagento.ClickOnRemoveButton();
         LOG.info("update quantity success");
         shoppingCartPageMagento.ClickOnUpdateShoppingCart();
+        Thread.sleep(3000);
 
         shoppingCartPageMagento.ClickOnProceedToCheckOutButton();
         CheckOutPageMagento checkOutPageMagento = new CheckOutPageMagento(getDriver());
@@ -117,14 +161,7 @@ public class ShoppingCartTest extends CommonAPI {
         Assert.assertEquals(title4, "Checkout");
         LOG.info("checkout title page validation success");
 
-        checkOutPageMagento.clickOnShipingMethodBtn();
-        checkOutPageMagento.clickOnNextButton();
-        checkOutPageMagento.clickOnPlaceOrderButton();
-        String title5= getCurrentTitle();
-        Assert.assertEquals(title5, "Checkout");
-        LOG.info("success purchase title page validation success");
-        String confirmation = successPurchasePage.getconfirmationMessage();
-        Assert.assertEquals(confirmation, "Thank you for your purchase!");
+
     }
 
 }

@@ -6,17 +6,26 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import team2.magentopages.HomePage;
+import team2.utility.ConnectDB;
 
 
 import team2.magentopages.CreateAccountPage;
+import team2.utility.ConnectDB;
 
-public class CreateAccountTest extends CommonAPI {
+    public class CreateAccountTest extends CommonAPI {
 
-        Logger LOG = LogManager.getLogger(CreateAccountTest.class.getName());
-        Faker fakeData = new Faker();
-        String emailAddress=fakeData.internet().emailAddress();
-        String name = fakeData.name().firstName();
-        String lastName = fakeData.name().lastName();
+          Logger LOG = LogManager.getLogger(CreateAccountTest.class.getName());
+//            Faker fakeData = new Faker();
+//            String emailAddress=fakeData.internet().emailAddress();
+    //        String name = fakeData.name().firstName();
+    //        String lastName = fakeData.name().lastName();
+
+
+          ConnectDB connectdb1 = new ConnectDB();
+
+          String name= connectdb1.getTableColumnData("select * from user","firstname").get(0);
+          String lastName= connectdb1.getTableColumnData("select * from user","lastname").get(0);
+          String emailAddress= connectdb1.getTableColumnData("select * from user","email").get(0);
 
         @Test
         public void RegisterNewAccount() throws InterruptedException {
@@ -47,12 +56,9 @@ public class CreateAccountTest extends CommonAPI {
                 String actualHeader = createnewAccountPageMagento.newAccountHeaderText();
                 Assert.assertEquals(actualHeader,expectedHeader);
                 LOG.info("create an account title page validation success");
-                //String FirstName  = ConnectDB.getTableColumnData("select * from cred","FirstName").get(0);
-                createnewAccountPageMagento.typeFirstName("thonmoy");
-                //String LastName  = ConnectDB.getTableColumnData("select * from cred","lastName").get(0);
-                createnewAccountPageMagento.typeLastName("bha");
-                //String email  = ConnectDB.getTableColumnData("select * from cred","email").get(0);
-                createnewAccountPageMagento.typeEmailAddress("thonmoy.b@gmail.com");
+                createnewAccountPageMagento.typeFirstName(name);
+                createnewAccountPageMagento.typeLastName(lastName);
+                createnewAccountPageMagento.typeEmailAddress(emailAddress);
                 //String password  = ConnectDB.getTableColumnData("select * from cred","password").get(0);
                 createnewAccountPageMagento.typePassword("password&1234");
                 createnewAccountPageMagento.typeConfirmPassword("password&1234");
@@ -77,7 +83,7 @@ public class CreateAccountTest extends CommonAPI {
                 //String LastName  = ConnectDB.getTableColumnData("select * from cred","lastName").get(0);
                 createnewAccountPageMagento.typeLastName(lastName);
                 //String invalidEmailAdress  = ConnectDB.getTableColumnData("select * from cred","invalidEmailAdress").get(0);
-                createnewAccountPageMagento.typeEmailAddress("thonmoy.b@gmail.");
+                createnewAccountPageMagento.typeEmailAddress("thonmoy.b@icloud");
                 //String password  = ConnectDB.getTableColumnData("select * from cred","password").get(0);
                 createnewAccountPageMagento.typePassword("password&1234");
                 createnewAccountPageMagento.typeConfirmPassword("password&1234");

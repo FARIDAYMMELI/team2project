@@ -21,7 +21,7 @@ public class ShoppingCartPageMagento extends CommonAPI {
     @FindBy(xpath = "//a[@class='action action-delete']")
     WebElement removeButton;
 
-    @FindBy(xpath = "//span[text()='Proceed to Checkout']")
+    @FindBy(xpath = "//button[@title='Proceed to Checkout']//span")
     WebElement proceedToCheckoutButton;
 
     @FindBy(xpath = "//a[@class='use-ajax action towishlist action-towishlist']//preceding-sibling::span")
