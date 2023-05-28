@@ -13,14 +13,14 @@ import java.util.Properties;
 public class LoginTest extends CommonAPI {
     Logger log = LogManager.getLogger(LoginTest.class.getName());
     Properties properties = Utility.loadProperties();
-    String validUsername = Utility.decode(properties.getProperty("orangehrm.username"));
-    String validPassword = Utility.decode(properties.getProperty("orangehrm.password"));
+    String validUsername = properties.getProperty("orangehrm.username");
+    String validPassword = properties.getProperty("orangehrm.password");
 
     @Test
     public void validCredential(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         waitFor(3);
@@ -40,7 +40,7 @@ public class LoginTest extends CommonAPI {
     public void invalidUsername(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
 
@@ -58,7 +58,7 @@ public class LoginTest extends CommonAPI {
     public void missingUsername(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
 
@@ -77,7 +77,7 @@ public class LoginTest extends CommonAPI {
     public void missingPassword(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
 

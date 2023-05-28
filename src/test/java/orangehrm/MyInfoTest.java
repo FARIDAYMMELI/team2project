@@ -16,15 +16,15 @@ import java.util.Properties;
 public class MyInfoTest extends CommonAPI {
     Logger log = LogManager.getLogger(AdminTest.class.getName());
     Properties properties = Utility.loadProperties();
-    String validUsername = Utility.decode(properties.getProperty("orangehrm.username"));
-    String validPassword = Utility.decode(properties.getProperty("orangehrm.password"));
+    String validUsername = properties.getProperty("orangehrm.username");
+    String validPassword = properties.getProperty("orangehrm.password");
 
     @Test
     public void updateMyInfo(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         MyInfoPage myInfoPage = new MyInfoPage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);

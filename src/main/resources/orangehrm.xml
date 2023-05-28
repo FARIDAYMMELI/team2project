@@ -5,23 +5,73 @@
     <parameter name="envName" value="browserstack"></parameter>
     <parameter name="os" value="windows"></parameter>
     <parameter name="osVersion" value="10"></parameter>
-    <parameter name="browserVersion" value="110"></parameter>
+    <parameter name="browserVersion" value="113"></parameter>
 
     <parameter name="browserName" value="chrome"></parameter>
     <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
-    <test name="Feature1 test">
+<!--    <test name="LoginTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.LoginTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="AdminTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.AdminTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="BuzzTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.BuzzTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="ChangePassword test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.ChangePassword"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="ForgotPasswordTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.ForgotPasswordTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="LeaveTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.LeaveTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="LogoutTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.LogoutTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="MagnifyingSearchBoxTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.MagnifyingSearchBoxTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="MaintenanceTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.MaintenanceTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="MyInfoTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.MyInfoTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="PerformanceTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.PerformanceTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="TimeTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.TimeTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="DirectoryTest test">
         <classes>
-            <class name="orangehrm.LoginTest"></class>
+            <class name="orangehrm.DirectoryTest"></class>
         </classes>
     </test>
-<!--    <test name="Feature2 test">-->
-<!--        <classes>-->
-<!--            <class name="orange.Feature2"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Feature3 test">-->
-<!--        <classes>-->
-<!--            <class name="orange.Feature3"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
 </suite>

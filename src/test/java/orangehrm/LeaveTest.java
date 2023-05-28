@@ -16,15 +16,15 @@ import java.util.Properties;
 public class LeaveTest extends CommonAPI {
     Logger log = LogManager.getLogger(LeaveTest.class.getName());
     Properties properties = Utility.loadProperties();
-    String validUsername = Utility.decode(properties.getProperty("orangehrm.username"));
-    String validPassword = Utility.decode(properties.getProperty("orangehrm.password"));
+    String validUsername = properties.getProperty("orangehrm.username");
+    String validPassword = properties.getProperty("orangehrm.password");
 
     @Test
     public void addLeaveEntitlement(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         LeavePage leavePage = new LeavePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);

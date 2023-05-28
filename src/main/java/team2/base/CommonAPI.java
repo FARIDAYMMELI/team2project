@@ -42,7 +42,7 @@ public class CommonAPI {
     String browserstackPassword = prop.getProperty("browserstack.password");
 
 
-    String implicitWait = prop.getProperty("implicit.wait","5");
+    String implicitWait = prop.getProperty("implicit.wait","2");
     String windowMaximize = prop.getProperty("browser.maximize","true");
     String takeScreenshots = prop.getProperty("take.screenshots","false");
 
@@ -351,6 +351,14 @@ public class CommonAPI {
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("arguments[0].scrollIntoView();",element);
     }
+
+
+    public void sendKeysForDropdownArrowDown(WebElement element){
+        element.click();
+        element.sendKeys(Keys.ARROW_DOWN);
+        element.sendKeys(Keys.ENTER);
+    }
+
 
 
 

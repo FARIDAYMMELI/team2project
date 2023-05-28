@@ -16,15 +16,15 @@ import java.util.Properties;
 public class TimeTest extends CommonAPI {
     Logger log = LogManager.getLogger(TimeTest.class.getName());
     Properties properties = Utility.loadProperties();
-    String validUsername = Utility.decode(properties.getProperty("orangehrm.username"));
-    String validPassword = Utility.decode(properties.getProperty("orangehrm.password"));
+    String validUsername = properties.getProperty("orangehrm.username");
+    String validPassword = properties.getProperty("orangehrm.password");
 
     @Test
     public void addingProjectPage(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         TimePage timePage = new TimePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);
@@ -33,28 +33,27 @@ public class TimeTest extends CommonAPI {
         String expectedHomePageHeader = "Dashboard";
         String actualHomePageHeader = homePage.getHomePageHeaderText();
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
-        waitFor(3);
 
         timePage.clickTimeSection();
         String expectedPageTitle = "Time";
         String actualPageTitle = timePage.getTimeHeader();
-        Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
+        Assert.assertEquals(expectedPageTitle,actualPageTitle);
         log.info("page title validation success");
 
         timePage.clickOnProjectInfoDropdown();
-        timePage.selectProjectFromDropdown("Projects");
+        timePage.clickProjectFromDropdown();
         String expectProjectHeader = "Projects";
         String actualProjectHeader = timePage.getProjectHeader();
-        Assert.assertEquals(expectedPageTitle,actualPageTitle);
+        Assert.assertEquals(expectProjectHeader,actualProjectHeader);
         log.info("Project header validation success");
 
-    }
+   }
     @Test
     public void searchProject(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         TimePage timePage = new TimePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);
@@ -63,26 +62,27 @@ public class TimeTest extends CommonAPI {
         String expectedHomePageHeader = "Dashboard";
         String actualHomePageHeader = homePage.getHomePageHeaderText();
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
-        waitFor(3);
+
 
         timePage.clickTimeSection();
         String expectedPageTitle = "Time";
         String actualPageTitle = timePage.getTimeHeader();
-        Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
+        Assert.assertEquals(expectedPageTitle,actualPageTitle);
         log.info("page title validation success");
 
         timePage.clickOnProjectInfoDropdown();
-        timePage.selectProjectFromDropdown("Projects");
+        timePage.clickProjectFromDropdown();
         String expectProjectHeader = "Projects";
         String actualProjectHeader = timePage.getProjectHeader();
-        Assert.assertEquals(expectedPageTitle,actualPageTitle);
+        Assert.assertEquals(expectProjectHeader,actualProjectHeader);
         log.info("Project header validation success");
 
-        timePage.selectCustomerName("Internal");
-        timePage.selectProjectName("Recruitment");
-        timePage.selectProjectAdmin("Paul  Collings");
-        timePage.clickOnSearchButton();
-        String expectedMessage = "(1) Record Found";
+        timePage.enterCustomerName("Internal");
+        timePage.clickOnCustormerName();
+        timePage.enterProjectName("Recruitment");
+        timePage.enterProjectAdmin("Paul  Collings");
+        timePage.clickOnResetButton();
+        String expectedMessage = "Reset";
         String actualMessage = timePage.getRecordFoundMessage();
         Assert.assertEquals(expectedMessage,actualMessage);
         log.info("message validation success");
@@ -93,7 +93,7 @@ public class TimeTest extends CommonAPI {
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         TimePage timePage = new TimePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);
@@ -102,22 +102,19 @@ public class TimeTest extends CommonAPI {
         String expectedHomePageHeader = "Dashboard";
         String actualHomePageHeader = homePage.getHomePageHeaderText();
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
-        waitFor(3);
+
 
         timePage.clickTimeSection();
         String expectedPageTitle = "Time";
         String actualPageTitle = timePage.getTimeHeader();
-        Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
+        Assert.assertEquals(expectedPageTitle,actualPageTitle);
         log.info("page title validation success");
 
-        timePage.enterEmployeeName("Paul  Collings");
-        timePage.clickOnViewButton();
-        String expectNoMessage = "No Timesheets Found";
-        String actualNoMessage = timePage.getNoTimeSheetMessage();
-        Assert.assertEquals(expectNoMessage,actualNoMessage);
+        timePage.enterEmployeeName("Paul Collings");
+        String expectedViewMessage = "View";
+        String actualViewMessage = timePage.getViewButtonText();
+        Assert.assertEquals(expectedViewMessage,actualViewMessage);
         log.info("Message validation success");
-
-
 
 
     }
