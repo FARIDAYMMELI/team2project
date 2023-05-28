@@ -26,6 +26,7 @@ public class PIMPage extends CommonAPI{
     WebElement PIMHeader;
     public String getPIMHeader(){
         String PIMHeaderText = getElementText(PIMSection);
+        waitFor(5);
         log.info("PIM header text "+PIMHeaderText);
         return PIMHeaderText;
     }
@@ -42,6 +43,7 @@ public class PIMPage extends CommonAPI{
     WebElement addEmployeeHeader;
     public String getAddEmployeeHeader(){
         String addEmployeeHeaderText = getElementText(addEmployeeHeader);
+       waitFor(5);
         log.info("Add employee header text "+addEmployeeHeaderText);
         return addEmployeeHeaderText;
     }
@@ -79,6 +81,7 @@ public class PIMPage extends CommonAPI{
     WebElement personalDetailsHeader;
     public String getPersonalDetailsHeader(){
         String personalDetailText= getElementText(personalDetailsHeader);
+        waitFor(5);
         log.info("Personal detail header text "+personalDetailText);
         return personalDetailText;
     }

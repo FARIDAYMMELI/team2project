@@ -41,18 +41,13 @@ public class MyInfoTest extends CommonAPI {
         Assert.assertEquals(expectedPageHead,actualPageHeader);
         log.info("Page header validation success");
 
-
-        myInfoPage.enterFirstName("Abu");
-        myInfoPage.enterMiddleName("Yousuf");
-        myInfoPage.enterLastName("Rana");
+        myInfoPage.enterFirstName("Au");
+        myInfoPage.enterMiddleName("suf");
+        myInfoPage.enterLastName("Ra");
         myInfoPage.enterEmployeeID("0024");
         myInfoPage.enterSSN("123-45-6789");
-        myInfoPage.clickOnNationalityDropdown();
-        myInfoPage.selectAmerican("American");
         myInfoPage.clickOnMaritalStatusDropdown();
-        myInfoPage.selectSingle("Single");
         myInfoPage.enterDateOfBirth("1975-10-15");
-        myInfoPage.clickOnMaleRadioButton();
         myInfoPage.clickOnSaveButton();
         String expectedHeader = "Personal Details";
         String actualHeader = myInfoPage.getPersonalDetailsText();

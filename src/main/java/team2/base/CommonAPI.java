@@ -353,13 +353,6 @@ public class CommonAPI {
     }
 
 
-    public void sendKeysForDropdownArrowDown(WebElement element){
-        element.click();
-        element.sendKeys(Keys.ARROW_DOWN);
-        element.sendKeys(Keys.ENTER);
-    }
-
-
 
 
 }

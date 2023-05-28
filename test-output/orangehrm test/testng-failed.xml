@@ -8,18 +8,18 @@
   <parameter name="browserVersion" value="113"/>
   <parameter name="browserName" value="chrome"/>
   <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
-  <test thread-count="5" name="DirectoryTest test(failed)">
+  <test thread-count="5" name="LeaveTest test(failed)">
     <classes>
-      <class name="orangehrm.DirectoryTest">
+      <class name="orangehrm.LeaveTest">
         <methods>
           <include name="generateReport"/>
+          <include name="addLeaveEntitlement"/>
           <include name="startExtent"/>
-          <include name="searching"/>
           <include name="setUp"/>
           <include name="extentSetup"/>
           <include name="afterEachTestMethod"/>
         </methods>
-      </class> <!-- orangehrm.DirectoryTest -->
+      </class> <!-- orangehrm.LeaveTest -->
     </classes>
-  </test> <!-- DirectoryTest test(failed) -->
+  </test> <!-- LeaveTest test(failed) -->
 </suite> <!-- Failed suite [orangehrm test] -->

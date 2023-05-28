@@ -36,7 +36,7 @@ public class LeaveTest extends CommonAPI {
         waitFor(3);
 
         leavePage.clickOnLeaveSection();
-        String expectedPageHeader = "Leave";
+        String expectedPageHeader = "Leave List";
         String actualPageHeader = leavePage.getPageHeaderText();
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
         log.info("Page header validation success");

@@ -34,11 +34,11 @@
 <!--            <class name="orangehrm.ForgotPasswordTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-<!--    <test name="LeaveTest test">-->
-<!--        <classes>-->
-<!--            <class name="orangehrm.LeaveTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="LeaveTest test">
+        <classes>
+            <class name="orangehrm.LeaveTest"></class>
+        </classes>
+    </test>
 <!--    <test name="LogoutTest test">-->
 <!--        <classes>-->
 <!--            <class name="orangehrm.LogoutTest"></class>-->
@@ -69,9 +69,19 @@
 <!--            <class name="orangehrm.TimeTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="DirectoryTest test">
-        <classes>
-            <class name="orangehrm.DirectoryTest"></class>
-        </classes>
-    </test>
+<!--    <test name="DirectoryTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.DirectoryTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="RecruitmentTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.RecruitmentTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="PIMTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.PIMTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

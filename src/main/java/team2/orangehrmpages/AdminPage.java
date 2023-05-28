@@ -2,6 +2,7 @@ package team2.orangehrmpages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -54,7 +55,7 @@ public class AdminPage extends CommonAPI {
     WebElement searchEnabledPositon;
     @FindBy(xpath = "//button[@type='submit']")
     WebElement searchButton;
-    @FindBy(xpath = ".oxd-text.oxd-text--span.oxd-input-field-error-message.oxd-input-group__message")
+    @FindBy(xpath = "//span[text()='No Records Found']")
     WebElement invalidRecordFound;
 
 
@@ -131,6 +132,10 @@ public class AdminPage extends CommonAPI {
     }
     public void enterEmployeeNameTextField(String username){
         type(employeeNametxtfield,username);
+        waitFor(5);
+        employeeNametxtfield.sendKeys(Keys.ARROW_DOWN);
+        waitFor(5);
+        employeeNametxtfield.sendKeys(Keys.ENTER);
         log.info("enter employee username success");
     }
     public void enterUsernameField(String username){
@@ -181,6 +186,7 @@ public class AdminPage extends CommonAPI {
     }
     public String invalidMessage(){
         String noRecordFoundText = getElementText(invalidRecordFound);
+        waitFor(3);
         log.info("Invalid Record found text "+noRecordFoundText);
         return noRecordFoundText;
     }

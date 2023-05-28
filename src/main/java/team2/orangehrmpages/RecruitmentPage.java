@@ -2,6 +2,8 @@ package team2.orangehrmpages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.checkerframework.checker.units.qual.K;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,6 +33,7 @@ public class RecruitmentPage extends CommonAPI {
     }
     public String getRecruitmentPageHeaderText(){
         String recruitmentPageHeaderText = getElementText(recruitmentPageHeader);
+        waitFor(5);
         log.info("Recruitment page header text "+recruitmentPageHeaderText);
         return recruitmentPageHeaderText;
     }
@@ -38,8 +41,13 @@ public class RecruitmentPage extends CommonAPI {
     WebElement jobTitleDropdown;
     public void clickOnJobTitleDropdwon(){
         clickOn(jobTitleDropdown);
+        waitFor(5);
+        jobTitleDropdown.sendKeys(Keys.ARROW_DOWN);
+        waitFor(5);
+        jobTitleDropdown.sendKeys(Keys.ENTER);
         log.info("Click on Job Title dropdown success");
     }
+
     @FindBy(xpath = "//div[text()='QA Engineer']")
     WebElement QAEngeneerFromDropdown;
     public void clickOnQAEngeneerFromJobTitleDropdown(){
@@ -87,6 +95,14 @@ public class RecruitmentPage extends CommonAPI {
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
     WebElement candidateNameField;
 
+    public void enterName(String name){
+        type(candidateNameField,name);
+        waitFor(5);
+        candidateNameField.sendKeys(Keys.ARROW_DOWN);
+        candidateNameField.sendKeys(Keys.ENTER);
+        log.info("Enter name success");
+    }
+
 
 
     @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
@@ -122,6 +138,7 @@ public class RecruitmentPage extends CommonAPI {
     }
     public String getCandidateHeaderText(){
         String candidateHeaderText = getElementText(candidatesHeader);
+        waitFor(5);
         log.info("Candidate header text "+candidateHeaderText);
         return candidateHeaderText;
     }
@@ -142,6 +159,7 @@ public class RecruitmentPage extends CommonAPI {
     }
     public String getAddCandidateHeaderText(){
         String addCandidateHeaderText = getElementText(addCandidateHeader);
+        waitFor(5);
         log.info("Add candidate header text "+ addCandidateHeaderText);
         return addCandidateHeaderText;
     }
@@ -157,15 +175,16 @@ public class RecruitmentPage extends CommonAPI {
         type(lastName,name);
         log.info("Enter last name success");
     }
-    @FindBy(xpath = "//input[@class='oxd-input oxd-input--active oxd-input--error']")
+    @FindBy(xpath = "(//input[@placeholder='Type here'])[1]")
     WebElement emailField;
     public void enterEmail(String email){
         type(emailField,email);
         log.info("Enter email success");
     }
+
     @FindBy(xpath = "//button[@type='submit']")
     WebElement saveButton;
-    public void clickONSaveButton(){
+    public void clickOSaveButton(){
         clickOn(searchButton);
         log.info("Click on save button success");
     }
@@ -173,6 +192,7 @@ public class RecruitmentPage extends CommonAPI {
     WebElement applicationStageHeader;
     public String getApplicationStageHeaderText(){
         String applicationStageHeaderText = getElementText(applicationStageHeader);
+        waitFor(5);
         log.info("Application stage header text "+applicationStageHeaderText);
         return applicationStageHeaderText;
     }
@@ -189,6 +209,7 @@ public class RecruitmentPage extends CommonAPI {
     WebElement vacanciesHeader;
     public String getVacanciesHeaderText(){
         String vacanciesHeaderText = getElementText(vacanciesHeader);
+        waitFor(5);
         log.info("Vacancies header Text "+vacanciesHeaderText);
         return vacanciesHeaderText;
     }
@@ -198,6 +219,7 @@ public class RecruitmentPage extends CommonAPI {
     WebElement vacanciesJobTitleDropdown;
     public void clickOnJobTitleDropdown(){
         clickOn(vacanciesJobTitleDropdown);
+        waitFor(1);
         log.info("Click on Job Title dropdown success");
     }
     @FindBy(xpath = "(//div[text()='Account Assistant'])[1]")
@@ -210,6 +232,7 @@ public class RecruitmentPage extends CommonAPI {
     WebElement vacancyFromDropdown;
     public void clickOnVacancyFromDropdown(){
         clickOn(vacancyFromDropdown);
+        waitFor(1);
         log.info("click on vacancy dropdown success");
     }
     @FindBy(xpath = "(//div[text()='Senior QA Lead'])[1]")
@@ -234,8 +257,10 @@ public class RecruitmentPage extends CommonAPI {
 
     @FindBy(xpath = "(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[4]")
     WebElement statusFromVacancyDropdown;
-    public void clickOnVacancy(){
+    public void clickOnVacancyDropdown2(){
+        waitFor(5);
         clickOn(statusFromVacancyDropdown);
+        waitFor(2);
         log.info("Click on vacancy dropdown success");
     }
     @FindBy(xpath = "//div[@clear='false']")
@@ -257,6 +282,12 @@ public class RecruitmentPage extends CommonAPI {
         log.info("No Record found text "+noRecordFoundText);
         return noRecordFoundText;
     }
+    public String getAddText(){
+        String addText = getElementText(addButtonInVacancies);
+        waitFor(5);
+        log.info("Add text "+addText);
+        return addText;
+    }
 
     //tc-28 Test the Add Button in Vacancies in the Recruitment section
     @FindBy(xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
@@ -269,8 +300,17 @@ public class RecruitmentPage extends CommonAPI {
     WebElement addVacancyHeader;
     public String getAddVacancyHeaderText(){
         String addVacancyHeaderText = getElementText(addVacancyHeader);
+        waitFor(5);
         log.info("add vacancy header text "+addVacancyHeaderText);
         return addVacancyHeaderText;
+    }
+    @FindBy(xpath = "//input[@class='oxd-input oxd-input--active oxd-input--error']")
+    WebElement vacancyName;
+    public void enterVacancyName(String name){
+        waitFor(2);
+        type(vacancyName,name);
+        waitFor(2);
+        log.info("Enter name success");
     }
 
 
