@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="189ccbc4-3cf7-46d9-b228-f079cffb9f59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/invalidUsername 052220231835PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/utility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/utility/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/orangehrm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/orangehrm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-    </list>
+    <list default="true" id="189ccbc4-3cf7-46d9-b228-f079cffb9f59" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
