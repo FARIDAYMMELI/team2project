@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="189ccbc4-3cf7-46d9-b228-f079cffb9f59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/orangehrm/PIMTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/DirectoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/DirectoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/LeavePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/LeavePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/MyInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/MyInfoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/PIMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/PIMPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/RecruitmentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/orangehrmpages/RecruitmentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/invalidUsername 052220231835PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/utility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/utility/ExcelReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/orangehrm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/orangehrm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/DirectoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/DirectoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/LeaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/LeaveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MyInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MyInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/RecruitmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/RecruitmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/orangehrm test/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/orangehrm test/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -31,7 +31,6 @@ public class ExcelReader {
 
 
 
-
     private final Logger LOG = LogManager.getLogger(ExcelReader.class.getName());
 
     XSSFWorkbook excelWBook;

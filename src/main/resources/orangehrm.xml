@@ -9,11 +9,11 @@
 
     <parameter name="browserName" value="chrome"></parameter>
     <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
-<!--    <test name="LoginTest test">-->
-<!--        <classes>-->
-<!--            <class name="orangehrm.LoginTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="LoginTest test">
+        <classes>
+            <class name="orangehrm.LoginTest"></class>
+        </classes>
+    </test>
 <!--    <test name="AdminTest test">-->
 <!--        <classes>-->
 <!--            <class name="orangehrm.AdminTest"></class>-->
@@ -34,11 +34,11 @@
 <!--            <class name="orangehrm.ForgotPasswordTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="LeaveTest test">
-        <classes>
-            <class name="orangehrm.LeaveTest"></class>
-        </classes>
-    </test>
+<!--    <test name="LeaveTest test">-->
+<!--        <classes>-->
+<!--            <class name="orangehrm.LeaveTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 <!--    <test name="LogoutTest test">-->
 <!--        <classes>-->
 <!--            <class name="orangehrm.LogoutTest"></class>-->

@@ -45,7 +45,6 @@ public class AdminTest extends CommonAPI {
         String actualAddUserHeader = adminPage.getAddUserHeader();
         Assert.assertEquals(expectedAddUserHeader,actualAddUserHeader);
 
-
     }
 
 @Test
