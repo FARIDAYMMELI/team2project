@@ -58,8 +58,6 @@ public class CommonAPI {
     }
 
 
-
-
     @BeforeMethod
     public void startExtent(Method method) {
         String className = method.getDeclaringClass().getSimpleName();

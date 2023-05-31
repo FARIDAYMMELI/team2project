@@ -1,0 +1,2630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="30" failed="4" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/faridaymmeli/IdeaProjects/team2project/test-output/html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-30T20:16:46 EDT" name="scaledupit test" finished-at="2023-05-30T20:30:30 EDT" duration-ms="824238">
+    <groups>
+    </groups>
+    <test started-at="2023-05-30T20:16:46 EDT" name="registration  test" finished-at="2023-05-30T20:17:14 EDT" duration-ms="27469">
+      <class name="scaledupit.UserRegistration">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.UserRegistration@2db2cd5]" started-at="2023-05-30T20:16:46 EDT" name="setUp" finished-at="2023-05-30T20:16:53 EDT" duration-ms="6367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.UserRegistration@2db2cd5]" started-at="2023-05-30T20:16:53 EDT" name="startExtent" finished-at="2023-05-30T20:16:53 EDT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.UserRegistration.RegistrationInValid() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="RegistrationInValid()[pri:0, instance:scaledupit.UserRegistration@2db2cd5]" started-at="2023-05-30T20:16:53 EDT" name="RegistrationInValid" finished-at="2023-05-30T20:17:01 EDT" duration-ms="8321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationInValid -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.UserRegistration@2db2cd5]" started-at="2023-05-30T20:17:01 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:17:02 EDT" duration-ms="592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegistrationInValid status=SUCCESS method=UserRegistration.RegistrationInValid()[pri:0, instance:scaledupit.UserRegistration@2db2cd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.UserRegistration@2db2cd5]" started-at="2023-05-30T20:17:02 EDT" name="setUp" finished-at="2023-05-30T20:17:05 EDT" duration-ms="3236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.UserRegistration@2db2cd5]" started-at="2023-05-30T20:17:05 EDT" name="startExtent" finished-at="2023-05-30T20:17:05 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.UserRegistration.RegistrationValidation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="RegistrationValidation()[pri:0, instance:scaledupit.UserRegistration@2db2cd5]" started-at="2023-05-30T20:17:05 EDT" name="RegistrationValidation" finished-at="2023-05-30T20:17:14 EDT" duration-ms="8703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationValidation -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.UserRegistration@2db2cd5]" started-at="2023-05-30T20:17:14 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:17:14 EDT" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegistrationValidation status=SUCCESS method=UserRegistration.RegistrationValidation()[pri:0, instance:scaledupit.UserRegistration@2db2cd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.UserRegistration -->
+    </test> <!-- registration  test -->
+    <test started-at="2023-05-30T20:17:14 EDT" name="login test" finished-at="2023-05-30T20:17:58 EDT" duration-ms="43766">
+      <class name="scaledupit.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:14 EDT" name="setUp" finished-at="2023-05-30T20:17:17 EDT" duration-ms="3300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:17 EDT" name="startExtent" finished-at="2023-05-30T20:17:17 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.LoginTest.invalidUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="invalidUsername()[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:17 EDT" name="invalidUsername" finished-at="2023-05-30T20:17:22 EDT" duration-ms="5230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:22 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:17:23 EDT" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUsername status=SUCCESS method=LoginTest.invalidUsername()[pri:0, instance:scaledupit.LoginTest@2a551a63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:23 EDT" name="setUp" finished-at="2023-05-30T20:17:26 EDT" duration-ms="3233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="missingPassword()[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:26 EDT" name="missingPassword" finished-at="2023-05-30T20:17:34 EDT" duration-ms="8072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingPassword -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:26 EDT" name="startExtent" finished-at="2023-05-30T20:17:26 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.LoginTest.missingPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:34 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:17:34 EDT" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=missingPassword status=SUCCESS method=LoginTest.missingPassword()[pri:0, instance:scaledupit.LoginTest@2a551a63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:34 EDT" name="setUp" finished-at="2023-05-30T20:17:37 EDT" duration-ms="3141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="missingUsername()[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:37 EDT" name="missingUsername" finished-at="2023-05-30T20:17:45 EDT" duration-ms="8056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingUsername -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:37 EDT" name="startExtent" finished-at="2023-05-30T20:17:37 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.LoginTest.missingUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:45 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:17:46 EDT" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=missingUsername status=SUCCESS method=LoginTest.missingUsername()[pri:0, instance:scaledupit.LoginTest@2a551a63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:46 EDT" name="setUp" finished-at="2023-05-30T20:17:49 EDT" duration-ms="3150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validCredential()[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:49 EDT" name="validCredential" finished-at="2023-05-30T20:17:57 EDT" duration-ms="8621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredential -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:49 EDT" name="startExtent" finished-at="2023-05-30T20:17:49 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.LoginTest.validCredential()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.LoginTest@2a551a63]" started-at="2023-05-30T20:17:57 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:17:58 EDT" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validCredential status=SUCCESS method=LoginTest.validCredential()[pri:0, instance:scaledupit.LoginTest@2a551a63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.LoginTest -->
+    </test> <!-- login test -->
+    <test started-at="2023-05-30T20:17:58 EDT" name="logout test" finished-at="2023-05-30T20:18:11 EDT" duration-ms="13674">
+      <class name="scaledupit.LogoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.LogoutTest@6cc0bcf6]" started-at="2023-05-30T20:17:58 EDT" name="setUp" finished-at="2023-05-30T20:18:01 EDT" duration-ms="3148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.LogoutTest@6cc0bcf6]" started-at="2023-05-30T20:18:01 EDT" name="startExtent" finished-at="2023-05-30T20:18:01 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.LogoutTest.logout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="logout()[pri:0, instance:scaledupit.LogoutTest@6cc0bcf6]" started-at="2023-05-30T20:18:01 EDT" name="logout" finished-at="2023-05-30T20:18:11 EDT" duration-ms="10318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.LogoutTest@6cc0bcf6]" started-at="2023-05-30T20:18:11 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:18:11 EDT" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=LogoutTest.logout()[pri:0, instance:scaledupit.LogoutTest@6cc0bcf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.LogoutTest -->
+    </test> <!-- logout test -->
+    <test started-at="2023-05-30T20:18:11 EDT" name="Shopping cart management test" finished-at="2023-05-30T20:19:32 EDT" duration-ms="80575">
+      <class name="scaledupit.ShoppingCartManagement">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:18:11 EDT" name="setUp" finished-at="2023-05-30T20:18:14 EDT" duration-ms="2995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ApplyCoupon()[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:18:14 EDT" name="ApplyCoupon" finished-at="2023-05-30T20:18:44 EDT" duration-ms="29477" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='coupon_code']"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [623b4db2c6103e127f377297ebb84ea5, findElement {using=xpath, value=//input[@id='coupon_code']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:65316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65316/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 623b4db2c6103e127f377297ebb84ea5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='coupon_code']"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [623b4db2c6103e127f377297ebb84ea5, findElement {using=xpath, value=//input[@id='coupon_code']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:65316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65316/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 623b4db2c6103e127f377297ebb84ea5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy34.click(Unknown Source)
+at team2.base.CommonAPI.clickOn(CommonAPI.java:207)
+at team2.scaledupitpages.CartPage.clickOnCouponField(CartPage.java:145)
+at scaledupit.ShoppingCartManagement.ApplyCoupon(ShoppingCartManagement.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyCoupon -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:18:14 EDT" name="startExtent" finished-at="2023-05-30T20:18:14 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingCartManagement.ApplyCoupon() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:18:44 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:18:45 EDT" duration-ms="992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApplyCoupon status=FAILURE method=ShoppingCartManagement.ApplyCoupon()[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:18:45 EDT" name="setUp" finished-at="2023-05-30T20:18:48 EDT" duration-ms="3008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:18:48 EDT" name="startExtent" finished-at="2023-05-30T20:18:48 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingCartManagement.EmptyShoppingCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="EmptyShoppingCart()[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:18:48 EDT" name="EmptyShoppingCart" finished-at="2023-05-30T20:19:11 EDT" duration-ms="23403" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08de77746c45a05fbcc37d8781bc564d, clickElement {id=04133149AD98A545B28A388F3EC08232_element_122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:65483}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65483/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (08de77746c45a05fbcc37d8781bc564d)] -> xpath: //a[normalize-space()='×']]
+Session ID: 08de77746c45a05fbcc37d8781bc564d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08de77746c45a05fbcc37d8781bc564d, clickElement {id=04133149AD98A545B28A388F3EC08232_element_122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:65483}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65483/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (08de77746c45a05fbcc37d8781bc564d)] -> xpath: //a[normalize-space()='×']]
+Session ID: 08de77746c45a05fbcc37d8781bc564d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at jdk.internal.reflect.GeneratedMethodAccessor28.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy34.click(Unknown Source)
+at team2.base.CommonAPI.clickOn(CommonAPI.java:207)
+at team2.scaledupitpages.CartPage.clickOnDeleteButton(CartPage.java:139)
+at scaledupit.ShoppingCartManagement.EmptyShoppingCart(ShoppingCartManagement.java:183)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyShoppingCart -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:19:11 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:19:12 EDT" duration-ms="975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmptyShoppingCart status=FAILURE method=ShoppingCartManagement.EmptyShoppingCart()[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:19:12 EDT" name="setUp" finished-at="2023-05-30T20:19:15 EDT" duration-ms="3168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAndAddProductToCart()[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:19:15 EDT" name="searchAndAddProductToCart" finished-at="2023-05-30T20:19:32 EDT" duration-ms="16320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndAddProductToCart -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:19:15 EDT" name="startExtent" finished-at="2023-05-30T20:19:15 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingCartManagement.searchAndAddProductToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a]" started-at="2023-05-30T20:19:32 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:19:32 EDT" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndAddProductToCart status=SUCCESS method=ShoppingCartManagement.searchAndAddProductToCart()[pri:0, instance:scaledupit.ShoppingCartManagement@66d23e4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.ShoppingCartManagement -->
+    </test> <!-- Shopping cart management test -->
+    <test started-at="2023-05-30T20:19:32 EDT" name="Shopping from categories test" finished-at="2023-05-30T20:25:30 EDT" duration-ms="357993">
+      <class name="scaledupit.ShoppingFromCategoriesTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:19:32 EDT" name="setUp" finished-at="2023-05-30T20:19:35 EDT" duration-ms="3074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:19:35 EDT" name="startExtent" finished-at="2023-05-30T20:19:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromBeautyCareCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromBeautyCareCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:19:35 EDT" name="shoppingFromBeautyCareCategories" finished-at="2023-05-30T20:20:05 EDT" duration-ms="29551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromBeautyCareCategories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:20:05 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:20:05 EDT" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromBeautyCareCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromBeautyCareCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:20:05 EDT" name="setUp" finished-at="2023-05-30T20:20:08 EDT" duration-ms="3104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:20:08 EDT" name="startExtent" finished-at="2023-05-30T20:20:08 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromClothingCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromClothingCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:20:08 EDT" name="shoppingFromClothingCategories" finished-at="2023-05-30T20:20:38 EDT" duration-ms="30598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromClothingCategories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:20:38 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:20:39 EDT" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromClothingCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromClothingCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:20:39 EDT" name="setUp" finished-at="2023-05-30T20:20:42 EDT" duration-ms="3132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shoppingFromFeaturedBesideCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:20:42 EDT" name="shoppingFromFeaturedBesideCategories" finished-at="2023-05-30T20:21:12 EDT" duration-ms="30085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromFeaturedBesideCategories -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:20:42 EDT" name="startExtent" finished-at="2023-05-30T20:20:42 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromFeaturedBesideCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:21:12 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:21:12 EDT" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromFeaturedBesideCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromFeaturedBesideCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:21:12 EDT" name="setUp" finished-at="2023-05-30T20:21:15 EDT" duration-ms="3102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shoppingFromFeaturedCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:21:15 EDT" name="shoppingFromFeaturedCategories" finished-at="2023-05-30T20:21:36 EDT" duration-ms="20283" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Cart – Automation] but found [Woman Collection – Automation]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Cart – Automation] but found [Woman Collection – Automation]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at scaledupit.ShoppingFromCategoriesTest.shoppingFromFeaturedCategories(ShoppingFromCategoriesTest.java:378)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromFeaturedCategories -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:21:15 EDT" name="startExtent" finished-at="2023-05-30T20:21:15 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromFeaturedCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:21:36 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:21:36 EDT" duration-ms="834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromFeaturedCategories status=FAILURE method=ShoppingFromCategoriesTest.shoppingFromFeaturedCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:21:36 EDT" name="setUp" finished-at="2023-05-30T20:21:39 EDT" duration-ms="3063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:21:39 EDT" name="startExtent" finished-at="2023-05-30T20:21:39 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromFoodBeverageCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromFoodBeverageCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:21:39 EDT" name="shoppingFromFoodBeverageCategories" finished-at="2023-05-30T20:22:09 EDT" duration-ms="29341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromFoodBeverageCategories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:22:09 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:22:09 EDT" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromFoodBeverageCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromFoodBeverageCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:22:09 EDT" name="setUp" finished-at="2023-05-30T20:22:12 EDT" duration-ms="3100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:22:12 EDT" name="startExtent" finished-at="2023-05-30T20:22:12 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromMenCollectionCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromMenCollectionCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:22:12 EDT" name="shoppingFromMenCollectionCategories" finished-at="2023-05-30T20:22:42 EDT" duration-ms="30118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromMenCollectionCategories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:22:42 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:22:43 EDT" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromMenCollectionCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromMenCollectionCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:22:43 EDT" name="setUp" finished-at="2023-05-30T20:22:46 EDT" duration-ms="3031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:22:46 EDT" name="startExtent" finished-at="2023-05-30T20:22:46 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromMusicCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromMusicCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:22:46 EDT" name="shoppingFromMusicCategories" finished-at="2023-05-30T20:23:15 EDT" duration-ms="29322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromMusicCategories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:23:15 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:23:15 EDT" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromMusicCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromMusicCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:23:15 EDT" name="setUp" finished-at="2023-05-30T20:23:19 EDT" duration-ms="3510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shoppingFromPostersCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:23:19 EDT" name="shoppingFromPostersCategories" finished-at="2023-05-30T20:23:48 EDT" duration-ms="29325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromPostersCategories -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:23:19 EDT" name="startExtent" finished-at="2023-05-30T20:23:19 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromPostersCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:23:48 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:23:48 EDT" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromPostersCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromPostersCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:23:48 EDT" name="setUp" finished-at="2023-05-30T20:23:51 EDT" duration-ms="3095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:23:51 EDT" name="startExtent" finished-at="2023-05-30T20:23:51 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromShoesCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromShoesCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:23:51 EDT" name="shoppingFromShoesCategories" finished-at="2023-05-30T20:24:21 EDT" duration-ms="29555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromShoesCategories -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:24:21 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:24:21 EDT" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromShoesCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromShoesCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:24:21 EDT" name="setUp" finished-at="2023-05-30T20:24:24 EDT" duration-ms="3160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shoppingFromSuglassCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:24:24 EDT" name="shoppingFromSuglassCategories" finished-at="2023-05-30T20:24:53 EDT" duration-ms="28989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromSuglassCategories -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:24:24 EDT" name="startExtent" finished-at="2023-05-30T20:24:24 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromSuglassCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:24:53 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:24:53 EDT" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromSuglassCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromSuglassCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:24:53 EDT" name="setUp" finished-at="2023-05-30T20:24:57 EDT" duration-ms="3127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shoppingFromWomenCollectionCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:24:57 EDT" name="shoppingFromWomenCollectionCategories" finished-at="2023-05-30T20:25:30 EDT" duration-ms="33143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromWomenCollectionCategories -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:24:57 EDT" name="startExtent" finished-at="2023-05-30T20:24:57 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromCategoriesTest.shoppingFromWomenCollectionCategories() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1]" started-at="2023-05-30T20:25:30 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:25:30 EDT" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromWomenCollectionCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppingFromWomenCollectionCategories()[pri:0, instance:scaledupit.ShoppingFromCategoriesTest@433ffad1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.ShoppingFromCategoriesTest -->
+    </test> <!-- Shopping from categories test -->
+    <test started-at="2023-05-30T20:25:30 EDT" name="Shopping from menu button test" finished-at="2023-05-30T20:28:10 EDT" duration-ms="160272">
+      <class name="scaledupit.ShoppingFromMenuButtonsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:25:30 EDT" name="setUp" finished-at="2023-05-30T20:25:34 EDT" duration-ms="3362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:25:34 EDT" name="startExtent" finished-at="2023-05-30T20:25:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromBlogButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromBlogButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:25:34 EDT" name="shoppingFromBlogButton" finished-at="2023-05-30T20:25:56 EDT" duration-ms="22387" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Blog']"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4697dc51d3440d4730b7e90bc4b232d1, findElement {using=xpath, value=//h1[normalize-space()='Blog']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:51176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51176/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4697dc51d3440d4730b7e90bc4b232d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Blog']"}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6.2', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4697dc51d3440d4730b7e90bc4b232d1, findElement {using=xpath, value=//h1[normalize-space()='Blog']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:51176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51176/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4697dc51d3440d4730b7e90bc4b232d1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy34.getText(Unknown Source)
+at team2.base.CommonAPI.getElementText(CommonAPI.java:201)
+at team2.scaledupitpages.BlogPage.getHeaderTextBlogPage(BlogPage.java:26)
+at scaledupit.ShoppingFromMenuButtonsTest.shoppingFromBlogButton(ShoppingFromMenuButtonsTest.java:235)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromBlogButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:25:56 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:25:57 EDT" duration-ms="904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromBlogButton status=FAILURE method=ShoppingFromMenuButtonsTest.shoppingFromBlogButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:25:57 EDT" name="setUp" finished-at="2023-05-30T20:26:00 EDT" duration-ms="3177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:26:00 EDT" name="startExtent" finished-at="2023-05-30T20:26:00 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromHomeButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromHomeButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:26:00 EDT" name="shoppingFromHomeButton" finished-at="2023-05-30T20:26:30 EDT" duration-ms="30140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromHomeButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:26:30 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:26:30 EDT" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromHomeButton status=SUCCESS method=ShoppingFromMenuButtonsTest.shoppingFromHomeButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:26:30 EDT" name="setUp" finished-at="2023-05-30T20:26:34 EDT" duration-ms="3479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:26:34 EDT" name="startExtent" finished-at="2023-05-30T20:26:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromMenCollectionButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromMenCollectionButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:26:34 EDT" name="shoppingFromMenCollectionButton" finished-at="2023-05-30T20:27:04 EDT" duration-ms="29890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromMenCollectionButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:27:04 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:27:04 EDT" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromMenCollectionButton status=SUCCESS method=ShoppingFromMenuButtonsTest.shoppingFromMenCollectionButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:27:04 EDT" name="setUp" finished-at="2023-05-30T20:27:07 EDT" duration-ms="3279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:27:07 EDT" name="startExtent" finished-at="2023-05-30T20:27:07 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromShopButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromShopButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:27:07 EDT" name="shoppingFromShopButton" finished-at="2023-05-30T20:27:37 EDT" duration-ms="29906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromShopButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:27:37 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:27:37 EDT" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromShopButton status=SUCCESS method=ShoppingFromMenuButtonsTest.shoppingFromShopButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:27:37 EDT" name="setUp" finished-at="2023-05-30T20:27:41 EDT" duration-ms="3317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:27:41 EDT" name="startExtent" finished-at="2023-05-30T20:27:41 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromWomenCollectionButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="shoppingFromWomenCollectionButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:27:41 EDT" name="shoppingFromWomenCollectionButton" finished-at="2023-05-30T20:28:10 EDT" duration-ms="29467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingFromWomenCollectionButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c]" started-at="2023-05-30T20:28:10 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:28:10 EDT" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shoppingFromWomenCollectionButton status=SUCCESS method=ShoppingFromMenuButtonsTest.shoppingFromWomenCollectionButton()[pri:0, instance:scaledupit.ShoppingFromMenuButtonsTest@581d969c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.ShoppingFromMenuButtonsTest -->
+    </test> <!-- Shopping from menu button test -->
+    <test started-at="2023-05-30T20:28:11 EDT" name="add review test" finished-at="2023-05-30T20:28:46 EDT" duration-ms="34977">
+      <class name="scaledupit.AddReviewTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.AddReviewTest@557eb543]" started-at="2023-05-30T20:28:11 EDT" name="setUp" finished-at="2023-05-30T20:28:14 EDT" duration-ms="3246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.AddReviewTest@557eb543]" started-at="2023-05-30T20:28:14 EDT" name="startExtent" finished-at="2023-05-30T20:28:14 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.AddReviewTest.AddReviewTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="AddReviewTest()[pri:0, instance:scaledupit.AddReviewTest@557eb543]" started-at="2023-05-30T20:28:14 EDT" name="AddReviewTest" finished-at="2023-05-30T20:28:45 EDT" duration-ms="31533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddReviewTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.AddReviewTest@557eb543]" started-at="2023-05-30T20:28:45 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:28:46 EDT" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddReviewTest status=SUCCESS method=AddReviewTest.AddReviewTest()[pri:0, instance:scaledupit.AddReviewTest@557eb543] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.AddReviewTest -->
+    </test> <!-- add review test -->
+    <test started-at="2023-05-30T20:28:46 EDT" name="Connect to social media test" finished-at="2023-05-30T20:29:08 EDT" duration-ms="22894">
+      <class name="scaledupit.ConnectToSocialMediaTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:28:46 EDT" name="setUp" finished-at="2023-05-30T20:28:49 EDT" duration-ms="3205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:28:49 EDT" name="startExtent" finished-at="2023-05-30T20:28:49 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ConnectToSocialMediaTest.ConnectFaceBook()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="ConnectFaceBook()[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:28:49 EDT" name="ConnectFaceBook" finished-at="2023-05-30T20:28:53 EDT" duration-ms="4331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectFaceBook -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:28:53 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:28:53 EDT" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConnectFaceBook status=SUCCESS method=ConnectToSocialMediaTest.ConnectFaceBook()[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:28:53 EDT" name="setUp" finished-at="2023-05-30T20:28:56 EDT" duration-ms="3112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:28:56 EDT" name="startExtent" finished-at="2023-05-30T20:28:56 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ConnectToSocialMediaTest.ConnectInstagram()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="ConnectInstagram()[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:28:56 EDT" name="ConnectInstagram" finished-at="2023-05-30T20:29:01 EDT" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectInstagram -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:29:01 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:29:01 EDT" duration-ms="212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConnectInstagram status=SUCCESS method=ConnectToSocialMediaTest.ConnectInstagram()[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:29:01 EDT" name="setUp" finished-at="2023-05-30T20:29:04 EDT" duration-ms="3049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ConnectSnapShot()[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:29:04 EDT" name="ConnectSnapShot" finished-at="2023-05-30T20:29:08 EDT" duration-ms="4305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectSnapShot -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:29:04 EDT" name="startExtent" finished-at="2023-05-30T20:29:04 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.ConnectToSocialMediaTest.ConnectSnapShot()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8]" started-at="2023-05-30T20:29:08 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:29:08 EDT" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConnectSnapShot status=SUCCESS method=ConnectToSocialMediaTest.ConnectSnapShot()[pri:0, instance:scaledupit.ConnectToSocialMediaTest@2c88a3e8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.ConnectToSocialMediaTest -->
+    </test> <!-- Connect to social media test -->
+    <test started-at="2023-05-30T20:29:08 EDT" name="update account information test" finished-at="2023-05-30T20:29:19 EDT" duration-ms="10479">
+      <class name="scaledupit.UpdateAccountDetailTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.UpdateAccountDetailTest@69923ac3]" started-at="2023-05-30T20:29:09 EDT" name="setUp" finished-at="2023-05-30T20:29:12 EDT" duration-ms="3005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.UpdateAccountDetailTest@69923ac3]" started-at="2023-05-30T20:29:12 EDT" name="startExtent" finished-at="2023-05-30T20:29:12 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.UpdateAccountDetailTest.UpdateNameAndLastName(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="UpdateNameAndLastName(java.lang.String,java.lang.String)[pri:0, instance:scaledupit.UpdateAccountDetailTest@69923ac3]" started-at="2023-05-30T20:29:12 EDT" name="UpdateNameAndLastName" data-provider="account detail update" finished-at="2023-05-30T20:29:19 EDT" duration-ms="7154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[faridaymmeli@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password14@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateNameAndLastName -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.UpdateAccountDetailTest@69923ac3]" started-at="2023-05-30T20:29:19 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:29:19 EDT" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateNameAndLastName status=SUCCESS method=UpdateAccountDetailTest.UpdateNameAndLastName(java.lang.String,java.lang.String)[pri:0, instance:scaledupit.UpdateAccountDetailTest@69923ac3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.UpdateAccountDetailTest -->
+    </test> <!-- update account information test -->
+    <test started-at="2023-05-30T20:29:19 EDT" name="update   billing address test" finished-at="2023-05-30T20:29:34 EDT" duration-ms="15278">
+      <class name="scaledupit.UpdateAdresses">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.UpdateAdresses@7f1ef916]" started-at="2023-05-30T20:29:19 EDT" name="setUp" finished-at="2023-05-30T20:29:22 EDT" duration-ms="3041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.UpdateAdresses@7f1ef916]" started-at="2023-05-30T20:29:22 EDT" name="startExtent" finished-at="2023-05-30T20:29:22 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.UpdateAdresses.UpdateBillingAddress() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="UpdateBillingAddress()[pri:0, instance:scaledupit.UpdateAdresses@7f1ef916]" started-at="2023-05-30T20:29:22 EDT" name="UpdateBillingAddress" finished-at="2023-05-30T20:29:34 EDT" duration-ms="11993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateBillingAddress -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.UpdateAdresses@7f1ef916]" started-at="2023-05-30T20:29:34 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:29:34 EDT" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateBillingAddress status=SUCCESS method=UpdateAdresses.UpdateBillingAddress()[pri:0, instance:scaledupit.UpdateAdresses@7f1ef916] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.UpdateAdresses -->
+    </test> <!-- update   billing address test -->
+    <test started-at="2023-05-30T20:29:34 EDT" name=" order from orders test" finished-at="2023-05-30T20:30:02 EDT" duration-ms="28173">
+      <class name="scaledupit.OrdersFromOrdersTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.OrdersFromOrdersTest@3bbf6abe]" started-at="2023-05-30T20:29:34 EDT" name="setUp" finished-at="2023-05-30T20:29:37 EDT" duration-ms="3169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.OrdersFromOrdersTest@3bbf6abe]" started-at="2023-05-30T20:29:37 EDT" name="startExtent" finished-at="2023-05-30T20:29:37 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.OrdersFromOrdersTest.UpdateNameAndLastName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="UpdateNameAndLastName()[pri:0, instance:scaledupit.OrdersFromOrdersTest@3bbf6abe]" started-at="2023-05-30T20:29:37 EDT" name="UpdateNameAndLastName" finished-at="2023-05-30T20:30:02 EDT" duration-ms="24772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateNameAndLastName -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.OrdersFromOrdersTest@3bbf6abe]" started-at="2023-05-30T20:30:02 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:30:02 EDT" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateNameAndLastName status=SUCCESS method=OrdersFromOrdersTest.UpdateNameAndLastName()[pri:0, instance:scaledupit.OrdersFromOrdersTest@3bbf6abe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- scaledupit.OrdersFromOrdersTest -->
+    </test> <!--  order from orders test -->
+    <test started-at="2023-05-30T20:30:02 EDT" name=" orders from downloads test" finished-at="2023-05-30T20:30:30 EDT" duration-ms="28111">
+      <class name="scaledupit.OrderFromDownloadsTest">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:scaledupit.OrderFromDownloadsTest@44065156]" started-at="2023-05-30T20:16:46 EDT" name="extentSetup" finished-at="2023-05-30T20:16:46 EDT" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@280de5ae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/faridaymmeli/IdeaProjects/team2project/test-output/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scaledupit.OrderFromDownloadsTest@44065156]" started-at="2023-05-30T20:30:02 EDT" name="setUp" finished-at="2023-05-30T20:30:05 EDT" duration-ms="3067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://automation.scaledupit.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:scaledupit.OrderFromDownloadsTest@44065156]" started-at="2023-05-30T20:30:05 EDT" name="startExtent" finished-at="2023-05-30T20:30:05 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scaledupit.OrderFromDownloadsTest.OrdersFromDownloads() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="OrdersFromDownloads()[pri:0, instance:scaledupit.OrderFromDownloadsTest@44065156]" started-at="2023-05-30T20:30:05 EDT" name="OrdersFromDownloads" finished-at="2023-05-30T20:30:30 EDT" duration-ms="24836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrdersFromDownloads -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:scaledupit.OrderFromDownloadsTest@44065156]" started-at="2023-05-30T20:30:30 EDT" name="afterEachTestMethod" finished-at="2023-05-30T20:30:30 EDT" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrdersFromDownloads status=SUCCESS method=OrderFromDownloadsTest.OrdersFromDownloads()[pri:0, instance:scaledupit.OrderFromDownloadsTest@44065156] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:scaledupit.OrderFromDownloadsTest@44065156]" started-at="2023-05-30T20:30:31 EDT" name="generateReport" finished-at="2023-05-30T20:30:31 EDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- scaledupit.OrderFromDownloadsTest -->
+    </test> <!--  orders from downloads test -->
+  </suite> <!-- scaledupit test -->
+</testng-results>

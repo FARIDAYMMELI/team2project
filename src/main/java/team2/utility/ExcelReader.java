@@ -114,12 +114,12 @@ public class ExcelReader {
 
 
         String currentDir = System.getProperty("user.dir");
-        String path =currentDir+File.separator+"data"+File.separator+"scaledupit"+File.separator+ "scaledupit.xlsx";
-        System.out.println(path);
-
-       String name ="data";
+        String path = currentDir+File.separator+"data"+File.separator+"scaledupit"+File.separator+ "scaleupit.xlsx";
+//        System.out.println(path);
+        ///Users/faridaymmeli/IdeaProjects/team2project/data/scaledupit/scaleupit.xlsx
+//        String name ="data";
         ExcelReader excelReader = new ExcelReader(path);
-        String data = excelReader.getDataFromCell(name, 3, 1);
+        String data = excelReader.getDataFromCell("data", 3, 1);
         System.out.println(data);
        // System.out.println(excelReader.getDataFromCell("sheet1", 2, 2));
 
@@ -160,19 +160,29 @@ public class ExcelReader {
 
     //                     DATA PROVIDER
 
-    @DataProvider(name = "userlogin")
+    @DataProvider(name = "account detail update")
     public static Object[][] getData() {
-        String currentDir = System.getProperty("user.dir");
-        String path = currentDir+File.separator+"data"+File.separator+"scaleupit"+File.separator+ "scaleupit.xlsx" ;
-        System.out.println(path);
-        ExcelReader excelReader = new ExcelReader(path);
-        List<String> items1 = excelReader.getEntireColumnDataFromExcelSheet("testcases",4,4);
-        List<String> items2 = excelReader.getEntireColumnDataFromExcelSheet("testcases",4,4);
-        Object[][] data = new Object[2][];
+        //String currentDir = System.getProperty("user.dir");
+        //String path = currentDir+File.separator+"data"+File.separator+"scaleupit"+File.separator+ "scaleupit.xlsx" ;
+        //System.out.println(path);
+        ExcelReader excelReader = new ExcelReader("/Users/faridaymmeli/IdeaProjects/team2project/data/scaledupit/scaleupit.xlsx");
+        List<String> items1 = excelReader.getEntireColumnDataFromExcelSheet("data",8,1);
+        //List<String> items2 = excelReader.getEntireColumnDataFromExcelSheet("data",8,2);
+        //List<String> items3 = excelReader.getEntireColumnDataFromExcelSheet("data",8,3);
+        Object[][] data = new Object[1][];
         data[0] = items1.toArray();
-        data[1] = items2.toArray();
+       // data[1] = items2.toArray();
+        //data[2] = items3.toArray();
         return data;
     }
+//    String currentDir = System.getProperty("user.dir");
+//    String path = currentDir + File.separator + "data" + File.separator + "scaleupit" + File.separator + "scaleupit.xlsx";
+//    ExcelReader excelReader = new ExcelReader(path);
+//    List<String> validUsername = excelReader.getEntireColumnDataFromExcelSheet("data", 8, 1);
+//    List<String> validPassword = excelReader.getEntireColumnDataFromExcelSheet("data", 9, 1);
+////    Object[][] data = new Object[2][];
+//    data[0] = validUsermane.toArray();
+//    data[1] = validPassword.toArray();
 
 
 

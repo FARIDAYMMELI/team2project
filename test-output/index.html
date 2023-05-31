@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-scaledupit_test" class="navigator-link">
+              <span class="suite-name border-failed">scaledupit test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-scaledupit_test" class="navigator-link ">
+                    <span>scaledupit.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-scaledupit_test" class="navigator-link ">
+                    <span class="test-stats">12 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-scaledupit_test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-scaledupit_test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-scaledupit_test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-scaledupit_test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-scaledupit_test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods, 4 failed,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-scaledupit_test" class="hide-methods failed suite-scaledupit_test"> (hide)</a> <!-- hide-methods failed suite-scaledupit_test -->
+                      <a href="#" panel-name="suite-scaledupit_test" class="show-methods failed suite-scaledupit_test"> (show)</a> <!-- show-methods failed suite-scaledupit_test -->
+                    </span>
+                    <div class="method-list-content failed suite-scaledupit_test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingCartManagement" class="method navigator-link" hash-for-method="ApplyCoupon">ApplyCoupon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingCartManagement" class="method navigator-link" hash-for-method="EmptyShoppingCart">EmptyShoppingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromMenuButtonsTest" class="method navigator-link" hash-for-method="shoppingFromBlogButton">shoppingFromBlogButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromFeaturedCategories">shoppingFromFeaturedCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-scaledupit_test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-scaledupit_test" class="hide-methods passed suite-scaledupit_test"> (hide)</a> <!-- hide-methods passed suite-scaledupit_test -->
+                      <a href="#" panel-name="suite-scaledupit_test" class="show-methods passed suite-scaledupit_test"> (show)</a> <!-- show-methods passed suite-scaledupit_test -->
+                    </span>
+                    <div class="method-list-content passed suite-scaledupit_test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.AddReviewTest" class="method navigator-link" hash-for-method="AddReviewTest">AddReviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ConnectToSocialMediaTest" class="method navigator-link" hash-for-method="ConnectFaceBook">ConnectFaceBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ConnectToSocialMediaTest" class="method navigator-link" hash-for-method="ConnectInstagram">ConnectInstagram</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ConnectToSocialMediaTest" class="method navigator-link" hash-for-method="ConnectSnapShot">ConnectSnapShot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.OrderFromDownloadsTest" class="method navigator-link" hash-for-method="OrdersFromDownloads">OrdersFromDownloads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.UserRegistration" class="method navigator-link" hash-for-method="RegistrationInValid">RegistrationInValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.UserRegistration" class="method navigator-link" hash-for-method="RegistrationValidation">RegistrationValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.UpdateAdresses" class="method navigator-link" hash-for-method="UpdateBillingAddress">UpdateBillingAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.UpdateAccountDetailTest" class="method navigator-link" hash-for-method="UpdateNameAndLastName(faridaymmeli@gmail.com, Password14@)">UpdateNameAndLastName(faridaymmeli@gmail.com, Password14@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.OrdersFromOrdersTest" class="method navigator-link" hash-for-method="UpdateNameAndLastName">UpdateNameAndLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.LoginTest" class="method navigator-link" hash-for-method="invalidUsername">invalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.LogoutTest" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.LoginTest" class="method navigator-link" hash-for-method="missingPassword">missingPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.LoginTest" class="method navigator-link" hash-for-method="missingUsername">missingUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingCartManagement" class="method navigator-link" hash-for-method="searchAndAddProductToCart">searchAndAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromBeautyCareCategories">shoppingFromBeautyCareCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromClothingCategories">shoppingFromClothingCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromFeaturedBesideCategories">shoppingFromFeaturedBesideCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromFoodBeverageCategories">shoppingFromFoodBeverageCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromMenuButtonsTest" class="method navigator-link" hash-for-method="shoppingFromHomeButton">shoppingFromHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromMenuButtonsTest" class="method navigator-link" hash-for-method="shoppingFromMenCollectionButton">shoppingFromMenCollectionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromMenCollectionCategories">shoppingFromMenCollectionCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromMusicCategories">shoppingFromMusicCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromPostersCategories">shoppingFromPostersCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromShoesCategories">shoppingFromShoesCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromMenuButtonsTest" class="method navigator-link" hash-for-method="shoppingFromShopButton">shoppingFromShopButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromSuglassCategories">shoppingFromSuglassCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromMenuButtonsTest" class="method navigator-link" hash-for-method="shoppingFromWomenCollectionButton">shoppingFromWomenCollectionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.ShoppingFromCategoriesTest" class="method navigator-link" hash-for-method="shoppingFromWomenCollectionCategories">shoppingFromWomenCollectionCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-scaledupit_test" title="scaledupit.LoginTest" class="method navigator-link" hash-for-method="validCredential">validCredential</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-scaledupit_test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-scaledupit_test" class="panel scaledupit_test">
+          <div class="suite-scaledupit_test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">scaledupit.ShoppingCartManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApplyCoupon">
+                  </a> <!-- ApplyCoupon -->
+                  <span class="method-name">ApplyCoupon</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;coupon_code&apos;]&quot;}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.2&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [623b4db2c6103e127f377297ebb84ea5, findElement {using=xpath, value=//input[@id=&apos;coupon_code&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:65316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65316/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 623b4db2c6103e127f377297ebb84ea5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy34.click(Unknown Source)
+	at team2.base.CommonAPI.clickOn(CommonAPI.java:207)
+	at team2.scaledupitpages.CartPage.clickOnCouponField(CartPage.java:145)
+	at scaledupit.ShoppingCartManagement.ApplyCoupon(ShoppingCartManagement.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmptyShoppingCart">
+                  </a> <!-- EmptyShoppingCart -->
+                  <span class="method-name">EmptyShoppingCart</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=113.0.5672.126)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.2&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08de77746c45a05fbcc37d8781bc564d, clickElement {id=04133149AD98A545B28A388F3EC08232_element_122}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:65483}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65483/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (08de77746c45a05fbcc37d8781bc564d)] -&gt; xpath: //a[normalize-space()=&apos;×&apos;]]
+Session ID: 08de77746c45a05fbcc37d8781bc564d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy34.click(Unknown Source)
+	at team2.base.CommonAPI.clickOn(CommonAPI.java:207)
+	at team2.scaledupitpages.CartPage.clickOnDeleteButton(CartPage.java:139)
+	at scaledupit.ShoppingCartManagement.EmptyShoppingCart(ShoppingCartManagement.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-failed -->
+          <div class="suite-scaledupit_test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">scaledupit.ShoppingFromCategoriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromFeaturedCategories">
+                  </a> <!-- shoppingFromFeaturedCategories -->
+                  <span class="method-name">shoppingFromFeaturedCategories</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Cart – Automation] but found [Woman Collection – Automation]
+	at scaledupit.ShoppingFromCategoriesTest.shoppingFromFeaturedCategories(ShoppingFromCategoriesTest.java:378)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-failed -->
+          <div class="suite-scaledupit_test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">scaledupit.ShoppingFromMenuButtonsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromBlogButton">
+                  </a> <!-- shoppingFromBlogButton -->
+                  <span class="method-name">shoppingFromBlogButton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[normalize-space()=&apos;Blog&apos;]&quot;}
+  (Session info: chrome=113.0.5672.126)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.2&apos;, java.version: &apos;11.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4697dc51d3440d4730b7e90bc4b232d1, findElement {using=xpath, value=//h1[normalize-space()=&apos;Blog&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /var/folders/rn/lv0j60yx69s...}, goog:chromeOptions: {debuggerAddress: localhost:51176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51176/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4697dc51d3440d4730b7e90bc4b232d1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy34.getText(Unknown Source)
+	at team2.base.CommonAPI.getElementText(CommonAPI.java:201)
+	at team2.scaledupitpages.BlogPage.getHeaderTextBlogPage(BlogPage.java:26)
+	at scaledupit.ShoppingFromMenuButtonsTest.shoppingFromBlogButton(ShoppingFromMenuButtonsTest.java:235)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-failed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.OrdersFromOrdersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateNameAndLastName">
+                  </a> <!-- UpdateNameAndLastName -->
+                  <span class="method-name">UpdateNameAndLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.ShoppingCartManagement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAndAddProductToCart">
+                  </a> <!-- searchAndAddProductToCart -->
+                  <span class="method-name">searchAndAddProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.UserRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationInValid">
+                  </a> <!-- RegistrationInValid -->
+                  <span class="method-name">RegistrationInValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationValidation">
+                  </a> <!-- RegistrationValidation -->
+                  <span class="method-name">RegistrationValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.AddReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddReviewTest">
+                  </a> <!-- AddReviewTest -->
+                  <span class="method-name">AddReviewTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.OrderFromDownloadsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrdersFromDownloads">
+                  </a> <!-- OrdersFromDownloads -->
+                  <span class="method-name">OrdersFromDownloads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.UpdateAdresses</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateBillingAddress">
+                  </a> <!-- UpdateBillingAddress -->
+                  <span class="method-name">UpdateBillingAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.ConnectToSocialMediaTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConnectFaceBook">
+                  </a> <!-- ConnectFaceBook -->
+                  <span class="method-name">ConnectFaceBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConnectInstagram">
+                  </a> <!-- ConnectInstagram -->
+                  <span class="method-name">ConnectInstagram</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ConnectSnapShot">
+                  </a> <!-- ConnectSnapShot -->
+                  <span class="method-name">ConnectSnapShot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.ShoppingFromCategoriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromBeautyCareCategories">
+                  </a> <!-- shoppingFromBeautyCareCategories -->
+                  <span class="method-name">shoppingFromBeautyCareCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromClothingCategories">
+                  </a> <!-- shoppingFromClothingCategories -->
+                  <span class="method-name">shoppingFromClothingCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromFeaturedBesideCategories">
+                  </a> <!-- shoppingFromFeaturedBesideCategories -->
+                  <span class="method-name">shoppingFromFeaturedBesideCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromFoodBeverageCategories">
+                  </a> <!-- shoppingFromFoodBeverageCategories -->
+                  <span class="method-name">shoppingFromFoodBeverageCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromMenCollectionCategories">
+                  </a> <!-- shoppingFromMenCollectionCategories -->
+                  <span class="method-name">shoppingFromMenCollectionCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromMusicCategories">
+                  </a> <!-- shoppingFromMusicCategories -->
+                  <span class="method-name">shoppingFromMusicCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromPostersCategories">
+                  </a> <!-- shoppingFromPostersCategories -->
+                  <span class="method-name">shoppingFromPostersCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromShoesCategories">
+                  </a> <!-- shoppingFromShoesCategories -->
+                  <span class="method-name">shoppingFromShoesCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromSuglassCategories">
+                  </a> <!-- shoppingFromSuglassCategories -->
+                  <span class="method-name">shoppingFromSuglassCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromWomenCollectionCategories">
+                  </a> <!-- shoppingFromWomenCollectionCategories -->
+                  <span class="method-name">shoppingFromWomenCollectionCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUsername">
+                  </a> <!-- invalidUsername -->
+                  <span class="method-name">invalidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="missingPassword">
+                  </a> <!-- missingPassword -->
+                  <span class="method-name">missingPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="missingUsername">
+                  </a> <!-- missingUsername -->
+                  <span class="method-name">missingUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validCredential">
+                  </a> <!-- validCredential -->
+                  <span class="method-name">validCredential</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.UpdateAccountDetailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateNameAndLastName(faridaymmeli@gmail.com, Password14@)">
+                  </a> <!-- UpdateNameAndLastName(faridaymmeli@gmail.com, Password14@) -->
+                  <span class="method-name">UpdateNameAndLastName</span>
+                  <span class="parameters">(faridaymmeli@gmail.com,Password14@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+          <div class="suite-scaledupit_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scaledupit.ShoppingFromMenuButtonsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromHomeButton">
+                  </a> <!-- shoppingFromHomeButton -->
+                  <span class="method-name">shoppingFromHomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromMenCollectionButton">
+                  </a> <!-- shoppingFromMenCollectionButton -->
+                  <span class="method-name">shoppingFromMenCollectionButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromShopButton">
+                  </a> <!-- shoppingFromShopButton -->
+                  <span class="method-name">shoppingFromShopButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoppingFromWomenCollectionButton">
+                  </a> <!-- shoppingFromWomenCollectionButton -->
+                  <span class="method-name">shoppingFromWomenCollectionButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-scaledupit_test-class-passed -->
+        </div> <!-- panel scaledupit_test -->
+        <div panel-name="test-xml-scaledupit_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/faridaymmeli/IdeaProjects/team2project/src/main/resources/scaledupit.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;scaledupit test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+  &lt;parameter name=&quot;osVersion&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;envName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;110&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://automation.scaledupit.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;registration  test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.UserRegistration&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- registration  test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;login test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;logout test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- logout test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Shopping cart management test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.ShoppingCartManagement&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Shopping cart management test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Shopping from categories test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.ShoppingFromCategoriesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Shopping from categories test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Shopping from menu button test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.ShoppingFromMenuButtonsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Shopping from menu button test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;add review test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.AddReviewTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- add review test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Connect to social media test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.ConnectToSocialMediaTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Connect to social media test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;update account information test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.UpdateAccountDetailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- update account information test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;update   billing address test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.UpdateAdresses&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- update   billing address test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot; order from orders test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.OrdersFromOrdersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  order from orders test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot; orders from downloads test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;scaledupit.OrderFromDownloadsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  orders from downloads test --&gt;
+&lt;/suite&gt; &lt;!-- scaledupit test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-scaledupit_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for scaledupit test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">registration  test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">login test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">logout test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Shopping cart management test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Shopping from categories test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Shopping from menu button test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">add review test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Connect to social media test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">update account information test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">update   billing address test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name"> order from orders test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name"> orders from downloads test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-scaledupit_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for scaledupit test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-scaledupit_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for scaledupit test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_scaledupit_test');
+function tableData_scaledupit_test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'shoppingFromWomenCollectionCategories')
+data.setCell(0, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(0, 3, 33143);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddReviewTest')
+data.setCell(1, 2, 'scaledupit.AddReviewTest')
+data.setCell(1, 3, 31533);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shoppingFromClothingCategories')
+data.setCell(2, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(2, 3, 30598);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'shoppingFromHomeButton')
+data.setCell(3, 2, 'scaledupit.ShoppingFromMenuButtonsTest')
+data.setCell(3, 3, 30140);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shoppingFromMenCollectionCategories')
+data.setCell(4, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(4, 3, 30118);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shoppingFromFeaturedBesideCategories')
+data.setCell(5, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(5, 3, 30085);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'shoppingFromShopButton')
+data.setCell(6, 2, 'scaledupit.ShoppingFromMenuButtonsTest')
+data.setCell(6, 3, 29906);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'shoppingFromMenCollectionButton')
+data.setCell(7, 2, 'scaledupit.ShoppingFromMenuButtonsTest')
+data.setCell(7, 3, 29890);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'shoppingFromShoesCategories')
+data.setCell(8, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(8, 3, 29555);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'shoppingFromBeautyCareCategories')
+data.setCell(9, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(9, 3, 29551);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ApplyCoupon')
+data.setCell(10, 2, 'scaledupit.ShoppingCartManagement')
+data.setCell(10, 3, 29477);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'shoppingFromWomenCollectionButton')
+data.setCell(11, 2, 'scaledupit.ShoppingFromMenuButtonsTest')
+data.setCell(11, 3, 29467);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'shoppingFromFoodBeverageCategories')
+data.setCell(12, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(12, 3, 29341);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'shoppingFromPostersCategories')
+data.setCell(13, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(13, 3, 29325);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'shoppingFromMusicCategories')
+data.setCell(14, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(14, 3, 29322);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'shoppingFromSuglassCategories')
+data.setCell(15, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(15, 3, 28989);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'OrdersFromDownloads')
+data.setCell(16, 2, 'scaledupit.OrderFromDownloadsTest')
+data.setCell(16, 3, 24836);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'UpdateNameAndLastName')
+data.setCell(17, 2, 'scaledupit.OrdersFromOrdersTest')
+data.setCell(17, 3, 24772);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'EmptyShoppingCart')
+data.setCell(18, 2, 'scaledupit.ShoppingCartManagement')
+data.setCell(18, 3, 23403);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'shoppingFromBlogButton')
+data.setCell(19, 2, 'scaledupit.ShoppingFromMenuButtonsTest')
+data.setCell(19, 3, 22387);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'shoppingFromFeaturedCategories')
+data.setCell(20, 2, 'scaledupit.ShoppingFromCategoriesTest')
+data.setCell(20, 3, 20283);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'searchAndAddProductToCart')
+data.setCell(21, 2, 'scaledupit.ShoppingCartManagement')
+data.setCell(21, 3, 16320);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'UpdateBillingAddress')
+data.setCell(22, 2, 'scaledupit.UpdateAdresses')
+data.setCell(22, 3, 11993);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'logout')
+data.setCell(23, 2, 'scaledupit.LogoutTest')
+data.setCell(23, 3, 10318);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'RegistrationValidation')
+data.setCell(24, 2, 'scaledupit.UserRegistration')
+data.setCell(24, 3, 8703);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validCredential')
+data.setCell(25, 2, 'scaledupit.LoginTest')
+data.setCell(25, 3, 8621);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'RegistrationInValid')
+data.setCell(26, 2, 'scaledupit.UserRegistration')
+data.setCell(26, 3, 8321);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'missingPassword')
+data.setCell(27, 2, 'scaledupit.LoginTest')
+data.setCell(27, 3, 8072);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'missingUsername')
+data.setCell(28, 2, 'scaledupit.LoginTest')
+data.setCell(28, 3, 8056);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'UpdateNameAndLastName')
+data.setCell(29, 2, 'scaledupit.UpdateAccountDetailTest')
+data.setCell(29, 3, 7154);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'invalidUsername')
+data.setCell(30, 2, 'scaledupit.LoginTest')
+data.setCell(30, 3, 5230);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'ConnectFaceBook')
+data.setCell(31, 2, 'scaledupit.ConnectToSocialMediaTest')
+data.setCell(31, 3, 4331);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'ConnectSnapShot')
+data.setCell(32, 2, 'scaledupit.ConnectToSocialMediaTest')
+data.setCell(32, 3, 4305);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'ConnectInstagram')
+data.setCell(33, 2, 'scaledupit.ConnectToSocialMediaTest')
+data.setCell(33, 3, 4256);
+window.suiteTableData['scaledupit_test']= { tableData: data, tableDiv: 'times-div-scaledupit_test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-scaledupit_test">
+              </div> <!-- times-div-scaledupit_test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-scaledupit_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for scaledupit test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-scaledupit_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-scaledupit_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.OrderFromDownloadsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@280de5ae)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.UserRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.UserRegistration.RegistrationInValid() throws java.lang.InterruptedException)</span>
+                <span class="method-start">6557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationInValid</span>
+                <span class="method-start">6564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=RegistrationInValid status=SUCCESS method=UserRegistration.RegistrationInValid()[pr...)</span>
+                <span class="method-start">14891 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">15485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.UserRegistration.RegistrationValidation() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">18721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RegistrationValidation</span>
+                <span class="method-start">18722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=RegistrationValidation status=SUCCESS method=UserRegistration.RegistrationValidatio...)</span>
+                <span class="method-start">27425 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">27666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.LoginTest.invalidUsername())</span>
+                <span class="method-start">30966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidUsername</span>
+                <span class="method-start">30967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=invalidUsername status=SUCCESS method=LoginTest.invalidUsername()[pri:0, instance:s...)</span>
+                <span class="method-start">36198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">36422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.LoginTest.missingPassword())</span>
+                <span class="method-start">39656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">missingPassword</span>
+                <span class="method-start">39656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=missingPassword status=SUCCESS method=LoginTest.missingPassword()[pri:0, instance:s...)</span>
+                <span class="method-start">47728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">47970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">missingUsername</span>
+                <span class="method-start">51112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.LoginTest.missingUsername())</span>
+                <span class="method-start">51112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=missingUsername status=SUCCESS method=LoginTest.missingUsername()[pri:0, instance:s...)</span>
+                <span class="method-start">59168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">59410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validCredential</span>
+                <span class="method-start">62561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.LoginTest.validCredential())</span>
+                <span class="method-start">62561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validCredential status=SUCCESS method=LoginTest.validCredential()[pri:0, instance:s...)</span>
+                <span class="method-start">71183 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">71436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.LogoutTest.logout())</span>
+                <span class="method-start">74584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">74585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=logout status=SUCCESS method=LogoutTest.logout()[pri:0, instance:scaledupit.LogoutT...)</span>
+                <span class="method-start">84903 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.ShoppingCartManagement</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">85112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingCartManagement.ApplyCoupon() throws java.lang.InterruptedException)</span>
+                <span class="method-start">88108 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ApplyCoupon</span>
+                <span class="method-start">88108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=ApplyCoupon status=FAILURE method=ShoppingCartManagement.ApplyCoupon()[pri:0, insta...)</span>
+                <span class="method-start">117593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">118586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingCartManagement.EmptyShoppingCart() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">121594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmptyShoppingCart</span>
+                <span class="method-start">121596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=EmptyShoppingCart status=FAILURE method=ShoppingCartManagement.EmptyShoppingCart()[...)</span>
+                <span class="method-start">145004 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">145980 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingCartManagement.searchAndAddProductToCart() throws java.lang.Interrupt...)</span>
+                <span class="method-start">149148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchAndAddProductToCart</span>
+                <span class="method-start">149148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=searchAndAddProductToCart status=SUCCESS method=ShoppingCartManagement.searchAndAdd...)</span>
+                <span class="method-start">165469 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.ShoppingFromCategoriesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">165866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromBeautyCareCategories() throws java.lan...)</span>
+                <span class="method-start">168940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromBeautyCareCategories</span>
+                <span class="method-start">168941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromBeautyCareCategories status=SUCCESS method=ShoppingFromCategoriesTest.s...)</span>
+                <span class="method-start">198492 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">198684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromClothingCategories() throws java.lang....)</span>
+                <span class="method-start">201788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromClothingCategories</span>
+                <span class="method-start">201789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromClothingCategories status=SUCCESS method=ShoppingFromCategoriesTest.sho...)</span>
+                <span class="method-start">232387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">232658 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromFeaturedBesideCategories() throws java...)</span>
+                <span class="method-start">235790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromFeaturedBesideCategories</span>
+                <span class="method-start">235790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromFeaturedBesideCategories status=SUCCESS method=ShoppingFromCategoriesTe...)</span>
+                <span class="method-start">265875 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">266064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shoppingFromFeaturedCategories</span>
+                <span class="method-start">269166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromFeaturedCategories() throws java.lang....)</span>
+                <span class="method-start">269166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromFeaturedCategories status=FAILURE method=ShoppingFromCategoriesTest.sho...)</span>
+                <span class="method-start">289454 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">290289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromFoodBeverageCategories() throws java.l...)</span>
+                <span class="method-start">293352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromFoodBeverageCategories</span>
+                <span class="method-start">293353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromFoodBeverageCategories status=SUCCESS method=ShoppingFromCategoriesTest...)</span>
+                <span class="method-start">322694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">323017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromMenCollectionCategories() throws java....)</span>
+                <span class="method-start">326118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromMenCollectionCategories</span>
+                <span class="method-start">326120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromMenCollectionCategories status=SUCCESS method=ShoppingFromCategoriesTes...)</span>
+                <span class="method-start">356240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">356458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromMusicCategories() throws java.lang.Int...)</span>
+                <span class="method-start">359489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromMusicCategories</span>
+                <span class="method-start">359490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromMusicCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppi...)</span>
+                <span class="method-start">388813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">389005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromPostersCategories</span>
+                <span class="method-start">392516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromPostersCategories() throws java.lang.I...)</span>
+                <span class="method-start">392516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromPostersCategories status=SUCCESS method=ShoppingFromCategoriesTest.shop...)</span>
+                <span class="method-start">421842 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">422116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromShoesCategories() throws java.lang.Int...)</span>
+                <span class="method-start">425211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromShoesCategories</span>
+                <span class="method-start">425212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromShoesCategories status=SUCCESS method=ShoppingFromCategoriesTest.shoppi...)</span>
+                <span class="method-start">454768 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">455037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromSuglassCategories</span>
+                <span class="method-start">458197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromSuglassCategories() throws java.lang.I...)</span>
+                <span class="method-start">458197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromSuglassCategories status=SUCCESS method=ShoppingFromCategoriesTest.shop...)</span>
+                <span class="method-start">487186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">487381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromWomenCollectionCategories</span>
+                <span class="method-start">490508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromCategoriesTest.shoppingFromWomenCollectionCategories() throws jav...)</span>
+                <span class="method-start">490508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromWomenCollectionCategories status=SUCCESS method=ShoppingFromCategoriesT...)</span>
+                <span class="method-start">523651 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.ShoppingFromMenuButtonsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">524052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromBlogButton() throws java.lang.Interru...)</span>
+                <span class="method-start">527414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shoppingFromBlogButton</span>
+                <span class="method-start">527415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromBlogButton status=FAILURE method=ShoppingFromMenuButtonsTest.shoppingFr...)</span>
+                <span class="method-start">549803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">550708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromHomeButton() throws java.lang.Interru...)</span>
+                <span class="method-start">553885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromHomeButton</span>
+                <span class="method-start">553886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromHomeButton status=SUCCESS method=ShoppingFromMenuButtonsTest.shoppingFr...)</span>
+                <span class="method-start">584032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">584279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromMenCollectionButton() throws java.lan...)</span>
+                <span class="method-start">587758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromMenCollectionButton</span>
+                <span class="method-start">587759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromMenCollectionButton status=SUCCESS method=ShoppingFromMenuButtonsTest.s...)</span>
+                <span class="method-start">617649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">617894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromShopButton() throws java.lang.Interru...)</span>
+                <span class="method-start">621173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromShopButton</span>
+                <span class="method-start">621174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromShopButton status=SUCCESS method=ShoppingFromMenuButtonsTest.shoppingFr...)</span>
+                <span class="method-start">651080 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">651279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ShoppingFromMenuButtonsTest.shoppingFromWomenCollectionButton() throws java.l...)</span>
+                <span class="method-start">654597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoppingFromWomenCollectionButton</span>
+                <span class="method-start">654599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shoppingFromWomenCollectionButton status=SUCCESS method=ShoppingFromMenuButtonsTest...)</span>
+                <span class="method-start">684066 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.AddReviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">684477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.AddReviewTest.AddReviewTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">687723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddReviewTest</span>
+                <span class="method-start">687724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=AddReviewTest status=SUCCESS method=AddReviewTest.AddReviewTest()[pri:0, instance:s...)</span>
+                <span class="method-start">719258 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.ConnectToSocialMediaTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">719454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ConnectToSocialMediaTest.ConnectFaceBook())</span>
+                <span class="method-start">722659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConnectFaceBook</span>
+                <span class="method-start">722660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=ConnectFaceBook status=SUCCESS method=ConnectToSocialMediaTest.ConnectFaceBook()[pr...)</span>
+                <span class="method-start">726991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">727229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ConnectToSocialMediaTest.ConnectInstagram())</span>
+                <span class="method-start">730341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConnectInstagram</span>
+                <span class="method-start">730342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=ConnectInstagram status=SUCCESS method=ConnectToSocialMediaTest.ConnectInstagram()[...)</span>
+                <span class="method-start">734598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">734811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ConnectSnapShot</span>
+                <span class="method-start">737861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.ConnectToSocialMediaTest.ConnectSnapShot())</span>
+                <span class="method-start">737861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=ConnectSnapShot status=SUCCESS method=ConnectToSocialMediaTest.ConnectSnapShot()[pr...)</span>
+                <span class="method-start">742167 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.UpdateAccountDetailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">742467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.UpdateAccountDetailTest.UpdateNameAndLastName(java.lang.String,java.lang.Stri...)</span>
+                <span class="method-start">745472 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateNameAndLastName(faridaymmeli@gmail.com, Password14@)</span>
+                <span class="method-start">745473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=UpdateNameAndLastName status=SUCCESS method=UpdateAccountDetailTest.UpdateNameAndLa...)</span>
+                <span class="method-start">752627 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.UpdateAdresses</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">752835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.UpdateAdresses.UpdateBillingAddress() throws java.lang.InterruptedException)</span>
+                <span class="method-start">755876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateBillingAddress</span>
+                <span class="method-start">755877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=UpdateBillingAddress status=SUCCESS method=UpdateAdresses.UpdateBillingAddress()[pr...)</span>
+                <span class="method-start">767870 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.OrdersFromOrdersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">768116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.OrdersFromOrdersTest.UpdateNameAndLastName() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">771285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateNameAndLastName</span>
+                <span class="method-start">771286 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=UpdateNameAndLastName status=SUCCESS method=OrdersFromOrdersTest.UpdateNameAndLastN...)</span>
+                <span class="method-start">796058 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scaledupit.OrderFromDownloadsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://automation.scaledupit.com/)</span>
+                <span class="method-start">796291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void scaledupit.OrderFromDownloadsTest.OrdersFromDownloads() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">799358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OrdersFromDownloads</span>
+                <span class="method-start">799359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=OrdersFromDownloads status=SUCCESS method=OrderFromDownloadsTest.OrdersFromDownload...)</span>
+                <span class="method-start">824195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">824609 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

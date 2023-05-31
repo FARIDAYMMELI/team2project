@@ -1,0 +1,116 @@
+19:08:19.501 [main] INFO  scaledupit.UserRegistration - Home page  title page validation success
+19:08:24.877 [main] INFO  team2.scaledupitpages.MainPage - click on login registration button success
+19:08:25.547 [main] INFO  scaledupit.UserRegistration - login title page validation success
+19:08:26.079 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type EmailAddress success
+19:08:26.080 [main] INFO  scaledupit.UserRegistration - enter email success
+19:08:26.590 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+19:08:26.590 [main] INFO  scaledupit.UserRegistration - enter password success
+19:08:28.105 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+19:08:28.105 [main] INFO  scaledupit.UserRegistration - click on register button
+19:08:28.496 [main] INFO  team2.scaledupitpages.LoginRegisterPage - user logged in success
+19:08:28.496 [main] INFO  scaledupit.UserRegistration - user could not log in, still in log in page registration
+19:09:29.264 [main] INFO  scaledupit.UserRegistration - Home page  title page validation success
+19:09:33.511 [main] INFO  team2.scaledupitpages.MainPage - click on login registration button success
+19:09:33.737 [main] INFO  scaledupit.UserRegistration - login title page validation success
+19:09:34.090 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type EmailAddress success
+19:09:34.090 [main] INFO  scaledupit.UserRegistration - enter email success
+19:09:35.367 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+19:09:35.367 [main] INFO  scaledupit.UserRegistration - enter password success
+19:09:36.666 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+19:09:36.667 [main] INFO  scaledupit.UserRegistration - click on register button
+19:09:36.927 [main] INFO  team2.scaledupitpages.LoginRegisterPage - user logged in success
+19:09:36.927 [main] INFO  scaledupit.UserRegistration - user could not log in, still in log in page registration
+19:09:57.277 [main] INFO  team2.scaledupitpages.MainPage - click on login registration button success
+19:09:57.565 [main] INFO  scaledupit.UserRegistration - login title page validation success
+19:09:57.952 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type EmailAddress success
+19:09:58.717 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+19:10:00.763 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+19:10:01.010 [main] INFO  team2.scaledupitpages.MyAccountPage - user logged in success
+19:10:06.372 [main] INFO  team2.scaledupitpages.MyAccountPage - click log out button success
+19:10:06.533 [main] INFO  team2.scaledupitpages.MainPage - user in main page  success
+19:10:14.385 [main] INFO  scaledupit.LoginTest - Home page  title page validation success
+19:10:14.683 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:10:15.601 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:10:24.504 [main] INFO  scaledupit.LoginTest - Home page  title page validation success
+19:10:27.779 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:10:28.604 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:13:43.662 [main] INFO  scaledupit.LogoutTest - Home page  title page validation success
+19:13:46.903 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:13:47.569 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:13:55.735 [main] INFO  scaledupit.LoginTest - Home page  title page validation success
+19:13:59.084 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:14:00.137 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:14:07.743 [main] INFO  scaledupit.LoginTest - Home page  title page validation success
+19:14:11.100 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:14:11.767 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:14:20.077 [main] INFO  scaledupit.LoginTest - Home page  title page validation success
+19:14:23.479 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:14:24.170 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:14:32.762 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:14:36.078 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:14:36.726 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:14:44.472 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:14:47.743 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:14:48.384 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:14:56.064 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:14:59.407 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:15:00.253 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:15:08.033 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:15:11.412 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:15:12.148 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:15:20.267 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:15:23.543 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:15:24.205 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:15:38.741 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:15:42.217 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:15:42.851 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:15:51.165 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:15:54.437 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:15:55.069 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:16:03.176 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:16:06.490 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:16:07.075 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:16:17.070 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:16:20.433 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:16:20.966 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:16:30.344 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:16:33.824 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:16:34.438 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:16:52.817 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+19:16:56.135 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:16:56.919 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:17:05.083 [main] INFO  scaledupit.ShoppingFromMenuButtonsTest - Home page  title page validation success
+19:17:08.349 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:17:08.805 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:17:16.822 [main] INFO  scaledupit.ShoppingFromMenuButtonsTest - Home page  title page validation success
+19:17:20.157 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:17:21.172 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:17:30.254 [main] INFO  scaledupit.ShoppingFromMenuButtonsTest - Home page  title page validation success
+19:17:33.588 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:17:34.359 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:17:43.108 [main] INFO  scaledupit.ShoppingFromMenuButtonsTest - Home page  title page validation success
+19:17:46.551 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:17:47.402 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:17:56.025 [main] INFO  scaledupit.ShoppingFromMenuButtonsTest - Home page  title page validation success
+19:17:59.337 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:18:00.171 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:18:15.419 [main] INFO  scaledupit.ShoppingFromMenuButtonsTest - Home page  title page validation success
+19:18:18.855 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:18:19.569 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:18:28.793 [main] INFO  scaledupit.ConnectToSocialMediaTest - Home page  title page validation success
+19:18:32.291 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:18:32.857 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:18:39.911 [main] INFO  scaledupit.ConnectToSocialMediaTest - Home page  title page validation success
+19:18:43.376 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:18:44.826 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:18:54.195 [main] INFO  scaledupit.ConnectToSocialMediaTest - Home page  title page validation success
+19:18:57.530 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:18:58.602 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:19:05.956 [main] INFO  scaledupit.LogoutTest - Home page  title page validation success
+19:19:09.233 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:19:09.881 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:19:18.321 [main] INFO  scaledupit.UserRegistration - Home page  title page validation success
+19:19:21.590 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+19:19:22.033 [main] INFO  team2.base.CommonAPI - Screenshot captured
+19:19:28.877 [main] INFO  scaledupit.UserRegistration - Home page  title page validation success
+19:19:32.182 [main] INFO  team2.scaledupitpages.MainPage - click on account button success

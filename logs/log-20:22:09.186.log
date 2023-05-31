@@ -1,0 +1,105 @@
+20:18:58.524 [main] INFO  scaledupit.LoginTest - the light shoe is added to the cart
+20:19:12.411 [main] INFO  team2.base.CommonAPI - Screenshot captured
+20:19:13.743 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:19:15.753 [main] INFO  scaledupit.LoginTest - Home page  title page validation success
+20:19:20.052 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:19:20.057 [main] INFO  scaledupit.LoginTest - login title page validation success
+20:19:20.306 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type username success
+20:19:20.370 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+20:19:21.641 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+20:19:21.666 [main] INFO  team2.scaledupitpages.MyAccountPage - user logged in success
+20:19:24.725 [main] INFO  team2.scaledupitpages.MyAccountPage - item name type success
+20:19:25.478 [main] INFO  team2.scaledupitpages.MyAccountPage - click search success
+20:19:25.484 [main] INFO  scaledupit.LoginTest - shoes search title validation success
+20:19:26.354 [main] INFO  team2.scaledupitpages.ShoesPage - click on read more success
+20:19:26.367 [main] INFO  scaledupit.LoginTest - Light shoes page  title validation success
+20:19:27.268 [main] INFO  team2.scaledupitpages.LightShoesPage - click on Shirt button success
+20:19:28.108 [main] INFO  team2.scaledupitpages.MyAccountPage - click on cart button success
+20:19:31.118 [main] INFO  scaledupit.LoginTest - cart  page  title validation success
+20:19:32.065 [main] INFO  team2.scaledupitpages.CartPage - lightshoes selected  successfully appear in the cart
+20:19:32.065 [main] INFO  scaledupit.LoginTest - the light shoe is added to the cart
+20:19:33.565 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:19:35.548 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+20:19:39.410 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:19:39.415 [main] INFO  scaledupit.ShoppingFromCategoriesTest - login title page validation success
+20:19:39.678 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type username success
+20:19:39.736 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+20:19:40.991 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+20:19:41.021 [main] INFO  team2.scaledupitpages.MyAccountPage - user logged in success
+20:19:44.211 [main] INFO  team2.scaledupitpages.MyAccountPage - hover over categories success
+20:19:47.261 [main] INFO  team2.scaledupitpages.MyAccountPage - click on categories success
+20:19:48.010 [main] INFO  team2.scaledupitpages.MyAccountPage - click on beauty and care from categories success
+20:19:48.030 [main] INFO  team2.scaledupitpages.BeautyCareCategoriesPage - user in Beauty Care categories page
+20:19:51.091 [main] INFO  team2.scaledupitpages.BeautyCareCategoriesPage - add hair care to the cart success
+20:19:52.142 [main] INFO  team2.scaledupitpages.BeautyCareCategoriesPage - click on cart button  while in  beauty Care categories page  success
+20:19:56.337 [main] INFO  team2.scaledupitpages.CartPage - Hair care   is selected  is  selected  successfully from beauty care  from categories
+20:20:00.227 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:20:04.982 [main] INFO  team2.scaledupitpages.MyAccountPage - click log out button success
+20:20:05.089 [main] INFO  team2.scaledupitpages.MainPage - user in main page  success
+20:20:06.368 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:20:08.399 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+20:20:12.287 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:20:12.292 [main] INFO  scaledupit.ShoppingFromCategoriesTest - login title page validation success
+20:20:12.529 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type username success
+20:20:12.586 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+20:20:13.881 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+20:20:13.907 [main] INFO  team2.scaledupitpages.MyAccountPage - user logged in success
+20:20:17.075 [main] INFO  team2.scaledupitpages.MyAccountPage - hover over categories success
+20:20:20.109 [main] INFO  team2.scaledupitpages.MyAccountPage - click on categories success
+20:20:21.433 [main] INFO  team2.scaledupitpages.MyAccountPage - click on clothing from categories success
+20:20:21.465 [main] INFO  team2.scaledupitpages.ClothingCategoriesPage - user in clothing page
+20:20:24.538 [main] INFO  team2.scaledupitpages.ClothingCategoriesPage - add happy ninja to the cart success
+20:20:26.338 [main] INFO  team2.scaledupitpages.ClothingCategoriesPage - click on cart button  while in  clothing page  success
+20:20:30.246 [main] INFO  team2.scaledupitpages.CartPage - Happy ninja is selected  is  selected  successfully from clothing   section  from categories
+20:20:34.118 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:20:38.826 [main] INFO  team2.scaledupitpages.MyAccountPage - click log out button success
+20:20:38.983 [main] INFO  team2.scaledupitpages.MainPage - user in main page  success
+20:20:40.381 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:20:42.396 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+20:20:46.244 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:20:46.248 [main] INFO  scaledupit.ShoppingFromCategoriesTest - login title page validation success
+20:20:46.505 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type username success
+20:20:46.556 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+20:20:47.860 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+20:20:47.886 [main] INFO  team2.scaledupitpages.MyAccountPage - user logged in success
+20:20:51.061 [main] INFO  team2.scaledupitpages.MyAccountPage - hover over categories success
+20:20:54.106 [main] INFO  team2.scaledupitpages.MyAccountPage - click on categories success
+20:20:54.881 [main] INFO  team2.scaledupitpages.MyAccountPage - click on featured and beside from categories success
+20:20:54.900 [main] INFO  team2.scaledupitpages.FeaturedBesideCategoriesPage - user in Featured Beside page
+20:20:57.954 [main] INFO  team2.scaledupitpages.FeaturedBesideCategoriesPage - add Bag Collection to the cart success
+20:20:59.612 [main] INFO  team2.scaledupitpages.FeaturedBesideCategoriesPage - click on cart button  while in  featured beside page  success
+20:21:03.721 [main] INFO  team2.scaledupitpages.CartPage - Bag collection  is  selected  successfully from featured beside  section  from categories
+20:21:07.631 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:21:12.365 [main] INFO  team2.scaledupitpages.MyAccountPage - click log out button success
+20:21:12.472 [main] INFO  team2.scaledupitpages.MainPage - user in main page  success
+20:21:13.800 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:21:15.776 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+20:21:20.041 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:21:20.047 [main] INFO  scaledupit.ShoppingFromCategoriesTest - login title page validation success
+20:21:20.282 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type username success
+20:21:20.341 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+20:21:21.615 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+20:21:21.639 [main] INFO  team2.scaledupitpages.MyAccountPage - user logged in success
+20:21:24.801 [main] INFO  team2.scaledupitpages.MyAccountPage - hover over categories success
+20:21:27.856 [main] INFO  team2.scaledupitpages.MyAccountPage - click on categories success
+20:21:28.641 [main] INFO  team2.scaledupitpages.MyAccountPage - click on featured from categories success
+20:21:28.659 [main] INFO  team2.scaledupitpages.FeaturedCategoriesPage - user in Featured  page
+20:21:31.708 [main] INFO  team2.scaledupitpages.FeaturedCategoriesPage - add women Collection to the cart success
+20:21:33.016 [main] INFO  team2.scaledupitpages.FeaturedCategoriesPage - click on cart button  while in  featured  page  success
+20:21:36.720 [main] INFO  team2.base.CommonAPI - Screenshot captured
+20:21:38.010 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:21:39.960 [main] INFO  scaledupit.ShoppingFromCategoriesTest - Home page  title page validation success
+20:21:43.829 [main] INFO  team2.scaledupitpages.MainPage - click on account button success
+20:21:43.833 [main] INFO  scaledupit.ShoppingFromCategoriesTest - login title page validation success
+20:21:44.076 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type username success
+20:21:44.141 [main] INFO  team2.scaledupitpages.LoginRegisterPage - type password success
+20:21:45.433 [main] INFO  team2.scaledupitpages.LoginRegisterPage - click Login button success
+20:21:45.456 [main] INFO  team2.scaledupitpages.MyAccountPage - user logged in success
+20:21:48.619 [main] INFO  team2.scaledupitpages.MyAccountPage - hover over categories success
+20:21:51.666 [main] INFO  team2.scaledupitpages.MyAccountPage - click on categories success
+20:21:52.531 [main] INFO  team2.scaledupitpages.MyAccountPage - click on food and beverage from categories  success
+20:21:52.551 [main] INFO  team2.scaledupitpages.FoodBeverageCategoriesPage - user in food beverage categories page
+20:21:55.614 [main] INFO  team2.scaledupitpages.FoodBeverageCategoriesPage - add Biscuits to the cart success
+20:21:56.640 [main] INFO  team2.scaledupitpages.FoodBeverageCategoriesPage - click on cart button  while in  food beverage categories page  success
+20:22:00.515 [main] INFO  team2.scaledupitpages.CartPage - Biscuits   is selected  is  selected  successfully from food and beverage  from categories
+20:22:04.405 [main] INFO  team2.scaledupitpages.MainPage - click on account button success

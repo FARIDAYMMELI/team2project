@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [scaledupit test]" guice-stage="DEVELOPMENT">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="envName" value="browserstack"/>
+  <parameter name="browserVersion" value="110"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="url" value="https://automation.scaledupit.com/"/>
+  <test thread-count="5" name="Shopping cart management test(failed)">
+    <classes>
+      <class name="scaledupit.ShoppingCartManagement">
+        <methods>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="ApplyCoupon"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="EmptyShoppingCart"/>
+        </methods>
+      </class> <!-- scaledupit.ShoppingCartManagement -->
+    </classes>
+  </test> <!-- Shopping cart management test(failed) -->
+  <test thread-count="5" name="Shopping from categories test(failed)">
+    <classes>
+      <class name="scaledupit.ShoppingFromCategoriesTest">
+        <methods>
+          <include name="shoppingFromFeaturedCategories"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- scaledupit.ShoppingFromCategoriesTest -->
+    </classes>
+  </test> <!-- Shopping from categories test(failed) -->
+  <test thread-count="5" name="Shopping from menu button test(failed)">
+    <classes>
+      <class name="scaledupit.ShoppingFromMenuButtonsTest">
+        <methods>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="shoppingFromBlogButton"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- scaledupit.ShoppingFromMenuButtonsTest -->
+    </classes>
+  </test> <!-- Shopping from menu button test(failed) -->
+</suite> <!-- Failed suite [scaledupit test] -->

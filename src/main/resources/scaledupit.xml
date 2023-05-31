@@ -9,27 +9,99 @@
 
     <parameter name="browserName" value="chrome"></parameter>
     <parameter name="url" value="https://automation.scaledupit.com/"></parameter>
-<!--    <test name="registration  test">-->
-<!--        <classes>-->
-<!--            <class name="scaledupit.UserRegistration"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+
+
+    <test name="registration  test">
+        <classes>
+            <class name="scaledupit.UserRegistration"></class>
+
+        </classes>
+    </test>
 
            <test name="login test">
             <classes>
                 <class name="scaledupit.LoginTest"></class>
             </classes>
            </test>
-<!--        <test name="logout test">-->
-<!--            <classes>-->
-<!--                <class name="scaledupit.LogoutTest"></class>-->
-<!--            </classes>-->
-<!--        </test>-->
-<!--    <test name="Shopping cart management test">-->
-<!--        <classes>-->
-<!--            <class name="scaledupit.ShoppingCartManagement"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+
+
+
+                <test name="logout test">
+                <classes>
+                    <class name="scaledupit.LogoutTest"></class>
+                </classes>
+            </test>
+
+            <test name="Shopping cart management test">
+                <classes>
+                    <class name="scaledupit.ShoppingCartManagement"></class>
+                </classes>
+            </test>
+
+
+    <test name ="Shopping from categories test">
+        <classes>
+            <class name="scaledupit.ShoppingFromCategoriesTest"></class>
+        </classes>
+    </test>
+
+       <test name ="Shopping from menu button test">
+            <classes>
+                <class name="scaledupit.ShoppingFromMenuButtonsTest"></class>
+            </classes>
+        </test>
+
+
+    <test name ="add review test">
+        <classes>
+            <class name="scaledupit.AddReviewTest"></class>
+        </classes>
+    </test>
+
+    <test name ="Connect to social media test">
+            <classes>
+
+                <class name="scaledupit.ConnectToSocialMediaTest"></class>
+
+            </classes>
+
+        </test>
+    <test name ="update account information test">
+                <classes>
+
+                    <class name="scaledupit.UpdateAccountDetailTest"></class>
+
+                </classes>
+
+            </test>
+
+    <test name ="update   billing address test">
+                    <classes>
+
+                        <class name="scaledupit.UpdateAdresses"></class>
+
+                    </classes>
+
+                </test>
+    <test name =" order from orders test">
+        <classes>
+
+            <class name="scaledupit.OrdersFromOrdersTest"></class>
+
+        </classes>
+
+    </test>
+
+    <test name =" orders from downloads test">
+        <classes>
+
+            <class name="scaledupit.OrderFromDownloadsTest"></class>
+
+        </classes>
+
+    </test>
+
+
 </suite>
 
 
