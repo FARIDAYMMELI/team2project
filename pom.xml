@@ -106,11 +106,11 @@
         <version>2.12.4</version>
         <configuration>
             <suiteXmlFiles>
-                <suiteXmlFile>src/test/resources/scaledupit.xml</suiteXmlFile>
-                <!--            <suiteXmlFile>src/test/resources/orangehrm.xml</suiteXmlFile>-->
-                <!--            <suiteXmlFile>src/test/resources/nopcommerce.xml</suiteXmlFile>-->
-                <!--            <suiteXmlFile>src/test/resources/magento.xml</suiteXmlFile>-->
-                <!--            <suiteXmlFile>src/test/resources/freecrm.xml</suiteXmlFile>-->
+                <suiteXmlFile>src/main/resources/scaledupit.xml</suiteXmlFile>
+                           <suiteXmlFile>src/main/resources/orangehrm.xml</suiteXmlFile>
+                <!--            <suiteXmlFile>src/main/resources/nopcommerce.xml</suiteXmlFile>-->
+                <!--            <suiteXmlFile>src/main/resources/magento.xml</suiteXmlFile>-->
+                <!--            <suiteXmlFile>src/main/resources/freecrm.xml</suiteXmlFile>-->
             </suiteXmlFiles>
         </configuration>
     </plugin>
