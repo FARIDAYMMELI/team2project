@@ -14,14 +14,79 @@
 <!--            <class name="gumtree.Feature1"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-<!--    <test name="Feature2 test">-->
-<!--        <classes>-->
-<!--            <class name="gumtree.Feature2"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
-    <test name="Login test">
+
+
+
+    <test name="GiftCardTest">
         <classes>
-            <class name="nopcommerce.LoginTest"></class>
+            <class name="nopcommerce.GiftCardTest"></class>
         </classes>
     </test>
+
+
+    <test name="ContactUsTest">
+        <classes>
+            <class name="nopcommerce.ContactUsTest"></class>
+        </classes>
+    </test>
+
+
+    <test name="BooksTest">
+        <classes>
+            <class name="nopcommerce.BooksTest"></class>
+        </classes>
+    </test>
+
+        <test name="WishListTest">
+            <classes>
+                <class name="nopcommerce.WishListTest"></class>
+            </classes>
+        </test>
+
+    <test name="HomePageTest">
+        <classes>
+            <class name="nopcommerce.HomePageTest"></class>
+        </classes>
+    </test>
+
+    <test name="DigitalDownloadsPage">
+        <classes>
+            <class name="nopcommerce.DigitalDownloadsTest"></class>
+        </classes>
+    </test>
+
+    <test name="LoginPage2Test">
+        <classes>
+            <class name="nopcommerce.LoginPage2Test"></class>
+        </classes>
+    </test>
+
+    <test name="RemoveItemTest">
+        <classes>
+            <class name="nopcommerce.RemoveItemTest"></class>
+        </classes>
+    </test>
+
+    <test name="RegisterTest">
+        <classes>
+            <class name="nopcommerce.RegisterTest"></class>
+        </classes>
+    </test>
+
+
+    <!--//passed-->
+
+
+
+<!--            <test name="ElectronicsTest">-->
+<!--        <classes>-->
+<!--            <class name="nopcommerce.ElectronicsTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+
+
+
+    <!--    </test>-->
 </suite>

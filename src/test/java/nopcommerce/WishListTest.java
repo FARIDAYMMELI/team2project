@@ -15,12 +15,7 @@ public class WishListTest extends CommonAPI {
     @Test
 
     public void JewelryPage() {
-        LoginPage loginPage = new LoginPage(getDriver());
         WishlistPage wishlistPage = new WishlistPage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("page title validation success, user is in the homepage");
 
     wishlistPage.jewelry();
     String expectedPageTitle = "Jewelry";
@@ -35,6 +30,44 @@ public class WishListTest extends CommonAPI {
     String actualTitleOfPage = wishlistPage.getTitleOfJewelryPage();
     Assert.assertEquals(expectedTitleOfPage, actualTitleOfPage);
     log.info("page validation success");
+
+    }
+    @Test
+    public void emailFriend(){
+        WishlistPage wishlistPage = new WishlistPage(getDriver());
+        wishlistPage.jewelry();
+        String expectedPageTitle = "Jewelry";
+        String actualPageTitle = wishlistPage.getTitleOfJewelryPage();
+        Assert.assertEquals(actualPageTitle, expectedPageTitle);
+        log.info("page validation success");
+
+        wishlistPage.engagementRing();
+        wishlistPage.wishListButton();
+        wishlistPage.wishListPage();
+        wishlistPage.emailAFriendButton();
+        String expectedTitlePage = "Email your wishlist to a friend";
+        String actualTitlePage = wishlistPage.getTitleOfEmailAFriendPage();
+        Assert.assertEquals(expectedTitlePage, actualTitlePage);
+        log.info("page title validation");
+
+    }
+    @Test
+    public void sendAFriendAEmail(){
+        WishlistPage wishlistPage = new WishlistPage(getDriver());
+        wishlistPage.jewelry();
+        String expectedPageTitle = "Jewelry";
+        String actualPageTitle = wishlistPage.getTitleOfJewelryPage();
+        Assert.assertEquals(actualPageTitle, expectedPageTitle);
+        log.info("page validation success");
+
+        wishlistPage.engagementRing();
+        wishlistPage.wishListButton();
+        wishlistPage.wishListPage();
+        wishlistPage.emailAFriendButton();
+        wishlistPage.friendsEmail("shahin@shahin.com");
+        wishlistPage.usersOwnEmail("abc@abc.com");
+        wishlistPage.aPersonalMessage("Hey girl");
+
 
     }
 

@@ -18,8 +18,8 @@ public class RegisterPage1 extends CommonAPI {
     @FindBy(css = ".ico-register")
     WebElement userRegister;
 
-    @FindBy(xpath = "//h1[text()='Register']")
-    WebElement registerPageTitle;
+//    @FindBy(xpath = "//h1[text()='Register']")
+//    WebElement registerPageTitle;
 
     @FindBy(css = "#gender-female")
     WebElement userGender;
@@ -65,16 +65,16 @@ public class RegisterPage1 extends CommonAPI {
         clickOn(userRegister);
         log.info("click on Register button success");
     }
-    public boolean checkPresenceOfTitleOfThePage(){
-        boolean pageTitleIsDisplayed = isVisible(registerPageTitle);
-        log.info("Page title is displayed" +registerPageTitle);
-        return pageTitleIsDisplayed;
-    }
-    public String getTitleOfThePage(){
-        String titleOfPageText = getElementText(registerPageTitle);
-        log.info("Page title text "+titleOfPageText);
-        return titleOfPageText;
-    }
+//    public boolean checkPresenceOfTitleOfThePage(){
+//        boolean pageTitleIsDisplayed = isVisible(registerPageTitle);
+//        log.info("Page title is displayed" +registerPageTitle);
+//        return pageTitleIsDisplayed;
+//    }
+//    public String getTitleOfThePage(){
+//        String titleOfPageText = getElementText(registerPageTitle);
+//        log.info("Page title text "+titleOfPageText);
+//        return titleOfPageText;
+//    }
 
     public void clickOnGenderFemale(){
         clickOn(userGender);
@@ -132,7 +132,50 @@ public class RegisterPage1 extends CommonAPI {
         log.info("get registration is complete text");
         return text;
     }
+    @FindBy(css = "#register-button")
+    WebElement registerButton;
+
+
+    //registration Validation
+    @FindBy(xpath = "//div[@class='result']")
+    WebElement registrationValidation;
+
+    //RE-registration Validation
+    @FindBy(xpath = "//li[normalize-space()='The specified email already exists']")
+    WebElement reRegistrationValidation;
+
+    //Click on Register Button
+
+    @FindBy(xpath = " //button[normalize-space()='Register']")
+    WebElement registrationButton;
+
+    //click on register button
+    public void clickOnRegisterButton() {
+        clickOn(registerButton);
+        log.info("  Click On Register Button successfully");
+    }
+
+
+    //registration Validation
+    public String registrationValidationText() {
+        String text = getElementText(registrationValidation);
+        log.info("  Registration Validation succeeded");
+        return text;
+    }
+
+    public String reRegistrationValidationText() {
+        String text = getElementText(reRegistrationValidation);
+        log.info("  Registration Validation succeeded");
+        return text;
+
+    }
+    //Click on Register Button
+    public void clickOnRegisterButtonOnTheLeft() {
+        clickOn(registrationButton);
+        log.info("  Click On Register Button successfully");
+    }
 
 }
+
 
 

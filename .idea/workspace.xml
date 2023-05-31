@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d392878-e3e4-4784-a917-3c80d219c18a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/DigitalDownloadsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/LoginPageTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/DigitalDownloadsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/LoginPage2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nopcommerce/nopcommerce.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/nopcommerce/nopcommerce.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/BooksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/BooksPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/ElectronicsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/ElectronicsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/GiftCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/GiftCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/RegisterPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/RegisterPage1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/RemoveItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/RemoveItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/WishlistPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/WishlistPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/nopcommerce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/nopcommerce.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/magento/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magento/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/BooksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/BooksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/ContactUsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/ContactUsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/ElectronicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/ElectronicsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/GiftCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/GiftCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/RemoveItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/RemoveItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/WishListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/WishListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/BuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/BuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/ChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/ChangePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/LeaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/LeaveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MagnifyingSearchBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MagnifyingSearchBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MaintenanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MaintenanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MyInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MyInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/PerformanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/TimeTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PqYDixkYtvz5wmBJ2mySfmdF3D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/saidu/IdeaProjects/finalprojectteam2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.C:/Users/saidu/IdeaProjects/team2project/src/main/resources/nopcommerce.xml">
+    <configuration name="C:/Users/saidu/IdeaProjects/team2project/src/main/resources/nopcommerce.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <shortenClasspath name="ARGS_FILE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/nopcommerce.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPage2Test.logOutValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nopcommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nopcommerce" />
+      <option name="MAIN_CLASS_NAME" value="nopcommerce.LoginPage2Test" />
+      <option name="METHOD_NAME" value="logOutValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPage2Test.withoutEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nopcommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nopcommerce" />
+      <option name="MAIN_CLASS_NAME" value="nopcommerce.LoginPage2Test" />
+      <option name="METHOD_NAME" value="withoutEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.userRegister" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nopcommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nopcommerce" />
+      <option name="MAIN_CLASS_NAME" value="nopcommerce.LoginTest" />
+      <option name="METHOD_NAME" value="userRegister" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WishListTest.wishListPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nopcommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nopcommerce" />
+      <option name="MAIN_CLASS_NAME" value="nopcommerce.WishListTest" />
+      <option name="METHOD_NAME" value="wishListPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.LoginPage2Test.logOutValidation" />
+      <item itemvalue="TestNG.LoginPage2Test.withoutEmail" />
+      <item itemvalue="TestNG.C:/Users/saidu/IdeaProjects/team2project/src/main/resources/nopcommerce.xml" />
+      <item itemvalue="TestNG.LoginTest.userRegister" />
+      <item itemvalue="TestNG.WishListTest.wishListPage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/saidu/IdeaProjects/team2project/src/main/resources/nopcommerce.xml" />
+        <item itemvalue="TestNG.LoginPage2Test.withoutEmail" />
+        <item itemvalue="TestNG.LoginPage2Test.logOutValidation" />
+        <item itemvalue="TestNG.WishListTest.wishListPage" />
+        <item itemvalue="TestNG.LoginTest.userRegister" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d392878-e3e4-4784-a917-3c80d219c18a" name="Changes" comment="" />
+      <created>1684185961111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684185961111</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/team2/base/CommonAPI.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

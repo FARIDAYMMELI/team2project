@@ -71,7 +71,7 @@ public class LoginTest extends CommonAPI {
         String title1 = getCurrentURL();
         Assert.assertEquals(title1, "https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/");
         LOG.info("Signin success");
-        driver.quit();
+
         System.out.println("close success");
 
     }

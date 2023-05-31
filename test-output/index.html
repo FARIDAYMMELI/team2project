@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-nopcommerce_test" class="navigator-link">
+              <span class="suite-name border-failed">nopcommerce test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-nopcommerce_test" class="navigator-link ">
+                    <span>C:\Users\saidu\IdeaProjects\team2project\src\main\resources\nopcommerce.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-nopcommerce_test" class="navigator-link ">
+                    <span class="test-stats">9 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-nopcommerce_test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-nopcommerce_test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-nopcommerce_test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-nopcommerce_test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-nopcommerce_test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 2 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-nopcommerce_test" class="hide-methods failed suite-nopcommerce_test"> (hide)</a> <!-- hide-methods failed suite-nopcommerce_test -->
+                      <a href="#" panel-name="suite-nopcommerce_test" class="show-methods failed suite-nopcommerce_test"> (show)</a> <!-- show-methods failed suite-nopcommerce_test -->
+                    </span>
+                    <div class="method-list-content failed suite-nopcommerce_test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.RegisterTest" class="method navigator-link" hash-for-method="newUser">newUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.RegisterTest" class="method navigator-link" hash-for-method="passwordRecovery">passwordRecovery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-nopcommerce_test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-nopcommerce_test" class="hide-methods passed suite-nopcommerce_test"> (hide)</a> <!-- hide-methods passed suite-nopcommerce_test -->
+                      <a href="#" panel-name="suite-nopcommerce_test" class="show-methods passed suite-nopcommerce_test"> (show)</a> <!-- show-methods passed suite-nopcommerce_test -->
+                    </span>
+                    <div class="method-list-content passed suite-nopcommerce_test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.WishListTest" class="method navigator-link" hash-for-method="JewelryPage">JewelryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.BooksTest" class="method navigator-link" hash-for-method="addBookToCart">addBookToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.DigitalDownloadsTest" class="method navigator-link" hash-for-method="categoriesDisplay">categoriesDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.ContactUsTest" class="method navigator-link" hash-for-method="companyContact">companyContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="customerServiceTab">customerServiceTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.DigitalDownloadsTest" class="method navigator-link" hash-for-method="downloads">downloads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.WishListTest" class="method navigator-link" hash-for-method="emailFriend">emailFriend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="forumPage">forumPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.GiftCardTest" class="method navigator-link" hash-for-method="giftCards">giftCards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.BooksTest" class="method navigator-link" hash-for-method="homePageButtonOnBooksPage">homePageButtonOnBooksPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="homePageCommunityTitle">homePageCommunityTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="homePageDocumentationButton">homePageDocumentationButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="homePageFeaturedTitle">homePageFeaturedTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="homePageForumsButton">homePageForumsButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="homePageInformationElement">homePageInformationElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="homePageMyAccountElement">homePageMyAccountElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="homePageTitles">homePageTitles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.LoginPage2Test" class="method navigator-link" hash-for-method="logOutValidation">logOutValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.LoginPage2Test" class="method navigator-link" hash-for-method="loginLink">loginLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="newsAnnouncementsTitle">newsAnnouncementsTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="newsTitle">newsTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.DigitalDownloadsTest" class="method navigator-link" hash-for-method="priceOfItem">priceOfItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.RegisterTest" class="method navigator-link" hash-for-method="reRegister">reRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.RemoveItemTest" class="method navigator-link" hash-for-method="removeItems">removeItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.WishListTest" class="method navigator-link" hash-for-method="sendAFriendAEmail">sendAFriendAEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.HomePageTest" class="method navigator-link" hash-for-method="shippingAndReturnsElement">shippingAndReturnsElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.LoginPage2Test" class="method navigator-link" hash-for-method="withoutEmail">withoutEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-nopcommerce_test" title="nopcommerce.LoginPage2Test" class="method navigator-link" hash-for-method="withoutPassword">withoutPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-nopcommerce_test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-nopcommerce_test" class="panel nopcommerce_test">
+          <div class="suite-nopcommerce_test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">nopcommerce.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newUser">
+                  </a> <!-- newUser -->
+                  <span class="method-name">newUser</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;result&apos;]&quot;}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34545dc3cd26aca3d26569ad5d85b863, findElement {using=xpath, value=//div[@class=&apos;result&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\saidu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63925/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 34545dc3cd26aca3d26569ad5d85b863
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.getText(Unknown Source)
+	at team2.base.CommonAPI.getElementText(CommonAPI.java:204)
+	at team2.npcommercepages.RegisterPage1.registrationValidationText(RegisterPage1.java:161)
+	at nopcommerce.RegisterTest.newUser(RegisterTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordRecovery">
+                  </a> <!-- passwordRecovery -->
+                  <span class="method-name">passwordRecovery</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Email not found.] but found [Email with instructions has been sent to you.]
+	at nopcommerce.RegisterTest.passwordRecovery(RegisterTest.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-failed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.RemoveItemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItems">
+                  </a> <!-- removeItems -->
+                  <span class="method-name">removeItems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerServiceTab">
+                  </a> <!-- customerServiceTab -->
+                  <span class="method-name">customerServiceTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forumPage">
+                  </a> <!-- forumPage -->
+                  <span class="method-name">forumPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageCommunityTitle">
+                  </a> <!-- homePageCommunityTitle -->
+                  <span class="method-name">homePageCommunityTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageDocumentationButton">
+                  </a> <!-- homePageDocumentationButton -->
+                  <span class="method-name">homePageDocumentationButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageFeaturedTitle">
+                  </a> <!-- homePageFeaturedTitle -->
+                  <span class="method-name">homePageFeaturedTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageForumsButton">
+                  </a> <!-- homePageForumsButton -->
+                  <span class="method-name">homePageForumsButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageInformationElement">
+                  </a> <!-- homePageInformationElement -->
+                  <span class="method-name">homePageInformationElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageMyAccountElement">
+                  </a> <!-- homePageMyAccountElement -->
+                  <span class="method-name">homePageMyAccountElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitles">
+                  </a> <!-- homePageTitles -->
+                  <span class="method-name">homePageTitles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newsAnnouncementsTitle">
+                  </a> <!-- newsAnnouncementsTitle -->
+                  <span class="method-name">newsAnnouncementsTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newsTitle">
+                  </a> <!-- newsTitle -->
+                  <span class="method-name">newsTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shippingAndReturnsElement">
+                  </a> <!-- shippingAndReturnsElement -->
+                  <span class="method-name">shippingAndReturnsElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.ContactUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="companyContact">
+                  </a> <!-- companyContact -->
+                  <span class="method-name">companyContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.GiftCardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftCards">
+                  </a> <!-- giftCards -->
+                  <span class="method-name">giftCards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.LoginPage2Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutValidation">
+                  </a> <!-- logOutValidation -->
+                  <span class="method-name">logOutValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginLink">
+                  </a> <!-- loginLink -->
+                  <span class="method-name">loginLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutEmail">
+                  </a> <!-- withoutEmail -->
+                  <span class="method-name">withoutEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withoutPassword">
+                  </a> <!-- withoutPassword -->
+                  <span class="method-name">withoutPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reRegister">
+                  </a> <!-- reRegister -->
+                  <span class="method-name">reRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.DigitalDownloadsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="categoriesDisplay">
+                  </a> <!-- categoriesDisplay -->
+                  <span class="method-name">categoriesDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloads">
+                  </a> <!-- downloads -->
+                  <span class="method-name">downloads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="priceOfItem">
+                  </a> <!-- priceOfItem -->
+                  <span class="method-name">priceOfItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.WishListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JewelryPage">
+                  </a> <!-- JewelryPage -->
+                  <span class="method-name">JewelryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailFriend">
+                  </a> <!-- emailFriend -->
+                  <span class="method-name">emailFriend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendAFriendAEmail">
+                  </a> <!-- sendAFriendAEmail -->
+                  <span class="method-name">sendAFriendAEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+          <div class="suite-nopcommerce_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nopcommerce.BooksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBookToCart">
+                  </a> <!-- addBookToCart -->
+                  <span class="method-name">addBookToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageButtonOnBooksPage">
+                  </a> <!-- homePageButtonOnBooksPage -->
+                  <span class="method-name">homePageButtonOnBooksPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_test-class-passed -->
+        </div> <!-- panel nopcommerce_test -->
+        <div panel-name="test-xml-nopcommerce_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\saidu\IdeaProjects\team2project\src\main\resources\nopcommerce.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;nopcommerce test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+  &lt;parameter name=&quot;osVersion&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;envName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;110&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://demo.nopcommerce.com&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GiftCardTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.GiftCardTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GiftCardTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ContactUsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.ContactUsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ContactUsTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BooksTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.BooksTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BooksTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;WishListTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.WishListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WishListTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HomePageTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.HomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePageTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DigitalDownloadsPage&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.DigitalDownloadsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DigitalDownloadsPage --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginPage2Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.LoginPage2Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginPage2Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RemoveItemTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.RemoveItemTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RemoveItemTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RegisterTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nopcommerce.RegisterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegisterTest --&gt;
+&lt;/suite&gt; &lt;!-- nopcommerce test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-nopcommerce_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for nopcommerce test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GiftCardTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ContactUsTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BooksTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WishListTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">HomePageTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DigitalDownloadsPage (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginPage2Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RemoveItemTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegisterTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-nopcommerce_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for nopcommerce test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-nopcommerce_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for nopcommerce test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_nopcommerce_test');
+function tableData_nopcommerce_test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'newUser')
+data.setCell(0, 2, 'nopcommerce.RegisterTest')
+data.setCell(0, 3, 12685);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginLink')
+data.setCell(1, 2, 'nopcommerce.LoginPage2Test')
+data.setCell(1, 3, 10568);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logOutValidation')
+data.setCell(2, 2, 'nopcommerce.LoginPage2Test')
+data.setCell(2, 3, 7358);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'withoutPassword')
+data.setCell(3, 2, 'nopcommerce.LoginPage2Test')
+data.setCell(3, 3, 4194);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'withoutEmail')
+data.setCell(4, 2, 'nopcommerce.LoginPage2Test')
+data.setCell(4, 3, 4117);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'reRegister')
+data.setCell(5, 2, 'nopcommerce.RegisterTest')
+data.setCell(5, 3, 2990);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'passwordRecovery')
+data.setCell(6, 2, 'nopcommerce.RegisterTest')
+data.setCell(6, 3, 2787);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sendAFriendAEmail')
+data.setCell(7, 2, 'nopcommerce.WishListTest')
+data.setCell(7, 3, 2759);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'removeItems')
+data.setCell(8, 2, 'nopcommerce.RemoveItemTest')
+data.setCell(8, 3, 2652);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'giftCards')
+data.setCell(9, 2, 'nopcommerce.GiftCardTest')
+data.setCell(9, 3, 2585);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'emailFriend')
+data.setCell(10, 2, 'nopcommerce.WishListTest')
+data.setCell(10, 3, 2437);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addBookToCart')
+data.setCell(11, 2, 'nopcommerce.BooksTest')
+data.setCell(11, 3, 2244);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'JewelryPage')
+data.setCell(12, 2, 'nopcommerce.WishListTest')
+data.setCell(12, 3, 2172);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'forumPage')
+data.setCell(13, 2, 'nopcommerce.HomePageTest')
+data.setCell(13, 3, 2160);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'homePageForumsButton')
+data.setCell(14, 2, 'nopcommerce.HomePageTest')
+data.setCell(14, 3, 2084);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'newsAnnouncementsTitle')
+data.setCell(15, 2, 'nopcommerce.HomePageTest')
+data.setCell(15, 3, 1785);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'homePageDocumentationButton')
+data.setCell(16, 2, 'nopcommerce.HomePageTest')
+data.setCell(16, 3, 1737);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'companyContact')
+data.setCell(17, 2, 'nopcommerce.ContactUsTest')
+data.setCell(17, 3, 1569);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'categoriesDisplay')
+data.setCell(18, 2, 'nopcommerce.DigitalDownloadsTest')
+data.setCell(18, 3, 1053);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'homePageButtonOnBooksPage')
+data.setCell(19, 2, 'nopcommerce.BooksTest')
+data.setCell(19, 3, 1050);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'shippingAndReturnsElement')
+data.setCell(20, 2, 'nopcommerce.HomePageTest')
+data.setCell(20, 3, 717);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'downloads')
+data.setCell(21, 2, 'nopcommerce.DigitalDownloadsTest')
+data.setCell(21, 3, 663);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'customerServiceTab')
+data.setCell(22, 2, 'nopcommerce.HomePageTest')
+data.setCell(22, 3, 117);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'homePageInformationElement')
+data.setCell(23, 2, 'nopcommerce.HomePageTest')
+data.setCell(23, 3, 112);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'homePageFeaturedTitle')
+data.setCell(24, 2, 'nopcommerce.HomePageTest')
+data.setCell(24, 3, 110);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'newsTitle')
+data.setCell(25, 2, 'nopcommerce.HomePageTest')
+data.setCell(25, 3, 101);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'homePageCommunityTitle')
+data.setCell(26, 2, 'nopcommerce.HomePageTest')
+data.setCell(26, 3, 101);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'homePageMyAccountElement')
+data.setCell(27, 2, 'nopcommerce.HomePageTest')
+data.setCell(27, 3, 93);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'priceOfItem')
+data.setCell(28, 2, 'nopcommerce.DigitalDownloadsTest')
+data.setCell(28, 3, 93);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'homePageTitles')
+data.setCell(29, 2, 'nopcommerce.HomePageTest')
+data.setCell(29, 3, 90);
+window.suiteTableData['nopcommerce_test']= { tableData: data, tableDiv: 'times-div-nopcommerce_test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-nopcommerce_test">
+              </div> <!-- times-div-nopcommerce_test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-nopcommerce_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for nopcommerce test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-nopcommerce_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-nopcommerce_test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@118f2486)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.GiftCardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.GiftCardTest.giftCards())</span>
+                <span class="method-start">4035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">giftCards</span>
+                <span class="method-start">4050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=giftCards status=SUCCESS method=GiftCardTest.giftCards()[pri:0, instance:nopcommerc...)</span>
+                <span class="method-start">6637 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.ContactUsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">7335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.ContactUsTest.companyContact())</span>
+                <span class="method-start">9993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">companyContact</span>
+                <span class="method-start">9994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=companyContact status=SUCCESS method=ContactUsTest.companyContact()[pri:0, instance...)</span>
+                <span class="method-start">11563 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.BooksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">12002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.BooksTest.addBookToCart())</span>
+                <span class="method-start">14516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addBookToCart</span>
+                <span class="method-start">14518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=addBookToCart status=SUCCESS method=BooksTest.addBookToCart()[pri:0, instance:nopco...)</span>
+                <span class="method-start">16763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">17177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.BooksTest.homePageButtonOnBooksPage())</span>
+                <span class="method-start">19650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageButtonOnBooksPage</span>
+                <span class="method-start">19651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homePageButtonOnBooksPage status=SUCCESS method=BooksTest.homePageButtonOnBooksPage...)</span>
+                <span class="method-start">20701 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.WishListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">21081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.WishListTest.JewelryPage())</span>
+                <span class="method-start">23355 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JewelryPage</span>
+                <span class="method-start">23360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=JewelryPage status=SUCCESS method=WishListTest.JewelryPage()[pri:0, instance:nopcom...)</span>
+                <span class="method-start">25533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">25945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.WishListTest.emailFriend())</span>
+                <span class="method-start">28302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emailFriend</span>
+                <span class="method-start">28327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=emailFriend status=SUCCESS method=WishListTest.emailFriend()[pri:0, instance:nopcom...)</span>
+                <span class="method-start">30764 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">31148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.WishListTest.sendAFriendAEmail())</span>
+                <span class="method-start">33519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sendAFriendAEmail</span>
+                <span class="method-start">33520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=sendAFriendAEmail status=SUCCESS method=WishListTest.sendAFriendAEmail()[pri:0, ins...)</span>
+                <span class="method-start">36279 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">36683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.customerServiceTab())</span>
+                <span class="method-start">38996 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">customerServiceTab</span>
+                <span class="method-start">38997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=customerServiceTab status=SUCCESS method=HomePageTest.customerServiceTab()[pri:0, i...)</span>
+                <span class="method-start">39115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">39552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.forumPage())</span>
+                <span class="method-start">41633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forumPage</span>
+                <span class="method-start">41634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=forumPage status=SUCCESS method=HomePageTest.forumPage()[pri:0, instance:nopcommerc...)</span>
+                <span class="method-start">43794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">44176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.homePageCommunityTitle())</span>
+                <span class="method-start">46412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageCommunityTitle</span>
+                <span class="method-start">46413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homePageCommunityTitle status=SUCCESS method=HomePageTest.homePageCommunityTitle()[...)</span>
+                <span class="method-start">46514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">46843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.homePageDocumentationButton())</span>
+                <span class="method-start">49011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageDocumentationButton</span>
+                <span class="method-start">49012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homePageDocumentationButton status=SUCCESS method=HomePageTest.homePageDocumentatio...)</span>
+                <span class="method-start">50749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">51126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.homePageFeaturedTitle())</span>
+                <span class="method-start">53279 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageFeaturedTitle</span>
+                <span class="method-start">53280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homePageFeaturedTitle status=SUCCESS method=HomePageTest.homePageFeaturedTitle()[pr...)</span>
+                <span class="method-start">53390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">53789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.homePageForumsButton())</span>
+                <span class="method-start">56101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageForumsButton</span>
+                <span class="method-start">56109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homePageForumsButton status=SUCCESS method=HomePageTest.homePageForumsButton()[pri:...)</span>
+                <span class="method-start">58194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">58566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageInformationElement</span>
+                <span class="method-start">60850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.homePageInformationElement())</span>
+                <span class="method-start">60850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homePageInformationElement status=SUCCESS method=HomePageTest.homePageInformationEl...)</span>
+                <span class="method-start">60963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">61368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.homePageMyAccountElement())</span>
+                <span class="method-start">63694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageMyAccountElement</span>
+                <span class="method-start">63701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homePageMyAccountElement status=SUCCESS method=HomePageTest.homePageMyAccountElemen...)</span>
+                <span class="method-start">63794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">64224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.homePageTitles())</span>
+                <span class="method-start">66450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitles</span>
+                <span class="method-start">66453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=homePageTitles status=SUCCESS method=HomePageTest.homePageTitles()[pri:0, instance:...)</span>
+                <span class="method-start">66544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">66964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.newsAnnouncementsTitle())</span>
+                <span class="method-start">69421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newsAnnouncementsTitle</span>
+                <span class="method-start">69425 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=newsAnnouncementsTitle status=SUCCESS method=HomePageTest.newsAnnouncementsTitle()[...)</span>
+                <span class="method-start">71211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">71591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.newsTitle())</span>
+                <span class="method-start">73928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newsTitle</span>
+                <span class="method-start">73929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=newsTitle status=SUCCESS method=HomePageTest.newsTitle()[pri:0, instance:nopcommerc...)</span>
+                <span class="method-start">74031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">74429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.HomePageTest.shippingAndReturnsElement())</span>
+                <span class="method-start">76728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shippingAndReturnsElement</span>
+                <span class="method-start">76730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=shippingAndReturnsElement status=SUCCESS method=HomePageTest.shippingAndReturnsElem...)</span>
+                <span class="method-start">77447 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.DigitalDownloadsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">77747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.DigitalDownloadsTest.categoriesDisplay())</span>
+                <span class="method-start">80158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">categoriesDisplay</span>
+                <span class="method-start">80160 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=categoriesDisplay status=SUCCESS method=DigitalDownloadsTest.categoriesDisplay()[pr...)</span>
+                <span class="method-start">81213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">81590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.DigitalDownloadsTest.downloads())</span>
+                <span class="method-start">83882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">downloads</span>
+                <span class="method-start">83883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=downloads status=SUCCESS method=DigitalDownloadsTest.downloads()[pri:0, instance:no...)</span>
+                <span class="method-start">84546 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">85008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.DigitalDownloadsTest.priceOfItem())</span>
+                <span class="method-start">87105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">priceOfItem</span>
+                <span class="method-start">87107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=priceOfItem status=SUCCESS method=DigitalDownloadsTest.priceOfItem()[pri:0, instanc...)</span>
+                <span class="method-start">87201 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.LoginPage2Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">87630 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.LoginPage2Test.logOutValidation())</span>
+                <span class="method-start">90416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logOutValidation</span>
+                <span class="method-start">90423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=logOutValidation status=SUCCESS method=LoginPage2Test.logOutValidation()[pri:0, ins...)</span>
+                <span class="method-start">97781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">98123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.LoginPage2Test.loginLink())</span>
+                <span class="method-start">100712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginLink</span>
+                <span class="method-start">100712 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=loginLink status=SUCCESS method=LoginPage2Test.loginLink()[pri:0, instance:nopcomme...)</span>
+                <span class="method-start">111281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">111665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.LoginPage2Test.withoutEmail())</span>
+                <span class="method-start">113941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">withoutEmail</span>
+                <span class="method-start">113942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=withoutEmail status=SUCCESS method=LoginPage2Test.withoutEmail()[pri:0, instance:no...)</span>
+                <span class="method-start">118059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">118462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.LoginPage2Test.withoutPassword())</span>
+                <span class="method-start">120907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">withoutPassword</span>
+                <span class="method-start">120916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=withoutPassword status=SUCCESS method=LoginPage2Test.withoutPassword()[pri:0, insta...)</span>
+                <span class="method-start">125110 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.RemoveItemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">125479 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.RemoveItemTest.removeItems())</span>
+                <span class="method-start">127794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItems</span>
+                <span class="method-start">127795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=removeItems status=SUCCESS method=RemoveItemTest.removeItems()[pri:0, instance:nopc...)</span>
+                <span class="method-start">130448 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">nopcommerce.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">130827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.RegisterTest.newUser())</span>
+                <span class="method-start">133324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">newUser</span>
+                <span class="method-start">133325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=newUser status=FAILURE method=RegisterTest.newUser()[pri:0, instance:nopcommerce.Re...)</span>
+                <span class="method-start">146027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">146461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.RegisterTest.passwordRecovery())</span>
+                <span class="method-start">148641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">passwordRecovery</span>
+                <span class="method-start">148643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=passwordRecovery status=FAILURE method=RegisterTest.passwordRecovery()[pri:0, insta...)</span>
+                <span class="method-start">151434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, windows, 10, chrome, 110, https://demo.nopcommerce.com)</span>
+                <span class="method-start">151790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void nopcommerce.RegisterTest.reRegister())</span>
+                <span class="method-start">154433 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reRegister</span>
+                <span class="method-start">154438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=reRegister status=SUCCESS method=RegisterTest.reRegister()[pri:0, instance:nopcomme...)</span>
+                <span class="method-start">157428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">157789 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
