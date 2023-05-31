@@ -1,5 +1,6 @@
 package scaledupit;
 
+import com.github.javafaker.Faker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -10,20 +11,21 @@ import team2.scaledupitpages.MainPage;
 import team2.scaledupitpages.MyAccountPage;
 
 public class UserRegistration  extends CommonAPI {
-
-
-
-
     Logger log = LogManager.getLogger(scaledupit.UserRegistration.class.getName());
+    Faker fakeData = new Faker();
     //	Test Case ID number 1 :  Verify that the user is able to register a new account
     @Test
     public void RegistrationValidation() throws InterruptedException {
-        String EmailAddress = "tamannabegum70294@gmail.com";
-        String passwordRegister = "Password15@";
+
+
+        String EmailAddress =fakeData.internet().emailAddress();
+        String passwordRegister =fakeData.internet().emailAddress();
+//        String EmailAddress = "tamannabegum70294@gmail.com";
+//        String passwordRegister = "Password15@";
 
         LoginRegisterPage loginRegisterPage = new LoginRegisterPage(getDriver());
         MainPage mainPage = new MainPage(getDriver());
-        MyAccountPage MyAccountPage = new MyAccountPage(getDriver());
+        MyAccountPage myAccountPage = new MyAccountPage(getDriver());
 
         // navigate to scaledupit website
 //        String expectedTitle = "Automation – Automate eCommerce";
@@ -40,21 +42,24 @@ public class UserRegistration  extends CommonAPI {
 
         //enter  username, password, and click on login button
         loginRegisterPage.typeEmailAddressregister(EmailAddress);
-        log.info("enter email success");
         loginRegisterPage.typepasswordRegister(passwordRegister);
-        log.info("enter password success");
-
         loginRegisterPage.clickOnRegisterButton();
-        log.info("click on register button");
         //check user is logged in
         String expectedHomePageHeader = "My account";
-        String actualHomePageHeader = MyAccountPage.getHeaderText();
+        String actualHomePageHeader = myAccountPage.getHeaderText();
         Assert.assertEquals(expectedHomePageHeader, actualHomePageHeader);
-        log.info("user logged in success");
         waitFor(3);
+        myAccountPage.clickOnLogOut();
 
+        // verify that logout process is working and are in main page again
 
+        String expectedText = "LOGIN/REGISTER";
+        String actualText = mainPage.getAText();
+        Assert.assertEquals(expectedText, actualText);
     }
+
+
+
 
  /*
         //	 Navigate to the scaledupit.com  website

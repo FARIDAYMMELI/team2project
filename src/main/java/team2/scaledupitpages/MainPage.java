@@ -22,6 +22,8 @@ public class MainPage extends CommonAPI {
     //object
     @FindBy(xpath = "//li[@id='menu-item-307']//a[normalize-space()='My account']")
     WebElement MyAccountButton;
+    @FindBy(xpath = "//a[normalize-space()='My Account']")
+    WebElement MyAccountButtonTop;
     @FindBy(xpath = "//li[@id='menu-item-324']//a")
     WebElement TextInMain;
     @FindBy(xpath = "/html/body/div/header/div[2]/div[3]/nav/div[1]/div/ul/li[7]/a")
@@ -77,9 +79,13 @@ public class MainPage extends CommonAPI {
         clickOn(MyAccountButton);
         LOG.info("click on account button success");
     }
+    public void clickOnMyAccountButtonTop() {
+        clickOn(MyAccountButtonTop);
+        LOG.info("click on account button success");
+    }
     public void clickLoginRegisterButton() {
         clickOn(LoginRegisterButton);
-        LOG.info("click on login button success");
+        LOG.info("click on login registration button success");
     }
     public String getAText(){
         String text = getElementText(TextInMain);
