@@ -34,6 +34,7 @@ public class BooksTest extends CommonAPI {
         Assert.assertEquals(actualPageTitle, expectedPageTitle);
         log.info("The page title validation success");
     }
+
     @Test
     public void homePageButtonOnBooksPage(){
         BooksPage booksPage = new BooksPage(getDriver());
