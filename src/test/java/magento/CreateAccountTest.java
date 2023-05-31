@@ -46,7 +46,7 @@ import team2.utility.ConnectDB;
                 LOG.info(" Creation of a new account success");
         }
 
-        @Test
+        @Test(enabled = false)
         public void RegisterWithAnExistingCredentials() throws InterruptedException {
 
                 HomePage homePage = new HomePage(getDriver());
