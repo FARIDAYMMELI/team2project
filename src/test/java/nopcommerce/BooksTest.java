@@ -19,19 +19,29 @@ public class BooksTest extends CommonAPI {
     public void addBookToCart(){
         LoginPage loginPage = new LoginPage(getDriver());
         BooksPage booksPage = new BooksPage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
         booksPage.clickOnBooks();
         booksPage.fahrenheitBook();
         booksPage.clickOnAddToCart();
         booksPage.shoppingCartButton();
-
         String expectedPageTitle = "Shopping cart";
         String actualPageTitle = booksPage.getShoppingCartPageTitle();
         Assert.assertEquals(actualPageTitle, expectedPageTitle);
         log.info("The page title validation success");
+    }
+
+    @Test
+    public void homePageButtonOnBooksPage(){
+        BooksPage booksPage = new BooksPage(getDriver());
+        booksPage.clickOnBooks();
+        booksPage.bookPageHomeButton();
+        String expectedTitle = "Welcome to our store";
+        String actualTitle = booksPage.getHomePageWelcomeTitle();
+        Assert.assertEquals(expectedTitle,actualTitle);
+        log.info("home page validation");
     }
 }

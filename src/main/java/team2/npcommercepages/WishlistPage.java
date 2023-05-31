@@ -11,6 +11,7 @@ import team2.base.CommonAPI;
 public class WishlistPage extends CommonAPI {
 
     Logger log = LogManager.getLogger(WishlistPage.class.getName());
+
     public WishlistPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -18,7 +19,7 @@ public class WishlistPage extends CommonAPI {
     @FindBy(xpath = "(//a[@href=\"/jewelry\"])[1]")
     WebElement clickOnJewelry;
 
-    @FindBy(css =".page-title")
+    @FindBy(css = ".page-title")
     WebElement jewelryPageTitle;
 
     @FindBy(xpath = "(//a[@href=\"/vintage-style-engagement-ring\"])[1]")
@@ -33,10 +34,55 @@ public class WishlistPage extends CommonAPI {
     @FindBy(xpath = "//h1[text()=\"Wishlist\"]")
     WebElement wishListPageText;
 
-    public void jewelry(){
+    public void jewelry() {
         clickOn(clickOnJewelry);
         log.info("user clicks on jewelry");
     }
+
+    @FindBy(css = ".button-2.email-a-friend-wishlist-button")
+    WebElement emailAFriend;
+
+    public void emailAFriendButton() {
+        clickOn(emailAFriend);
+    }
+
+    @FindBy(xpath = "//h1[text()=\"Email your wishlist to a friend\"]")
+    WebElement emailAFriendPage;
+
+    public String getTitleOfEmailAFriendPage() {
+        String titleOfPage = getElementText(emailAFriendPage);
+        log.info("user landed on email a friend page");
+        return titleOfPage;
+    }
+
+    @FindBy(css = ".friend-email")
+    WebElement typeFriendsEmail;
+
+    public void friendsEmail(String email) {
+        type(typeFriendsEmail, email);
+        log.info("user types in friends email");
+
+    }
+
+    @FindBy(css = ".your-email")
+    WebElement usersEmail;
+
+    public void usersOwnEmail(String email) {
+        type(usersEmail, email);
+        log.info("users types in email");
+    }
+    @FindBy(css = "#PersonalMessage")
+    WebElement personalMessage;
+
+    public void aPersonalMessage(String message){
+        type(personalMessage, message);
+        log.info("user types a message");
+
+
+
+
+
+}
     public String getTitleOfJewelryPage(){
         String titleOfThePageText = getElementText(jewelryPageTitle);
         log.info("Page title text"+titleOfThePageText);

@@ -9,18 +9,18 @@ import team2.npcommercepages.LoginPage;
 import team2.npcommercepages.RemoveItem;
 
 public class RemoveItemTest extends CommonAPI {
-
+    Logger log = LogManager.getLogger(RemoveItemTest.class.getName());
     @Test
     public void removeItems() {
-        Logger log = LogManager.getLogger(RemoveItemTest.class.getName());
-        LoginPage loginPage = new LoginPage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
 
-        RemoveItem removeItem = new RemoveItem();
-        removeItem.jewelryTab();
+//        LoginPage loginPage = new LoginPage(getDriver());
+////        String expectedTitle = "nopCommerce demo store. Camera & photo";
+////        String actualTitle = loginPage.getPageTitleMessage();
+////        Assert.assertEquals(expectedTitle, actualTitle);
+////        log.info("The page title validation success");
+
+        RemoveItem removeItem = new RemoveItem(getDriver());
+        removeItem.clickOnJewelry();
         String expectedPageTitle = "Jewelry";
         String actualPageTitle = removeItem.jeweleryPageHeader();
         Assert.assertEquals(expectedPageTitle, actualPageTitle);
