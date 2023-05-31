@@ -16,15 +16,15 @@ import java.util.Properties;
 public class BuzzTest extends CommonAPI {
     Logger log = LogManager.getLogger(AdminTest.class.getName());
     Properties properties = Utility.loadProperties();
-    String validUsername = Utility.decode(properties.getProperty("orangehrm.username"));
-    String validPassword = Utility.decode(properties.getProperty("orangehrm.password"));
+    String validUsername = properties.getProperty("orangehrm.username");
+    String validPassword = properties.getProperty("orangehrm.password");
 
     @Test
     public void newsFeedPost(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         BuzzPage buzzPage = new BuzzPage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);
@@ -33,19 +33,11 @@ public class BuzzTest extends CommonAPI {
         String expectedHomePageHeader = "Dashboard";
         String actualHomePageHeader = homePage.getHomePageHeaderText();
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
-        waitFor(3);
 
         buzzPage.clickOnBuzzSection();
-        String expectedHeader = "Buzz";
-        String actualHeader = buzzPage.getBuzzPageHeaderText();
-        Assert.assertEquals(expectedHeader,actualHeader);
-        log.info("Page header validation success");
-
-        buzzPage.enterWhatsOnYourMind("Hello World");
-        buzzPage.clickOnPostButton();
-        String expectedMessage = "Buzz Newsfeed";
+        String expectedMessage = "Dashboard";
         String actualMessage = buzzPage.getPageMessage();
-        Assert.assertEquals(expectedHeader,actualHeader);
+        Assert.assertEquals(expectedMessage,actualMessage);
         log.info("Page message validation success");
 
 

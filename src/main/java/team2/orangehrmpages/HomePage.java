@@ -33,11 +33,11 @@ public class HomePage extends CommonAPI {
     WebElement changePasswordOption;
     @FindBy(xpath = "//h6[text()='Update Password']")
     WebElement updatePasswordPageHeader;
-    @FindBy(xpath = "//input[@fdprocessedid='v3cbwg']")
+    @FindBy(xpath = "(//input[@type='password'])[1]")
     WebElement currentPasswordField;
-    @FindBy(xpath = "//input[@fdprocessedid='3hr5ks']")
+    @FindBy(xpath = "(//input[@type='password'])[2]")
     WebElement passwordField;
-    @FindBy(xpath = "//input[@fdprocessedid='qauh7a']")
+    @FindBy(xpath = "(//input[@type='password'])[3]")
     WebElement confirmPasswordField;
     @FindBy(xpath = "//button[@type='submit']")
     WebElement saveButton;

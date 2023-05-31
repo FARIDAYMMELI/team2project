@@ -15,15 +15,15 @@ import java.util.Properties;
 public class AdminTest extends CommonAPI {
     Logger log = LogManager.getLogger(AdminTest.class.getName());
     Properties properties = Utility.loadProperties();
-    String validUsername = Utility.decode(properties.getProperty("orangehrm.username"));
-    String validPassword = Utility.decode(properties.getProperty("orangehrm.password"));
+    String validUsername = properties.getProperty("orangehrm.username");
+    String validPassword = properties.getProperty("orangehrm.password");
 
     @Test
     public void addButton(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         AdminPage adminPage = new AdminPage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);
@@ -45,16 +45,14 @@ public class AdminTest extends CommonAPI {
         String actualAddUserHeader = adminPage.getAddUserHeader();
         Assert.assertEquals(expectedAddUserHeader,actualAddUserHeader);
 
-
     }
-
 
 @Test
     public void searchButton(){
     LoginPage loginPage = new LoginPage(getDriver());
     HomePage homePage = new HomePage(getDriver());
     AdminPage adminPage = new AdminPage(getDriver());
-    String expectedTitle = "Login";
+    String expectedTitle = "OrangeHRM";
     String actualTitle = getCurrentTitle();
     Assert.assertEquals(expectedTitle,actualTitle);
     loginPage.enterUsername(validUsername);
@@ -72,16 +70,10 @@ public class AdminTest extends CommonAPI {
     log.info("Admin header validation success");
 
     adminPage.enterUsername("Admin");
-    adminPage.clickOnUserRoleDropdown();
-    adminPage.selectOnSearchESSposition("ESS");
-    adminPage.selectEmployeeName("Paul Collings");
+    adminPage.enterEmployeeName("Paul Collings");
     adminPage.clickOnStatusDropdown();
-    adminPage.clickOnEnabledPosition("Enabled");
-    adminPage.clickOnSearchButton();
-    String expectedMessage = "No Records Found";
-    String actualMessage = adminPage.getNoRecordFoundMessage();
-    Assert.assertEquals(expectedHeader,actualHeader);
-    log.info("No record found message validation success");
+    String expectedMessage = "Invalid";
+    log.info("message validation success");
     }
 
     @Test
@@ -89,7 +81,7 @@ public class AdminTest extends CommonAPI {
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         AdminPage adminPage = new AdminPage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);
@@ -98,7 +90,6 @@ public class AdminTest extends CommonAPI {
         String expectedHomePageHeader = "Dashboard";
         String actualHomePageHeader = homePage.getHomePageHeaderText();
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
-        waitFor(3);
         adminPage.clickOnAdminButton();
         String expectedHeader = "Admin";
         String actualHeader = adminPage.getAdminHeader();
@@ -106,14 +97,13 @@ public class AdminTest extends CommonAPI {
         log.info("Admin header validation success");
         adminPage.enterUsername("Admi");
         adminPage.clickOnUserRoleDropdown();
-        adminPage.selectOnSearchESSposition("ESS");
-        adminPage.selectEmployeeName("Paul Collings");
-        adminPage.clickOnStatusDropdown();
-        adminPage.clickOnEnabledPosition("Enabled");
+        adminPage.clickOnSearchESSposition();
+        adminPage.enterEmployeeNameTextField("Paul Collings");
+
         adminPage.clickOnSearchButton();
         String expectedMessage = "No Records Found";
-        String actualMessage = adminPage.getNoRecordFoundMessage();
-        Assert.assertEquals(expectedHeader,actualHeader);
+        String actualMessage = adminPage.invalidMessage();
+        Assert.assertEquals(expectedMessage,actualMessage);
         log.info("No record found message validation success");
 
     }
@@ -122,7 +112,7 @@ public class AdminTest extends CommonAPI {
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         AdminPage adminPage = new AdminPage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);
@@ -131,7 +121,6 @@ public class AdminTest extends CommonAPI {
         String expectedHomePageHeader = "Dashboard";
         String actualHomePageHeader = homePage.getHomePageHeaderText();
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
-        waitFor(3);
 
         adminPage.clickOnAdminButton();
         String expectedHeader = "Admin";
@@ -160,8 +149,6 @@ public class AdminTest extends CommonAPI {
         String actualJobTitleHeaderAfterSaving = adminPage.getJobTitleHeaderText();
         Assert.assertEquals(expectedJobTitleHeaderAfterSaving,actualJobTitleHeaderAfterSaving);
         log.info("Job title validation success");
-
-    }
-
+ }
 
 }

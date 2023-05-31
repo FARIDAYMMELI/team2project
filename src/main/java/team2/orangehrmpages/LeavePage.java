@@ -15,9 +15,9 @@ public class LeavePage extends CommonAPI {
     }
 
     //16 Test Add Leave Entitlements in the Leave Section
-    @FindBy(xpath = "//a[@class='oxd-main-menu-item active']")
+    @FindBy(xpath = "getPageHeaderText")
     WebElement leaveSection;
-    @FindBy(xpath = "//h6[text()=\"Leave\"]")
+    @FindBy(xpath = "//h5[@class='oxd-text oxd-text--h5 oxd-table-filter-title']")
     WebElement leaveHeader;
     @FindBy(xpath = "(//i[@class='oxd-icon bi-chevron-down'])[1]")
     WebElement entitlementDropdown;
@@ -60,6 +60,7 @@ public class LeavePage extends CommonAPI {
     }
     public String getPageHeaderText(){
         String pageHeaderText =getElementText(leaveHeader);
+        waitFor(3);
         log.info("page header text is "+pageHeaderText);
         return pageHeaderText;
     }

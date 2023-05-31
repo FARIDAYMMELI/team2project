@@ -17,14 +17,12 @@ public class BuzzPage extends CommonAPI {
 
     @FindBy(css = ".oxd-main-menu-item.active")
     WebElement buzzButton;
-    @FindBy(xpath = "//h6[text()='Buzz']")
+    @FindBy(xpath = "//p[text()='Buzz Newsfeed']")
     WebElement buzzPageHeader;
-    @FindBy(xpath = "//textarea[@placeholder=\"What's on your mind?\"]")
+    @FindBy(xpath = "//textarea[@rows='1']")
     WebElement whatsOnYourMindBox;
     @FindBy(xpath = "//button[@type='submit']")
     WebElement postButton;
-    @FindBy(xpath = "//p[text()='Buzz Newsfeed']")
-    WebElement pageMessage;
 
     //-----------------------------------------------------------------------------
 
@@ -54,6 +52,8 @@ public class BuzzPage extends CommonAPI {
         clickOn(postButton);
         log.info("Click on post button success");
     }
+    @FindBy(css = ".oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module")
+    WebElement pageMessage;
     public boolean checkPresenceOfPageMessage(){
         boolean pageMessageIsDisplayed = isVisible(pageMessage);
         log.info("Page message presence "+pageMessageIsDisplayed);
