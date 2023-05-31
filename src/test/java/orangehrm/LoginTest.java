@@ -6,21 +6,33 @@ import team2.base.CommonAPI;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import team2.orangehrmpages.HomePage;
+import team2.utility.ExcelReader;
 import team2.utility.Utility;
 import team2.orangehrmpages.LoginPage;
+
+import java.io.File;
 import java.util.Properties;
 
 public class LoginTest extends CommonAPI {
     Logger log = LogManager.getLogger(LoginTest.class.getName());
     Properties properties = Utility.loadProperties();
-    String validUsername = Utility.decode(properties.getProperty("orangehrm.username"));
-    String validPassword = Utility.decode(properties.getProperty("orangehrm.password"));
+
+    String currentDir = System.getProperty("user.dir");
+    String path = currentDir+ File.separator+"data"+File.separator+"orangeHRM"+File.separator+"orangeHRM.xlsx";
+    ExcelReader excelReader = new ExcelReader(path);
+    String validUsername = excelReader.getDataFromCell("data",1,1);
+    String validPassword = excelReader.getDataFromCell("data",2,1);
+
+
+
+//    String validUsername = properties.getProperty("orangehrm.username");
+//    String validPassword = properties.getProperty("orangehrm.password");
 
     @Test
     public void validCredential(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         waitFor(3);
@@ -40,7 +52,7 @@ public class LoginTest extends CommonAPI {
     public void invalidUsername(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
 
@@ -58,7 +70,7 @@ public class LoginTest extends CommonAPI {
     public void missingUsername(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
 
@@ -77,7 +89,7 @@ public class LoginTest extends CommonAPI {
     public void missingPassword(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
 

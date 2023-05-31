@@ -16,15 +16,15 @@ import java.util.Properties;
 public class MaintenanceTest extends CommonAPI {
     Logger log = LogManager.getLogger(MaintenanceTest.class.getName());
     Properties properties = Utility.loadProperties();
-    String validUsername = Utility.decode(properties.getProperty("orangehrm.username"));
-    String validPassword = Utility.decode(properties.getProperty("orangehrm.password"));
+    String validUsername = properties.getProperty("orangehrm.username");
+    String validPassword = properties.getProperty("orangehrm.password");
 
     @Test
     public void maintenance(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
         MaintenancePage maintenancePage = new MaintenancePage(getDriver());
-        String expectedTitle = "Login";
+        String expectedTitle = "OrangeHRM";
         String actualTitle = getCurrentTitle();
         Assert.assertEquals(expectedTitle,actualTitle);
         loginPage.enterUsername(validUsername);
@@ -33,7 +33,7 @@ public class MaintenanceTest extends CommonAPI {
         String expectedHomePageHeader = "Dashboard";
         String actualHomePageHeader = homePage.getHomePageHeaderText();
         Assert.assertEquals(expectedHomePageHeader,actualHomePageHeader);
-        waitFor(3);
+        waitFor(1);
 
         maintenancePage.clickOnMaintenance();
         String expectedHeader = "Administrator Access";
@@ -43,7 +43,7 @@ public class MaintenanceTest extends CommonAPI {
 
         maintenancePage.enterPassword("admin123");
         maintenancePage.clickOnConfirmButton();
-        String expectedMaintenaceHeader = "";
+        String expectedMaintenaceHeader = "Maintenance";
         String actualMaintenanceHeader = maintenancePage.getMaintenanceMessage();
         Assert.assertEquals(expectedMaintenaceHeader,actualMaintenanceHeader);
         log.info("Maintenance header validation success");
