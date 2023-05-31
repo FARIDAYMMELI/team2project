@@ -21,7 +21,7 @@ public class LoginTest extends CommonAPI {
     String validUsername = prop.getProperty("Scaledupit.username");
     String validPassword = prop.getProperty("Scaledupit.password");
     String invalidUsername= prop.getProperty("Scaledupit.invalidusername");
-    //String invalidPassword= prop.getProperty("Scaledupit.invalidpassword");
+    String invalidPassword= prop.getProperty("Scaledupit.invalidpassword");
 
 //    String validUsername = "faridaymmeli@gmail.com";
 //    String validPassword = "Password14@";
@@ -49,16 +49,12 @@ public class LoginTest extends CommonAPI {
 
         //enter  username, password, and click on login button
         loginRegisterPage.typeusername(validUsername);
-        log.info("enter email success");
         loginRegisterPage.typepassword(validPassword);
-        log.info("enter password success");
         loginRegisterPage.clickOnLoginButton();
-        log.info("click on login button");
         //check user is logged in
         String expectedHomePageHeader = "My account";
         String actualHomePageHeader = MyAccountPage.getHeaderText();
         Assert.assertEquals(expectedHomePageHeader, actualHomePageHeader);
-        log.info("user logged in success");
         //captureScreenshot();
         waitFor(3);
 
@@ -104,6 +100,9 @@ public class LoginTest extends CommonAPI {
         Assert.assertEquals(expectedHomePageHeader, actualHomePageHeader);
         log.info("user could not log in, still in log in page registration");
         waitFor(3);
+
+
+
 
 
 

@@ -61,29 +61,23 @@ public class LoginRegisterPage extends CommonAPI {
     }
     public void typeInvalidUsername(String username){
         type(invalidUsernameField, username);
-        log.info("type invalid username success");
-    }
-
+        log.info("type invalid username success");}
     public void typepassword(String password){
         type(passwordField, password);
-        log.info("type password success");
+        log.info("type password success");}
+    public void typeInvalidPassword(String password){
+        type(invalidPasswordField, password);
+        log.info("type invalidpassword success");
     }
-//    public void typeInvalidPassword(String password){
-//        type(invalidPasswordField, password);
-//        LOG.info("type password success");
-//    }
-
     public void clickOnLoginButton(){
         clickOn(LoginButton);
         log.info("click Login button success");
     }
-
     public  String getHeaderText(){
         String text = getElementText(loginHead);
         log.info("user logged in success");
         return text;
     }
-
     public void typeEmailAddressregister(String EmailAddress){
         type(emailField, EmailAddress);
         log.info("type EmailAddress success");

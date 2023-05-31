@@ -5,24 +5,27 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import team2.base.CommonAPI;
-import team2.scaledupitpages.MainPage;
+import team2.scaledupitpages.AccountDetailPage;
 import team2.scaledupitpages.LoginRegisterPage;
+import team2.scaledupitpages.MainPage;
 import team2.scaledupitpages.MyAccountPage;
+import team2.utility.ExcelReader;
 
-public class LogoutTest  extends CommonAPI {
+import java.io.File;
+import java.util.List;
 
+public class UpdateAccountDetailTest extends CommonAPI {
     Logger log = LogManager.getLogger(LogoutTest.class.getName());
 
 
-    String validUsername = "faridaymmeli@gmail.com";
-    String validPassword = "Password14@";
+    @Test (dataProvider = "account detail update",dataProviderClass = ExcelReader.class )
 
-    @Test
-    public void logout() {
+    public void UpdateNameAndLastName(String validUsername,String validPassword) {
 
         LoginRegisterPage loginRegisterPage = new LoginRegisterPage(getDriver());
         MainPage mainPage = new MainPage(getDriver());
         MyAccountPage myAccountPage = new MyAccountPage(getDriver());
+        AccountDetailPage accountDetailPage = new AccountDetailPage(getDriver());
 
         // navigate to scaledupit website
 
@@ -40,31 +43,19 @@ public class LogoutTest  extends CommonAPI {
 
         //enter  username, password, and click on login button
         loginRegisterPage.typeusername(validUsername);
-        log.info("enter email success");
         loginRegisterPage.typepassword(validPassword);
-        log.info("enter password success");
+
 
         loginRegisterPage.clickOnLoginButton();
-        log.info("click on login button");
-        //check user is logged in
-        String expectedHomePageHeader = "My account";
-        String actualHomePageHeader = myAccountPage.getHeaderText();
-        Assert.assertEquals(expectedHomePageHeader, actualHomePageHeader);
-        log.info("user logged in success");
-        waitFor(3);
 
+//        String expectedHomePageHeaderAccountDetail = "Account details";
+//        String actualHomePageHeaderAccountDetail = accountDetailPage.getHeaderText();
+//        Assert.assertEquals(expectedHomePageHeaderAccountDetail, actualHomePageHeaderAccountDetail);
+//        log.info("user account detail page in success");
+//        waitFor(3);
+        myAccountPage.clickOnAccountDetailButton();
+        accountDetailPage.typeItemFirstName("FirstName");
+        accountDetailPage.typeItemLastName("LastName");
 
-        // click on log out
-
-        myAccountPage.clickOnLogOut();
-        log.info(" clicked on log out button");
-
-        // verify that logout process is working and are in main page again
-
-        String expectedText = "LOGIN/REGISTER";
-        String actualText = mainPage.getAText();
-        Assert.assertEquals(expectedText, actualText);
     }
 }
-
-
