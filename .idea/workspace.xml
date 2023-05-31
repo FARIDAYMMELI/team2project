@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d392878-e3e4-4784-a917-3c80d219c18a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/DigitalDownloadsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/LoginPageTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/DigitalDownloadsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/LoginPage2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/RegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nopcommerce/nopcommerce.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/nopcommerce/nopcommerce.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/BooksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/BooksPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/ElectronicsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/ElectronicsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/GiftCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/GiftCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/RegisterPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/RegisterPage1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/RemoveItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/RemoveItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/WishlistPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/npcommercepages/WishlistPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/nopcommerce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/nopcommerce.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/magento/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magento/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/BooksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/BooksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/ContactUsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/ContactUsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/ElectronicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/ElectronicsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/GiftCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/GiftCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/LoginTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/RemoveItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/RemoveItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopcommerce/WishListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopcommerce/WishListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/BuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/BuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/ChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/ChangePassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/LeaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/LeaveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MagnifyingSearchBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MagnifyingSearchBoxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MaintenanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MaintenanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MyInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MyInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/PerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/TimeTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9d392878-e3e4-4784-a917-3c80d219c18a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
