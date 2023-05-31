@@ -4,31 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5318994-05d7-414e-832b-a3f3772743ac" name="Changes" comment="">
+    <list default="true" id="b5318994-05d7-414e-832b-a3f3772743ac" name="Changes" comment="push 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/magento/magento.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/magento/magento.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/magentopages/ShoppingCartPageMagento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/magentopages/ShoppingCartPageMagento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test-logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test-logs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/team2/utility/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/utility/ConnectDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team2/utility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team2/utility/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/magento.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/magento.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/magento/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magento/CreateAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/magento/SearchItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magento/SearchItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/magento/ShoppingCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magento/ShoppingCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/magento/SignInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magento/SignInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/magento/SignOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/magento/SignOutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/AdminTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/BuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/BuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/ChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/ChangePassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/ForgotPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/ForgotPasswordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/LeaveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/LeaveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/LogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/LogoutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MagnifyingSearchBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MagnifyingSearchBoxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MaintenanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MaintenanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/MyInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/MyInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/PerformanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/PerformanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/orangehrm/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orangehrm/TimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateAccountTest.RegisterNewAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="magento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="magento" />
+      <option name="MAIN_CLASS_NAME" value="magento.CreateAccountTest" />
+      <option name="METHOD_NAME" value="RegisterNewAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <extension name="coverage">
@@ -138,6 +145,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.CreateAccountTest.RegisterNewAccount" />
       <item itemvalue="TestNG.CreateAccountTest" />
       <item itemvalue="TestNG.C:/Users/thonm/ideaProjects/team2project/src/main/resources/magento.xml" />
       <item itemvalue="TestNG.LoginTest" />
@@ -145,6 +153,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/thonm/ideaProjects/team2project/src/main/resources/magento.xml" />
+        <item itemvalue="TestNG.CreateAccountTest.RegisterNewAccount" />
         <item itemvalue="TestNG.CreateAccountTest" />
         <item itemvalue="TestNG.LoginTest" />
       </list>
@@ -159,6 +168,18 @@
       <option name="presentableId" value="Default" />
       <updated>1684442751147</updated>
     </task>
+    <task id="LOCAL-00001" summary="push 4">
+      <created>1684984629241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684984629241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="push 4" />
   </component>
 </project>

@@ -1,0 +1,121 @@
+20:51:09.692 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:51:14.528 [main] INFO  team2.base.CommonAPI - Screenshot captured
+20:51:16.254 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:51:20.349 [main] INFO  team2.base.CommonAPI - Screenshot captured
+20:51:22.289 [main] INFO  team2.base.CommonAPI - chrome browser open success
+20:51:25.852 [main] INFO  team2.magentopages.CreateAccountPage - user logged in success
+20:51:25.852 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+20:51:26.110 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+20:51:26.307 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+20:51:26.547 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+20:51:26.804 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+20:51:27.013 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+20:51:29.020 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+20:51:29.358 [main] INFO  magento.CreateAccountTest - Failing Creation of an account success
+21:01:53.543 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:01:58.298 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:02:00.427 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:02:04.661 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:02:06.617 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:02:10.393 [main] INFO  team2.magentopages.CreateAccountPage - user logged in success
+21:02:10.394 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:02:10.613 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:02:10.801 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:02:10.969 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:02:11.144 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:02:11.259 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:02:13.241 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:02:13.510 [main] INFO  magento.CreateAccountTest - Failing Creation of an account success
+21:03:13.928 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:03:42.371 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:03:46.136 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:03:46.370 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:03:46.543 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:03:46.702 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:03:46.891 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:03:47.030 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:03:47.258 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:03:47.323 [main] INFO  magento.CreateAccountTest - Failing Creation of an account success
+21:03:49.902 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:03:53.403 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:03:53.627 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:03:53.778 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:03:54.025 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:03:54.200 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:03:54.381 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:03:56.673 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:04:07.222 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:04:08.985 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:04:12.779 [main] INFO  team2.magentopages.CreateAccountPage - user logged in success
+21:04:12.779 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:04:13.003 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:04:13.175 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:04:13.344 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:04:13.529 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:04:13.679 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:04:16.157 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:04:16.458 [main] INFO  magento.CreateAccountTest - Failing Creation of an account success
+21:06:37.199 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:06:42.157 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:06:44.078 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:06:47.739 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:06:48.012 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:06:48.180 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:06:48.436 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:06:48.640 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:06:48.817 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:06:51.979 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:06:52.367 [main] INFO  magento.CreateAccountTest -  Creation of a new account success
+21:06:54.383 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:07:08.291 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:12:29.760 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:12:34.227 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:12:36.012 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:13:50.639 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:13:54.277 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:14:05.537 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:14:07.468 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:14:38.111 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:14:43.231 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:14:44.920 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:15:30.130 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:15:33.963 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:15:34.197 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:15:34.358 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:15:34.509 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:15:34.682 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:15:34.852 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:15:35.095 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:15:35.197 [main] INFO  magento.CreateAccountTest - Failing Creation of an account success
+21:15:38.210 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:15:42.103 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:15:44.023 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:15:58.106 [main] INFO  team2.base.CommonAPI - Screenshot captured
+21:16:29.828 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:16:33.442 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:16:33.706 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:16:33.914 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:16:34.165 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:16:34.444 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:16:34.704 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:16:34.951 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:16:35.048 [main] INFO  magento.CreateAccountTest - Failing Creation of an account success
+21:16:37.823 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:16:41.640 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:16:41.924 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:16:42.100 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:16:42.383 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:16:42.579 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:16:42.787 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:16:45.739 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:16:45.994 [main] INFO  magento.CreateAccountTest -  Creation of a new account success
+21:16:47.917 [main] INFO  team2.base.CommonAPI - chrome browser open success
+21:16:51.860 [main] INFO  team2.magentopages.CreateAccountPage - user logged in success
+21:16:51.860 [main] INFO  magento.CreateAccountTest - create an account title page validation success
+21:16:52.018 [main] INFO  team2.magentopages.CreateAccountPage - type first name success
+21:16:52.159 [main] INFO  team2.magentopages.CreateAccountPage - type last name success
+21:16:52.324 [main] INFO  team2.magentopages.CreateAccountPage - type email address success
+21:16:52.494 [main] INFO  team2.magentopages.CreateAccountPage - type password success
+21:16:52.625 [main] INFO  team2.magentopages.CreateAccountPage - confirm password success
+21:16:54.363 [main] INFO  team2.magentopages.CreateAccountPage - click create account button success
+21:16:54.615 [main] INFO  magento.CreateAccountTest - Failing Creation of an account success
