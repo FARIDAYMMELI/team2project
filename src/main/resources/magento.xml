@@ -12,7 +12,7 @@
 
     <test name="magento test">
         <classes>
-            <class name="magento.CompareListTest"></class>
+<!--            <class name="magento.CompareListTest"></class>-->
 <!--            <class name="magento.CreateAccountTest"></class>-->
 <!--            <class name="magento.DownloadsTest"></class>-->
 <!--            <class name="magento.ProductsPageTest"></class>-->
@@ -22,8 +22,7 @@
 <!--            <class name="magento.ShoppingCartTest"></class>-->
 <!--            <class name="magento.SignOutTest"></class>-->
 <!--            <class name="magento.SignInTest"></class>-->
-<!--            <class name="magento.dbTest"></class>-->
-
+<!--            <class name="magento.BaseMenuTest"></class>-->
 
         </classes>
     </test>

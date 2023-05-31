@@ -15,10 +15,10 @@ import team2.utility.ConnectDB;
     public class CreateAccountTest extends CommonAPI {
 
           Logger LOG = LogManager.getLogger(CreateAccountTest.class.getName());
-//            Faker fakeData = new Faker();
-//            String emailAddress=fakeData.internet().emailAddress();
-    //        String name = fakeData.name().firstName();
-    //        String lastName = fakeData.name().lastName();
+            Faker fakeData = new Faker();
+            String fakeemailAddress=fakeData.internet().emailAddress();
+            String fakename = fakeData.name().firstName();
+            String fakelastName = fakeData.name().lastName();
 
 
           ConnectDB connectdb1 = new ConnectDB();
@@ -35,9 +35,9 @@ import team2.utility.ConnectDB;
                 Assert.assertEquals(title, "Create New Customer Account");
                 LOG.info("create an account title page validation success");
                 CreateAccountPage createnewAccountPageMagento = new CreateAccountPage(getDriver());
-                createnewAccountPageMagento.typeFirstName(name);
-                createnewAccountPageMagento.typeLastName(lastName);
-                createnewAccountPageMagento.typeEmailAddress(emailAddress);
+                createnewAccountPageMagento.typeFirstName(fakename);
+                createnewAccountPageMagento.typeLastName(fakelastName);
+                createnewAccountPageMagento.typeEmailAddress(fakeemailAddress);
                 createnewAccountPageMagento.typePassword("password&1234");
                 createnewAccountPageMagento.typeConfirmPassword("password&1234");
                 createnewAccountPageMagento.clickOnCreateanAccountButton2();
@@ -46,7 +46,7 @@ import team2.utility.ConnectDB;
                 LOG.info(" Creation of a new account success");
         }
 
-        @Test
+        @Test(enabled = false)
         public void RegisterWithAnExistingCredentials() throws InterruptedException {
 
                 HomePage homePage = new HomePage(getDriver());

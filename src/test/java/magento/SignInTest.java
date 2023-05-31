@@ -7,7 +7,9 @@ import org.testng.annotations.Test;
 import team2.base.CommonAPI;
 import team2.magentopages.HomePage;
 import team2.magentopages.SigninPage;
+import team2.utility.ExcelReader;
 
+import java.io.File;
 import java.time.Duration;
 
 import static org.openqa.selenium.remote.http.DumpHttpExchangeFilter.LOG;
@@ -15,7 +17,11 @@ import static org.openqa.selenium.remote.http.DumpHttpExchangeFilter.LOG;
 
 public class SignInTest extends CommonAPI {
     Logger log = LogManager.getLogger(SignInTest.class.getName());
-
+    String currentDir = System.getProperty("user.dir");
+    String path = currentDir+ File.separator+"data"+File.separator+"magento"+File.separator+"magento.xlsx";
+    ExcelReader excelReader=new ExcelReader(path);
+    String validUsername=excelReader.getDataFromCell("magento",1,1);
+    String validPassword= excelReader.getDataFromCell("magento",2,1);
     @Test
     public void validTitle() throws InterruptedException {
 
@@ -51,8 +57,8 @@ public class SignInTest extends CommonAPI {
 
     @Test
     public void validCred() throws InterruptedException{
-        String email ="thonmoy.b@gmail.com";
-        String password = "t123";
+        //String email ="thonmoy.b@gmail.com";
+        //String password = "t123";
         HomePage homePage = new HomePage(getDriver());
         SigninPage signinPageMagento = new SigninPage(getDriver());
         homePage.clickOnSigninButton();
@@ -61,12 +67,12 @@ public class SignInTest extends CommonAPI {
         LOG.info("Sign in title page validation success");
         System.out.println("login in success");
         //String email = ConnectDB.getTableColumnData("select * from cred","email").get(0);
-        signinPageMagento.typeEmailAddress(email);
+        signinPageMagento.typeEmailAddress(validUsername);
         //String password = ConnectDB.getTableColumnData("select * from cred","password").get(0);
-        signinPageMagento.typePassword(password);
+        signinPageMagento.typePassword(validPassword);
         signinPageMagento.clickOnSigninButton2();
         String title1 = getCurrentURL();
-        Assert.assertEquals(title1, "https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/");
+        Assert.assertEquals(title1, "https://magento.softwaretestingboard.com/");
         LOG.info("Signin success");
         System.out.println("close success");
 

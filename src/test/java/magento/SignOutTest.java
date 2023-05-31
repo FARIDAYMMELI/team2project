@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import team2.base.CommonAPI;
 import team2.magentopages.HomePage;
 import team2.magentopages.SigninPage;
+import team2.utility.ExcelReader;
 
 import java.time.Duration;
 
@@ -17,7 +18,8 @@ public class SignOutTest extends CommonAPI {
     Logger log = LogManager.getLogger(SignOutTest.class.getName());
 
     //ReadFromExcel read = new ReadFromExcel("", "Magento");
-
+    ExcelReader read= new ExcelReader("C:\\Users\thonm\\ideaProjects\team2project\\data\\magento\\magento.xlsx");
+    String pword = read.getDataFromCell("magento",2,1);
 
     @Test
     public void signOutFromHomepage() throws InterruptedException {
@@ -31,7 +33,7 @@ public class SignOutTest extends CommonAPI {
         //String email = ConnectDB.getTableColumnData("select * from cred", "email").get(0);
         signinPageMagento.typeEmailAddress("thonmoy.b@icloud.com");
         //String password = ConnectDB.getTableColumnData("select * from cred", "password").get(0);
-        signinPageMagento.typePassword("password&1234");
+        signinPageMagento.typePassword(pword);
         signinPageMagento.clickOnSigninButton2();
        // String expectedTitle1 = read.getCellValueForGivenHeaderAndKey("key", "home page title");
 

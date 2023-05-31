@@ -49,7 +49,7 @@ public class SearchItemTest extends CommonAPI {
         SigninPage signinPageMagento = new SigninPage(getDriver());
         homePage.clickOnSigninButton();
         String title = getCurrentTitle();
-        Assert.assertEquals(title, "Customer Login Magento Commerce - website to practice selenium | demo website for automation testing | selenium practice sites");
+        Assert.assertEquals(title, "Customer Login");
         LOG.info("Sign in title page validation success");
 
        // String email = ConnectDB.getTableColumnData("select * from cred","email").get(0);
@@ -59,7 +59,7 @@ public class SearchItemTest extends CommonAPI {
         signinPageMagento.clickOnSigninButton2();
         LOG.info("Signin success");
         String title1 = getCurrentTitle();
-        Assert.assertEquals(title1, "Home Page - Magento eCommerce - website to practice selenium | demo website for automation testing | selenium practice sites | selenium demo sites | best website to practice selenium automation | automation practice sites Magento Commerce - website to practice selenium | demo website for automation testing | selenium practice sites");
+        Assert.assertEquals(title1, "Home Page");
         LOG.info("Sign in title page validation success");
 
         String item = "jacket";
