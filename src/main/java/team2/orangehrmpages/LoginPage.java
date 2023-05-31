@@ -29,15 +29,8 @@ public class LoginPage extends CommonAPI {
     @FindBy(xpath = "//title[text()=\"OrangeHRM\"]")
     WebElement loginPageHeader;
 
-    @FindBy(css = ".oxd-text.oxd-text--p.orangehrm-login-forgot-header")
-    WebElement forgotPassword;
-    @FindBy(xpath = "//h6[text()='Reset Password']")
-    WebElement resetPasswordPageHeader;
-
     @FindBy(css = "input[name='username']")
     WebElement resetUsername;
-    @FindBy(css = "button[type='submit']")
-    WebElement resetPassword;
     @FindBy(css = ".oxd-text.oxd-text--h6.orangehrm-forgot-password-title")
     WebElement successMessage;
 
@@ -88,12 +81,15 @@ public class LoginPage extends CommonAPI {
         return loginPageHeaderText;
     }
 
+    @FindBy(css = ".oxd-text.oxd-text--p.orangehrm-login-forgot-header")
+    WebElement forgotPassword;
     public void clickForgotYourPassword(){
         clickOn(forgotPassword);
         log.info("Click on Forgot your password? success");
     }
 
-
+    @FindBy(xpath = "//button[@type='submit']")
+    WebElement resetPasswordPageHeader;
     public boolean checkPresenceOfResetPasswordHeader(){
         boolean resetPasswordHeaderIsDisplayed = isVisible(resetPasswordPageHeader);
         log.info("Reset password header presence "+ resetPasswordHeaderIsDisplayed);
@@ -104,14 +100,9 @@ public class LoginPage extends CommonAPI {
         log.info("Reset password header text "+getResetPasswordHeader());
         return resetPasswordText;
     }
-    public void enterUsername4ResetPassword(String usernameReset){
-        type(resetUsername,usernameReset);
+    public void enterUsername4ResetPassword(String usernameReset) {
+        type(resetUsername, usernameReset);
         log.info("Enter username success");
-
-    }
-    public void clickOnResetPasswordButton(){
-        clickOn(resetPassword);
-        log.info("CLick on reset password success");
     }
     public String getSuccessMessage(){
         String text = getElementText(successMessage);

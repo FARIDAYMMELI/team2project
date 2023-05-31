@@ -2,6 +2,7 @@ package team2.orangehrmpages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,8 +30,6 @@ public class AdminPage extends CommonAPI {
     WebElement ESSposition;
     @FindBy(xpath = "(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[2]")
     WebElement statusDropdown;
-    @FindBy(xpath = "(//div[@class='oxd-select-text oxd-select-text--active'])[2]")
-    WebElement Enabledposition;
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
     WebElement employeeNametxtfield;
     @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
@@ -44,12 +43,10 @@ public class AdminPage extends CommonAPI {
 
 
     //These are for Admin section's Search button
-    @FindBy(xpath = "//input[@fdprocessedid='uahwv']")
+    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
     WebElement searchUsernameField;
-    @FindBy(xpath = "(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[1]")
+    @FindBy(xpath = "((//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[1]")
     WebElement searchUserRoleDropdown;
-    @FindBy(xpath = "(//div[@tabindex='0'])[1]")
-    WebElement searchESSposition;
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
     WebElement searchEmployeeNameField;
     @FindBy(xpath = "(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[2]")
@@ -59,7 +56,7 @@ public class AdminPage extends CommonAPI {
     @FindBy(xpath = "//button[@type='submit']")
     WebElement searchButton;
     @FindBy(xpath = "//span[text()='No Records Found']")
-    WebElement noRecordFound;
+    WebElement invalidRecordFound;
 
 
     //these are for adding job titles
@@ -73,7 +70,7 @@ public class AdminPage extends CommonAPI {
     WebElement plusAddButtonJobTitles;
     @FindBy(xpath = "//h6[text()=\"Add Job Title\"]")
     WebElement addJobTitleHeader;
-    @FindBy(xpath = "//input[@fdprocessedid='epf1up']")
+    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
     WebElement jobTitleField;
     @FindBy(xpath = "//textarea[@placeholder='Type description here']")
     WebElement jobDescriptionField;
@@ -127,12 +124,18 @@ public class AdminPage extends CommonAPI {
         clickOn(statusDropdown);
         log.info("click on status dropdown success");
     }
+    @FindBy(xpath = "(//div[@class='oxd-select-text oxd-select-text--active'])[2]")
+    WebElement Enabledposition;
     public void clickOnEnabledPosition(String option){
-        selectOptionFromDropdown(Enabledposition, option);
+        clickOn(Enabledposition);
         log.info("Click on enabled position success");
     }
     public void enterEmployeeNameTextField(String username){
         type(employeeNametxtfield,username);
+        waitFor(5);
+        employeeNametxtfield.sendKeys(Keys.ARROW_DOWN);
+        waitFor(5);
+        employeeNametxtfield.sendKeys(Keys.ENTER);
         log.info("enter employee username success");
     }
     public void enterUsernameField(String username){
@@ -162,18 +165,17 @@ public class AdminPage extends CommonAPI {
         clickOn(searchUserRoleDropdown);
         log.info("click on user role dropdown success");
     }
-    public void selectOnSearchESSposition(String userRole){
-        selectOptionFromDropdown(searchESSposition, userRole);
+    @FindBy(xpath = "(//div[@tabindex='0'])[1]")
+    WebElement searchESSposition;
+    public void clickOnSearchESSposition(){
+        clickOn(searchESSposition);
         log.info("Click on ESS position success");
     }
-    public void selectEmployeeName(String name){
-        selectOptionFromDropdown(searchEmployeeNameField,name);
-        log.info("enter employee name success");
+    public void enterEmployeeName(String name){
+        type(searchEmployeeNameField,name);
+        log.info("Enter name success");
     }
-    public void clickOnSearchStatusDropdown(){
-        clickOn(searchStatusDropdwon);
-        log.info("Click on status dropdown sucess");
-    }
+
     public void clickOnSearchEnabledPosition(){
         clickOn(searchEnabledPositon);
         log.info("Click on Enabled position success");
@@ -182,9 +184,10 @@ public class AdminPage extends CommonAPI {
         clickOn(searchButton);
         log.info("Click on search button success");
     }
-    public String getNoRecordFoundMessage(){
-        String noRecordFoundText = getElementText(noRecordFound);
-        log.info("No Record found text "+noRecordFoundText);
+    public String invalidMessage(){
+        String noRecordFoundText = getElementText(invalidRecordFound);
+        waitFor(3);
+        log.info("Invalid Record found text "+noRecordFoundText);
         return noRecordFoundText;
     }
 
@@ -238,24 +241,6 @@ public class AdminPage extends CommonAPI {
         clickOn(addJobSaveButton);
         log.info("click on save button success");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

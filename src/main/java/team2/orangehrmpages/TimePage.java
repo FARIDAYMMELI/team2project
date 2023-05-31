@@ -13,21 +13,6 @@ import team2.base.CommonAPI;
 public class TimePage extends CommonAPI {
     Logger log = LogManager.getLogger(TimePage.class.getName());
     //13 Test Adding Project in the Time Section
-    @FindBy(xpath = "//a[@class='oxd-main-menu-item active']")
-    WebElement timeSection;
-    @FindBy(xpath = "//h6[text()=\"Time\"]")
-    WebElement timeSectionHeader;
-    @FindBy(xpath = "(//i[@class='oxd-icon bi-chevron-down'])[4]")
-    WebElement projectInfoDropdown;
-    @FindBy(xpath = "//a[text()=\"Projects\"]")
-    WebElement projectDropdownPosition;
-    @FindBy(xpath = "//h5[text()=\"Projects\"]")
-    WebElement projectHeader;
-    @FindBy(xpath = "(//button[@type='button'])[4]")
-    WebElement plusAddButton;
-    @FindBy(xpath = "//h6[text()=\"Add Project\"]")
-    WebElement addProjectHeader;
-
 
 //    @FindBy(xpath = "//input[@fdprocessedid='44mzf']")
 //    WebElement nameField;
@@ -50,35 +35,6 @@ public class TimePage extends CommonAPI {
 //    @FindBy(xpath = "//button[@type='submit']")
 //    WebElement saveButtonInAddProject;
 
-    //14 Test Project Search in the Time Section
-    @FindBy(xpath = "//input[@fdprocessedid='h3suf']")
-    WebElement customerNameForSearchButton;
-    @FindBy(xpath = "//input[@fdprocessedid='yk58sk']")
-    WebElement projectField;
-    @FindBy(xpath = "//input[@fdprocessedid='1if22']")
-    WebElement projectAdminFieldForSearchButton;
-    @FindBy(xpath = "//button[@fdprocessedid='x6htg9']")
-    WebElement searchButton;
-    @FindBy(xpath = "//span[text()='(1) Record Found']")
-    WebElement recordFound;
-
-
-    // 15 Test Employee Timesheets in the Time Section
-    @FindBy(xpath = "(//i[@class='oxd-icon bi-chevron-down'])[1]")
-    WebElement timesheetDropdown;
-    @FindBy(xpath = "//a[text()=\"Employee Timesheets\"]")
-    WebElement employeeTimesheets;
-    @FindBy(xpath = "//h6[text()=\"Select Employee\"]")
-    WebElement selectEmployeeHeader;
-    @FindBy(xpath = "//input[@placeholder='Type for hints...']")
-    WebElement employeeNameHints;
-    @FindBy(xpath = "//button[@type='submit']")
-    WebElement viewButton;
-    @FindBy(xpath = "//p[text()='No Timesheets Found']")
-    WebElement noTimeSheet;
-
-//    @FindBy(xpath = "//p[text()=\" * Required\"]")
-//    WebElement requiredMessage;
 
     //13 Test Adding Project in the Time Section
     public TimePage(WebDriver driver) {
@@ -86,33 +42,43 @@ public class TimePage extends CommonAPI {
     }
 
     // 13 Test Adding Project in the Time Section
+    @FindBy(xpath = "//span[text()='Time']")
+    WebElement timeSection;
     public void clickTimeSection() {
         clickOn(timeSection);
         log.info("Click on time success");
     }
 
+    @FindBy(css = ".oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module")
+    WebElement timeSectionHeader;
     public boolean checkPresenceOfTimeHeader() {
         boolean timeHeaderIsDisplayed = isVisible(timeSectionHeader);
         log.info("Time section header presence " + timeHeaderIsDisplayed);
         return timeHeaderIsDisplayed;
     }
-
     public String getTimeHeader() {
         String timeHeadertext = getElementText(timeSectionHeader);
         log.info("time page header " + timeHeadertext);
         return timeHeadertext;
     }
-
+    @FindBy(xpath = "(//i[@class='oxd-icon bi-chevron-down'])[4]")
+    WebElement projectInfoDropdown;
     public void clickOnProjectInfoDropdown() {
         clickOn(projectInfoDropdown);
         log.info("Click on project dropdown success");
     }
+    @FindBy(xpath = "//a[text()='Projects']")
+    WebElement projectDropdown;
 
-    public void selectProjectFromDropdown(String name) {
-        selectOptionFromDropdown(projectInfoDropdown, name);
+    public void clickProjectFromDropdown() {
+        clickOn(projectDropdown);
         log.info("Select project from dropdown success");
     }
 
+    @FindBy(xpath = "//a[text()=\"Projects\"]")
+    WebElement projectDropdownPosition;
+    @FindBy(xpath = "//h5[text()=\"Projects\"]")
+    WebElement projectHeader;
     public boolean checkPresenceProjectHeader() {
         boolean projectHeaderIsDisplayed = isVisible(projectHeader);
         log.info("project header presence " + projectHeaderIsDisplayed);
@@ -125,11 +91,15 @@ public class TimePage extends CommonAPI {
         return projectHeaderText;
     }
 
+    @FindBy(xpath = "(//button[@type='button'])[4]")
+    WebElement plusAddButton;
     public void clickOnPlusAddbutton() {
         clickOn(plusAddButton);
         log.info("click on add button success");
     }
 
+    @FindBy(xpath = "//h6[text()=\"Add Project\"]")
+    WebElement addProjectHeader;
     public boolean checkPresenceAddProjectHeader() {
         boolean addProjectHeaderIsDisplayed = isVisible(addProjectHeader);
         log.info("add project header presence " + addProjectHeaderIsDisplayed);
@@ -143,39 +113,61 @@ public class TimePage extends CommonAPI {
     }
 
     //14 Test Project Search in the Time Section
-    public void selectCustomerName(String name){
-        selectOptionFromDropdown(customerNameForSearchButton,name);
+    @FindBy(xpath = "(//input[@placeholder='Type for hints...'])[1]")
+    WebElement customerNameForSearchButton;
+    public void enterCustomerName(String name){
+        type(customerNameForSearchButton,name);
         log.info("enter customer name success");
     }
-    public void selectProjectName(String project){
-        selectOptionFromDropdown(projectField,project);
+    public void clickOnCustormerName(){
+        clickOn(customerNameForSearchButton);
+        log.info("choose name success");
+    }
+
+    @FindBy(xpath = "(//input[@placeholder='Type for hints...'])[2]")
+    WebElement projectField;
+    public void enterProjectName(String project){
+        type(projectField,project);
         log.info("enter project name success");
     }
-    public void selectProjectAdmin(String admin){
-        selectOptionFromDropdown(projectAdminFieldForSearchButton,admin);
+    @FindBy(xpath = "(//input[@placeholder='Type for hints...'])[3]")
+    WebElement projectAdminFieldForSearchButton;
+    public void enterProjectAdmin(String admin){
+        type(projectAdminFieldForSearchButton,admin);
         log.info("enter project admin success");
     }
-    public void clickOnSearchButton(){
-        clickOn(searchButton);
+    @FindBy(xpath = "//button[@type='reset']")
+    WebElement resetButton;
+    public void clickOnResetButton(){
+        clickOn(resetButton);
         log.info("Click on search Button success");
     }
 
+    @FindBy(xpath = "//button[@type='reset']")
+    WebElement recordFound;
     public String getRecordFoundMessage(){
         String recordFoundText = getElementText(recordFound);
-        log.info("1 Record found text "+recordFoundText);
+        log.info("search text "+recordFoundText);
         return recordFoundText;
     }
 
 
     // 15 Test Employee Timesheets in the Time Section
+
+    @FindBy(xpath = "(//i[@class='oxd-icon bi-chevron-down'])[1]")
+    WebElement timesheetDropdown;
     public void clickOnTimesheetDropdown(){
         clickOn(timesheetDropdown);
         log.info("Click on timesheet from dropdwon success");
     }
+    @FindBy(xpath = "//a[text()=\"Employee Timesheets\"]")
+    WebElement employeeTimesheets;
     public void selectEmployeeTimesheet(String name){
         selectOptionFromDropdown(employeeTimesheets,name);
         log.info("select Employee timesheet from dropdown success");
     }
+    @FindBy(xpath = "//h6[text()=\"Select Employee\"]")
+    WebElement selectEmployeeHeader;
     public boolean checkPresenceSelectEmployeeHeader(){
         boolean selectEmployeeHeaderIsDisplayed = isVisible(selectEmployeeHeader);
         log.info("select employee header presence "+ selectEmployeeHeaderIsDisplayed);
@@ -186,18 +178,26 @@ public class TimePage extends CommonAPI {
         log.info("select employee header "+selectEmployeeHeaderText);
         return selectEmployeeHeaderText;
     }
+    @FindBy(xpath = "//input[@placeholder='Type for hints...']")
+    WebElement employeeNameHints;
     public void enterEmployeeName(String name){
         type(employeeNameHints,name);
         log.info("Enter employee name success");
     }
-    public void clickOnViewButton(){
-        clickOn(viewButton);
+
+    @FindBy(xpath = "//button[@type='submit']")
+    WebElement viewButton;
+    public String getViewButtonText(){
+       String viewButtionText = getElementText(viewButton);
         log.info("click on view button success");
+        return viewButtionText;
     }
-    public String getNoTimeSheetMessage(){
-        String noTimeSheetText = getElementText(noTimeSheet);
-        log.info("no time sheet text "+noTimeSheetText);
-        return noTimeSheetText;
+    @FindBy(xpath = "//p[text()='Timesheet Period']")
+    WebElement timeSheetPeriod;
+    public String getTimeSheetMessage(){
+        String timeSheetPeriodText = getElementText(timeSheetPeriod);
+        log.info("Time sheet Period text "+timeSheetPeriodText);
+        return timeSheetPeriodText;
     }
 
 

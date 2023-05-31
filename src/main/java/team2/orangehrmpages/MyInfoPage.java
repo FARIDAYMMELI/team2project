@@ -27,9 +27,9 @@ public class MyInfoPage extends CommonAPI {
     WebElement middlenameField;
     @FindBy(xpath = "//input[@name='lastName']")
     WebElement lastnameField;
-    @FindBy(xpath = "//input[@fdprocessedid='ii2qt']")
+    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[3]")
     WebElement employeeIDField;
-    @FindBy(xpath = "//input[@fdprocessedid='67i4mo']")
+    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[7]")
     WebElement SSNnumberField;
     @FindBy(xpath = "(//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow'])[1]")
     WebElement nationalityDropdown;
@@ -39,9 +39,9 @@ public class MyInfoPage extends CommonAPI {
     WebElement maritalStatusDropdown;
     @FindBy(xpath = "//div[text()=\"Single\"]")
     WebElement maritalStatusSinglePosition;
-    @FindBy(xpath = "//input[@fdprocessedid='mkg705c']")
+    @FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]")
     WebElement dateOfBirthField;
-    @FindBy(xpath = "(//input[@type='radio'])[1]")
+    @FindBy(xpath = "//input[@value='1']")
     WebElement maleRadioButton;
     @FindBy(xpath = "(//button[@type='submit'])[1]")
     WebElement saveButton;
@@ -60,6 +60,7 @@ public class MyInfoPage extends CommonAPI {
     }
     public String getPIMmessage(){
         String PIMtext = getElementText(pimHeader);
+        waitFor(3);
         log.info("PIM text "+PIMtext);
         return PIMtext;
     }
@@ -70,6 +71,7 @@ public class MyInfoPage extends CommonAPI {
     }
     public String getPersonalDetailsText(){
         String personalDetailsText = getElementText(personalDetailsHeader);
+        waitFor(3);
         log.info("Personal details header "+personalDetailsText);
         return personalDetailsText;
     }
