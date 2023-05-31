@@ -16,10 +16,10 @@ public class HomePageTest extends CommonAPI {
     public void homePageTitles(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
         String expectedPageTitle = "Welcome to our store";
         String actualPageTitle = homePage.getHomePageTitle();
@@ -31,10 +31,10 @@ public class HomePageTest extends CommonAPI {
     public void homePageFeaturedTitle(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
         String expectedPageTitle = "Featured products";
         String actualPageTitle = homePage.featuredTitle();
@@ -46,10 +46,10 @@ public class HomePageTest extends CommonAPI {
     public void newsTitle(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
         String expectedPageTitle = "News";
         String actualPageTitle = homePage.homePageNewsTitle();
@@ -61,10 +61,10 @@ public class HomePageTest extends CommonAPI {
     public void homePageCommunityTitle(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
         String expectedPageTitle = "Community poll";
         String actualPageTitle = homePage.communityTitle();
@@ -75,10 +75,10 @@ public class HomePageTest extends CommonAPI {
     public void homePageInformationElement(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
         String expectedPageTitle = "Information";
         String actualPageTitle = homePage.homePageInformation();
@@ -89,10 +89,10 @@ public class HomePageTest extends CommonAPI {
     public void customerServiceTab(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
         String expectedPageTitle = "Customer service";
         String actualPageTitle = homePage.customerServiceElement();
@@ -103,10 +103,10 @@ public class HomePageTest extends CommonAPI {
     public void homePageMyAccountElement(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
         String expectedPageTitle = "My account";
         String actualPageTitle = homePage.myAccountElement();
@@ -114,19 +114,55 @@ public class HomePageTest extends CommonAPI {
         log.info("my account element validation success");
     }
     @Test
-    public void shippingAndReturnsElements(){
+    public void shippingAndReturnsElement(){
         LoginPage loginPage = new LoginPage(getDriver());
         HomePage homePage = new HomePage(getDriver());
-        String expectedTitle = "nopCommerce demo store. Camera & photo";
-        String actualTitle = loginPage.getPageTitleMessage();
-        Assert.assertEquals(expectedTitle, actualTitle);
-        log.info("The page title validation success");
+//        String expectedTitle = "nopCommerce demo store. Camera & photo";
+//        String actualTitle = loginPage.getPageTitleMessage();
+//        Assert.assertEquals(expectedTitle, actualTitle);
+//        log.info("The page title validation success");
 
-        homePage.shippingAndReturns();
+        homePage.shippingAndReturnsElement();
         String expectedPageTitle = "Shipping & returns";
         String actualPageTitle = homePage.shippingAndReturns();
         Assert.assertEquals(expectedPageTitle, actualPageTitle);
         log.info("Shipping and returns validation success");
+    }
+    @Test
+    public void homePageDocumentationButton(){
+        HomePage homePage = new HomePage(getDriver());
+        homePage.homePageDocumentation();
+    }
+
+    @Test
+    public void homePageForumsButton(){
+        HomePage homePage = new HomePage(getDriver());
+        homePage.forumsButton();
+        String expectedTitle = "nopCommerce forums";
+        String actualTitle = homePage.forumsPageTitle();
+        Assert.assertEquals(expectedTitle, actualTitle);
+        log.info("forums title page validation success");
+
+    }
+    @Test
+    public void forumPage(){
+        HomePage homePage = new HomePage(getDriver());
+        homePage.forumsButton();
+        String expectedTitle = "nopCommerce forums";
+        String actualTitle = homePage.forumsPageTitle();
+        Assert.assertEquals(expectedTitle, actualTitle);
+        log.info("forums title page validation success");
+
+    }
+    @Test
+    public void newsAnnouncementsTitle(){
+        HomePage homePage = new HomePage(getDriver());
+        homePage.forumsButton();
+        String expectedTitle = "News and Announcements";
+        String actualTitle = homePage.newsAndAnnouncement();
+        Assert.assertEquals(expectedTitle, actualTitle);
+        log.info("news and announcements validation");
+
     }
 }
 

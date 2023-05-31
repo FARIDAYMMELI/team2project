@@ -24,9 +24,6 @@ public class BooksPage extends CommonAPI {
     @FindBy(css = "#add-to-cart-button-37")
     WebElement userAddToCart;
 
-    @FindBy(css = "(//a[@href=\"/cart\"])[1]")
-    WebElement shoppingCart;
-
     @FindBy(xpath = "//h1[text()=\"Shopping cart\"]")
     WebElement shoppingCartTitle;
 
@@ -34,6 +31,7 @@ public class BooksPage extends CommonAPI {
         clickOn(userBooks);
         log.info("click on books");
     }
+
     public void fahrenheitBook(){
         clickOn(clickOnFahrenheitBook);
         log.info("user clicks on fahrenheit book");
@@ -43,6 +41,8 @@ public class BooksPage extends CommonAPI {
         clickOn(userAddToCart);
         log.info("User clicks on adds to cart");
     }
+    @FindBy(xpath = "(//a[@href=\"/cart\"])[1]")
+    WebElement shoppingCart;
     public void shoppingCartButton(){
         clickOn(shoppingCart);
         log.info("user clicks on shopping cart button");
@@ -52,4 +52,19 @@ public class BooksPage extends CommonAPI {
         log.info("shopping cart title is "+shoppingCartText);
         return shoppingCartText;
     }
+    @FindBy(xpath = "//a[@title=\"Home\"]")
+    WebElement homeButton;
+
+    public void bookPageHomeButton(){
+        clickOn(homeButton);
+        log.info("user clicks on home button in books page");
+    }
+    @FindBy(xpath = "//h2[text()=\"Welcome to our store\"]")
+    WebElement homePageWelcome;
+
+    public String getHomePageWelcomeTitle() {
+        String homePageTitle = getElementText(homePageWelcome);
+        return homePageTitle;
+    }
+
     }
