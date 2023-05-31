@@ -309,4 +309,3 @@ public class BaseMenuPage extends CommonAPI {
     }
 
 }
-
